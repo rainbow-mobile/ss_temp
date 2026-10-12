@@ -1,25 +1,14 @@
 == 인터락 로그 ==
-오후 4:47:50	cross_a	auto:unlock	성공	—	auto	타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송
-오후 4:47:38	cross_a	auto:lock	성공	—	auto	대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
-오후 12:48:28	cross_a	auto:unlock	성공	—	auto	타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송
-오후 12:48:27	cross_a	auto:lock	성공	—	auto	대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
-오후 12:38:21	cross_a	auto:unlock	성공	—	auto	타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송
-오후 12:38:20	cross_a	auto:lock	성공	—	auto	대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
-오전 10:12:00	cross_a	auto:unlock	성공	—	auto	타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송
-오전 10:11:56	cross_a	auto:block	성공	—	auto	작업 완료 — 재차단 후 정착 대기(반납 전 필수)
-오전 10:11:36	cross_a	auto:lock	성공	—	auto	타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중
-오전 10:10:51	cross_a	auto:unblock	성공	—	auto	TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1
-오전 10:10:36	cross_a	auto:lock	성공	—	auto	대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
-오전 10:09:35	cross_a	auto:lock	성공	—	auto	대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
-오전 10:08:35	cross_a	auto:lock	성공	—	auto	대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
-오전 10:07:34	cross_a	auto:lock	성공	—	auto	대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
-오전 9:59:45	cross_a	auto:unlock	성공	—	auto	타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송
-오전 9:59:42	cross_a	auto:lock	성공	—	auto	작업 완료 — 재차단 후 정착 대기(반납 전 필수)
-오전 9:59:40	cross_a	auto:block	성공	—	auto	작업 완료 — 재차단 후 정착 대기(반납 전 필수)
-오전 9:58:42	cross_a	auto:lock	성공	—	auto	타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중
-오전 9:58:20	cross_a	auto:unblock	성공	—	auto	TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1
-오전 9:57:41	cross_a	auto:lock	성공	—	auto	대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
-
+2026. 10. 12. 오전 9:17:07	cross_a	auto:lock	성공	—	auto	대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
+2026. 10. 12. 오전 9:03:25	cross_a	auto:unlock	성공	—	auto	타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송
+2026. 10. 12. 오전 9:03:21	cross_a	auto:block	성공	—	auto	작업 완료 — 재차단 후 정착 대기(반납 전 필수)
+2026. 10. 12. 오전 9:02:55	cross_a	auto:lock	성공	—	auto	타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중
+2026. 10. 12. 오전 9:01:56	cross_a	auto:unblock	성공	—	auto	TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1
+2026. 10. 12. 오전 9:01:55	cross_a	auto:lock	성공	—	auto	대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
+2026. 10. 12. 오전 9:01:05	cross_a	auto:unlock	성공	—	auto	타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송
+2026. 10. 12. 오전 9:00:54	cross_a	auto:lock	성공	—	auto	대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
+2026. 10. 12. 오전 9:00:20	cross_a	auto:unlock	성공	—	auto	타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송
+2026. 10. 12. 오전 9:00:09	cross_a	auto:lock	성공	—	auto	대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
 
 === FMS 로그 ==
 38줄 표시 · 일치 38 / 읽음 216993 · 서버 712ms / 화면 775ms
