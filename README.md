@@ -136,7 +136,109 @@ fms
 [ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Logistics_1 이(가) 목적지 WIP_RE3_1 (우선순위: 31)에 도착하여 홀드 상태로 설정됨
 10-12 17:17:48.588
 fms
-[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Logistics_1 이(가) 목적지 L23 (우선순위: 31)에 도착하여 홀드 상태로 설정됨
-10-12 17:20:22.937
+
+==process1 log == 
+10-12 07:29:05.213
 fms
-[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Logistics_1 이(가) 목적지 CHL1 (우선순위: 31)에 도착하여 홀드 상태로 설정됨
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 CHP2 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 08:57:49.128
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A04 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 09:04:42.967
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A04 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 09:12:45.572
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 CHP2 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 09:16:01.952
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 CHP2 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 09:26:21.220
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 CHP2 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 09:32:47.825
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A20 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 09:35:11.198
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A04 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 09:36:57.668
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A05 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 09:45:52.544
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A20 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 09:48:11.220
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A06 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 09:53:23.090
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A05 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 09:57:29.850
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A20 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 10:03:11.054
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A06 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 10:13:41.378
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A05 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 10:16:43.751
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A06 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 10:19:37.539
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A20 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 10:22:41.274
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A21 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 10:41:56.538
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A05 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 10:44:57.020
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A06 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 10:47:12.973
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A20 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 10:49:38.130
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A21 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 10:52:30.074
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A04 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 10:57:21.988
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A20 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 10:59:50.117
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A05 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 11:02:19.339
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A21 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 11:04:59.386
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A06 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 11:07:45.123
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A20 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 11:10:50.056
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A04 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 11:13:11.116
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A21 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 11:16:22.589
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A05 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 11:20:21.013
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A20 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 11:22:56.463
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A06 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 11:25:06.852
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A21 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-12 11:27:54.621
+fms
