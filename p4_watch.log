@@ -1,0 +1,26 @@
+﻿2026-10-13 16:37:55 START server=10.244.201.165:7447 distro=Ubuntu-22.04 interval=10s threshold=5 autoRecovery=False
+2026-10-13 16:37:55 STATUS=WSL_ONLY_FAIL windows=True wsl=False consecutiveWslFailures=1
+2026-10-13 16:38:05 STATUS=WSL_ONLY_FAIL windows=True wsl=False consecutiveWslFailures=2
+2026-10-13 16:38:15 STATUS=WSL_ONLY_FAIL windows=True wsl=False consecutiveWslFailures=3
+2026-10-13 16:38:25 STATUS=WSL_ONLY_FAIL windows=True wsl=False consecutiveWslFailures=4
+2026-10-13 16:38:35 STATUS=WSL_ONLY_FAIL windows=True wsl=False consecutiveWslFailures=5
+2026-10-13 16:38:35 ALERT WSL recovery eligible; monitor-only mode
+2026-10-13 16:38:45 STATUS=WSL_ONLY_FAIL windows=True wsl=False consecutiveWslFailures=6
+2026-10-13 16:38:45 STOP
+2026-10-13 16:42:57 START server=10.244.201.165:7447 distro=Ubuntu-22.04 interval=10s threshold=5 autoRecovery=False
+2026-10-13 16:42:57 STATUS=BOTH_OK windows=True wsl=True consecutiveWslFailures=0
+2026-10-13 16:45:12 STOP
+2026-10-13 16:45:14 START server=10.244.201.165:7447 distro=Ubuntu-22.04 interval=10s threshold=5 autoRecovery=False
+2026-10-13 16:45:14 STATUS=BOTH_OK windows=True wsl=True consecutiveWslFailures=0
+2026-10-13 16:45:17 STOP
+2026-10-13 17:10:30 START server=10.244.201.165:7447 distro=Ubuntu-22.04 interval=10s threshold=5 autoRecovery=False
+2026-10-13 17:10:30 STATUS=BOTH_OK windows=True wsl=True consecutiveWslFailures=0
+2026-10-13 17:11:54 STOP
+2026-10-13 17:12:13 START server=10.244.201.165:7447 distro=Ubuntu-22.04 interval=30s threshold=5 autoRecovery=True
+2026-10-13 17:12:13 STATUS=BOTH_OK windows=True wsl=True consecutiveWslFailures=0
+2026-10-13 17:12:43 STATUS=BOTH_OK windows=True wsl=True consecutiveWslFailures=0
+2026-10-13 17:13:13 STATUS=BOTH_OK windows=True wsl=True consecutiveWslFailures=0
+2026-10-13 17:13:43 STATUS=BOTH_OK windows=True wsl=True consecutiveWslFailures=0
+2026-10-13 17:14:13 STATUS=BOTH_OK windows=True wsl=True consecutiveWslFailures=0
+2026-10-13 17:14:43 STATUS=BOTH_OK windows=True wsl=True consecutiveWslFailures=0
+2026-10-13 17:14:44 STOP
