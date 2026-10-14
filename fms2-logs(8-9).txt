@@ -1,0 +1,234 @@
+2026-10-13T23:00:14.898268253Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: Z2_006, method: pp)
+2026-10-13T23:00:42.845316951Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 state changed: not ready -> stop
+2026-10-13T23:00:44.914925087Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: Z2_006, method: pp)
+2026-10-13T23:00:46.183969189Z [fms] [2026-10-14 08:00:46.183] [info] [08:00:46] [SAFETY] robot=SEC_Process_1 'none' -> 'sf_operational_stop' level=1 sent_depth=0 robot_queue=0 state=stop cur=L05 age=354
+2026-10-13T23:00:46.183996971Z [fms] [Manager][SAFETY] robot='SEC_Process_1' 안전상태 진입 → 계획 제외 @L05
+2026-10-13T23:00:46.184172026Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Process_1
+2026-10-13T23:00:46.316409736Z [fms] [2026-10-14 08:00:46.315] [info] [08:00:46] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 safety reset → sent-chain clear (SendStop 없음: 로봇이 이미 정지)
+2026-10-13T23:02:28.104692461Z [fms] [2026-10-14 08:02:28.104] [info] [08:02:28] [SAFETY] robot=SEC_Process_1 'sf_operational_stop' -> 'none' level=0 sent_depth=0 robot_queue=0 state=not ready cur=L05 age=471
+2026-10-13T23:02:28.104719651Z [fms] [Manager][SAFETY] robot='SEC_Process_1' 안전상태 해제 → 재계획
+2026-10-13T23:02:28.104722549Z [fms] [2026-10-14 08:02:28.104] [warning] [08:02:28] [ZoneManager:zone_3_p0][ALIGN] 로봇 SEC_Process_1 이(가) not ready 상태이므로, 명령은 무시하되 현재 위치를 점유 장애물로 유지합니다.
+2026-10-13T23:02:28.104774185Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Process_1
+2026-10-13T23:02:28.180468199Z [fms] [ActionManager] SendStop 생략 robot=SEC_Process_1 reason=safety_release (no_pending_command)
+2026-10-13T23:02:28.180485596Z [fms] [2026-10-14 08:02:28.180] [info] [08:02:28] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 safety reset → sent-chain clear (SendStop 생략: 보낸 명령 없음)
+2026-10-13T23:02:28.180557854Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: Z2_006, method: pp)
+2026-10-13T23:02:30.612096008Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 state changed: not ready -> stop
+2026-10-13T23:02:35.912314825Z [fms] [2026-10-14 08:02:35.912] [info] [08:02:35] [SAFETY] robot=SEC_Process_1 'none' -> 'sf_operational_stop' level=1 sent_depth=0 robot_queue=0 state=stop cur=L05 age=257
+2026-10-13T23:02:35.912400940Z [fms] [Manager][SAFETY] robot='SEC_Process_1' 안전상태 진입 → 계획 제외 @L05
+2026-10-13T23:02:35.912636738Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Process_1
+2026-10-13T23:02:35.987221982Z [fms] [2026-10-14 08:02:35.987] [info] [08:02:35] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 safety reset → sent-chain clear (SendStop 없음: 로봇이 이미 정지)
+2026-10-13T23:02:38.417852607Z [fms] [2026-10-14 08:02:38.417] [warning] [08:02:38] [ZoneManager:zone_3_p0][ALIGN] 로봇 SEC_Process_1 이(가) not ready 상태이므로, 명령은 무시하되 현재 위치를 점유 장애물로 유지합니다.
+2026-10-13T23:02:38.417876745Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 state changed: stop -> not ready
+2026-10-13T23:02:49.726808459Z [fms] [Manager][SAFETY] robot='SEC_Process_1' 안전상태 해제 → 재계획
+2026-10-13T23:02:49.726835767Z [fms] [2026-10-14 08:02:49.726] [info] [08:02:49] [SAFETY] robot=SEC_Process_1 'sf_operational_stop' -> 'none' level=0 sent_depth=0 robot_queue=0 state=not ready cur=L05 age=33
+2026-10-13T23:02:49.726846260Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Process_1
+2026-10-13T23:02:49.797469136Z [fms] [ActionManager] SendStop 생략 robot=SEC_Process_1 reason=safety_release (no_pending_command)
+2026-10-13T23:02:49.797488078Z [fms] [2026-10-14 08:02:49.797] [info] [08:02:49] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 safety reset → sent-chain clear (SendStop 생략: 보낸 명령 없음)
+2026-10-13T23:02:52.231876187Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 state changed: not ready -> stop
+2026-10-13T23:02:58.204341754Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: Z2_006, method: pp)
+2026-10-13T23:03:00.235149332Z [fms] [2026-10-14 08:03:00.234] [warning] [08:03:00] [ZoneManager:zone_3_p0][ALIGN] 로봇 SEC_Process_1 이(가) not ready 상태이므로, 명령은 무시하되 현재 위치를 점유 장애물로 유지합니다.
+2026-10-13T23:03:00.235174832Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 state changed: stop -> not ready
+2026-10-13T23:03:04.237786299Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 goal changed: L05 -> Z2_020
+2026-10-13T23:03:16.242174266Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 state changed: not ready -> stop
+2026-10-13T23:03:16.415683835Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_020 → LOC_194 (aid=01a13781-80bf-7000-9c22-f2479a481049 pred=)
+2026-10-13T23:03:16.415708853Z [fms] [2026-10-14 08:03:16.415] [info] [08:03:16] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 3 edge(s): Z2_020 → Z2_006 (async batch)
+2026-10-13T23:03:16.422583166Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] LOC_194 → Z2_005 (aid=01a13781-80bf-7001-aa2e-688699fe6891 pred=01a13781-80bf-7000-9c22-f2479a481049)
+2026-10-13T23:03:16.425927684Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_005 → Z2_006 (aid=01a13781-80bf-7002-b194-42005c4d2539 pred=01a13781-80bf-7001-aa2e-688699fe6891)
+2026-10-13T23:03:16.616103968Z [fms] [2026-10-14 08:03:16.615] [info] [08:03:16] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 3 ok + 0 timeout(낙관): Z2_020 → Z2_006
+2026-10-13T23:03:28.224723017Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: Z2_006, method: pp)
+2026-10-13T23:03:30.516817928Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 0 candidates
+2026-10-13T23:03:30.516836062Z [fms] [Manager][CandDiff] robot='SEC_Process_1' prev_count=1 new_count=0 added=[] removed=[Z2_006(P22)] prio_changed=[]
+2026-10-13T23:03:30.516837740Z [fms] [CommZenoh] SendStop robot=SEC_Process_1 reason=candidate_change_replan (DispatchCandidates)
+2026-10-13T23:03:30.516838973Z [fms] [CommZenoh] Sent stop to SEC_Process_1 on topic [amr/SEC_Process_1/move/stop]
+2026-10-13T23:04:20.834126881Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 3 candidates
+2026-10-13T23:04:20.834138286Z [fms] [Manager][CandDiff] robot='SEC_Process_1' prev_count=0 new_count=3 added=[A20(P10),A21(P10),CHP2(P21)] removed=[] prio_changed=[]
+2026-10-13T23:04:20.834139913Z [fms] [Manager] SendStop 생략 robot=SEC_Process_1 reason=candidate_change_replan (no_pending_command)
+2026-10-13T23:04:21.456960999Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: CHP2, method: pp)
+2026-10-13T23:04:21.457142921Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_020 → LOC_194 (aid=01a13782-7ed0-7000-97fd-a3204d947edd pred=)
+2026-10-13T23:04:21.457194836Z [fms] [2026-10-14 08:04:21.457] [info] [08:04:21] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 8 edge(s): Z2_020 → CHP2 (async batch)
+2026-10-13T23:04:21.465238733Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] LOC_194 → Z2_012 (aid=01a13782-7ed0-7001-9a86-8cf8604c56f3 pred=01a13782-7ed0-7000-97fd-a3204d947edd)
+2026-10-13T23:04:21.470842902Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_012 → Z2_011 (aid=01a13782-7ed0-7002-b6ff-70ea0fb2d057 pred=01a13782-7ed0-7001-9a86-8cf8604c56f3)
+2026-10-13T23:04:21.474818447Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_011 → LOC_217 (aid=01a13782-7ed0-7003-8bbc-848d8c5a58ac pred=01a13782-7ed0-7002-b6ff-70ea0fb2d057)
+2026-10-13T23:04:21.477822882Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] LOC_217 → Z2_004 (aid=01a13782-7ed0-7004-9232-620aeb9a0324 pred=01a13782-7ed0-7003-8bbc-848d8c5a58ac)
+2026-10-13T23:04:21.481468110Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_004 → LOC_246 (aid=01a13782-7ed0-7005-a459-0acf92c01081 pred=01a13782-7ed0-7004-9232-620aeb9a0324)
+2026-10-13T23:04:21.487159879Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] LOC_246 → Z2_003 (aid=01a13782-7ed0-7006-bdcb-fa66ae012320 pred=01a13782-7ed0-7005-a459-0acf92c01081)
+2026-10-13T23:04:21.490046513Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_003 → CHP2 (aid=01a13782-7ed0-7007-b7e4-d8d1fcff5d1e pred=01a13782-7ed0-7006-bdcb-fa66ae012320)
+2026-10-13T23:04:21.657379377Z [fms] [2026-10-14 08:04:21.657] [info] [08:04:21] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 8 ok + 0 timeout(낙관): Z2_020 → CHP2
+2026-10-13T23:04:51.478193686Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: CHP2, method: pp)
+2026-10-13T23:04:56.847178832Z [fms] [ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 CHP2 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+2026-10-13T23:04:57.273391795Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 hold/safety changed: 0 -> 1
+2026-10-13T23:07:09.780720554Z [fms] [2026-10-14 08:07:09.780] [info] [08:07:09] [SAFETY] robot=SEC_Process_2 'none' -> 'sf_operational_stop' level=1 sent_depth=0 robot_queue=0 state=not ready cur=CHP3 age=342
+2026-10-13T23:07:09.780751152Z [fms] [Manager][SAFETY] robot='SEC_Process_2' 안전상태 진입 → 계획 제외 @CHP3
+2026-10-13T23:07:09.801239907Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Process_2
+2026-10-13T23:07:09.953965595Z [fms] [2026-10-14 08:07:09.953] [info] [08:07:09] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_2 safety reset → sent-chain clear (SendStop 없음: 로봇이 이미 정지)
+2026-10-13T23:07:14.385969239Z [fms] [2026-10-14 08:07:14.385] [info] [08:07:14] [SAFETY] robot=SEC_Process_2 'sf_operational_stop' -> 'none' level=0 sent_depth=0 robot_queue=0 state=not ready cur=CHP3 age=430
+2026-10-13T23:07:14.386162087Z [fms] [Manager][HoldKeep] robot='SEC_Process_2' hold preserved on 'CHP3' (source=auto_detected, candidates republished)
+2026-10-13T23:07:14.386173424Z [fms] [Manager][SAFETY] robot='SEC_Process_2' 안전상태 해제 → 재계획
+2026-10-13T23:07:14.557274958Z [fms] [ActionManager] SendStop 생략 robot=SEC_Process_2 reason=safety_release (no_pending_command)
+2026-10-13T23:07:14.557332903Z [fms] [2026-10-14 08:07:14.557] [info] [08:07:14] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_2 safety reset → sent-chain clear (SendStop 생략: 보낸 명령 없음)
+2026-10-13T23:07:14.806846474Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Process_2, 정체 복구/안전상태 리셋 처리
+2026-10-13T23:07:31.804336527Z [fms] [2026-10-14 08:07:31.804] [info] [08:07:31] [SAFETY] robot=SEC_Process_2 'none' -> 'sf_operational_stop' level=1 sent_depth=0 robot_queue=0 state=not ready cur=CHP3 age=273
+2026-10-13T23:07:31.804385834Z [fms] [Manager][SAFETY] robot='SEC_Process_2' 안전상태 진입 → 계획 제외 @CHP3
+2026-10-13T23:07:31.804504644Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Process_2
+2026-10-13T23:07:31.968332299Z [fms] [2026-10-14 08:07:31.968] [info] [08:07:31] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_2 safety reset → sent-chain clear (SendStop 없음: 로봇이 이미 정지)
+2026-10-13T23:07:38.611837968Z [fms] [2026-10-14 08:07:38.611] [info] [08:07:38] [SAFETY] robot=SEC_Process_2 'sf_operational_stop' -> 'none' level=0 sent_depth=0 robot_queue=0 state=not ready cur=CHP3 age=59
+2026-10-13T23:07:38.611864753Z [fms] [Manager][HoldKeep] robot='SEC_Process_2' hold preserved on 'CHP3' (source=auto_detected, candidates republished)
+2026-10-13T23:07:38.611866451Z [fms] [Manager][SAFETY] robot='SEC_Process_2' 안전상태 해제 → 재계획
+2026-10-13T23:07:38.772573477Z [fms] [ActionManager] SendStop 생략 robot=SEC_Process_2 reason=safety_release (no_pending_command)
+2026-10-13T23:07:38.772690115Z [fms] [2026-10-14 08:07:38.772] [info] [08:07:38] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_2 safety reset → sent-chain clear (SendStop 생략: 보낸 명령 없음)
+2026-10-13T23:07:38.810661531Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Process_2, 정체 복구/안전상태 리셋 처리
+2026-10-13T23:09:53.586308865Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 3 candidates
+2026-10-13T23:09:53.586327897Z [fms] [Manager][CandDiff] robot='SEC_Process_1' prev_count=3 new_count=3 added=[A04(P21),A19(P10)] removed=[A20(P10),CHP2(P21)] prio_changed=[]
+2026-10-13T23:09:53.586331487Z [fms] [Manager][HoldKeep] robot='SEC_Process_1' hold released: hold_node 'CHP2' removed from candidates
+2026-10-13T23:09:53.586476267Z [fms] [Manager] SendStop 생략 robot=SEC_Process_1 reason=candidate_change_replan (no_pending_command)
+2026-10-13T23:09:53.648255398Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:09:53.648500494Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] CHP2 → Z2_003 (aid=01a13787-9070-7000-9993-91e0da9e2d97 pred=)
+2026-10-13T23:09:53.648508353Z [fms] [2026-10-14 08:09:53.648] [info] [08:09:53] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 4 edge(s): CHP2 → A04 (async batch)
+2026-10-13T23:09:53.652778156Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_003 → LOC_246 (aid=01a13787-9070-7001-89a3-86694c2b6146 pred=01a13787-9070-7000-9993-91e0da9e2d97)
+2026-10-13T23:09:53.699294100Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] LOC_246 → Z2_004 (aid=01a13787-9070-7002-a52d-388bf502918a pred=01a13787-9070-7001-89a3-86694c2b6146)
+2026-10-13T23:09:53.703076875Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_004 → A04 (aid=01a13787-9070-7003-94ed-2a55d941bcf3 pred=01a13787-9070-7002-a52d-388bf502918a)
+2026-10-13T23:09:53.848615824Z [fms] [2026-10-14 08:09:53.848] [info] [08:09:53] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 4 ok + 0 timeout(낙관): CHP2 → A04
+2026-10-13T23:10:23.680565489Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:10:31.599611790Z [fms] [ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A04 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+2026-10-13T23:10:31.605185757Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 hold/safety changed: 0 -> 1
+2026-10-13T23:15:27.275367533Z [fms] [ACTION_MANAGER:zone_3_p0][UNKNOWN-FUTURE] robot SEC_Logistics_1 경로를 보냄 — 상대 'SEC_Process_2' 는 남은 명령이 없어 **미래를 모르는데** 경로와 1.859m (반경 합 1.350, 밴드 1.50배). 그 로봇이 전진하면 겹칠 수 있다
+2026-10-13T23:15:29.677219525Z [fms] [ACTION_MANAGER:zone_3_p0][UNKNOWN-FUTURE] robot SEC_Logistics_1 경로를 보냄 — 상대 'SEC_Process_2' 는 남은 명령이 없어 **미래를 모르는데** 경로와 2.002m (반경 합 1.350, 밴드 1.50배). 그 로봇이 전진하면 겹칠 수 있다
+2026-10-13T23:15:58.698427553Z [fms] [ACTION_MANAGER:zone_3_p0][UNKNOWN-FUTURE] robot SEC_Logistics_1 경로를 보냄 — 상대 'SEC_Process_1' 는 남은 명령이 없어 **미래를 모르는데** 경로와 1.976m (반경 합 1.350, 밴드 1.50배). 그 로봇이 전진하면 겹칠 수 있다
+2026-10-13T23:16:49.534035672Z [fms] [ACTION_MANAGER:zone_3_p0][UNKNOWN-FUTURE] robot SEC_Logistics_1 경로를 보냄 — 상대 'SEC_Process_2' 는 남은 명령이 없어 **미래를 모르는데** 경로와 1.994m (반경 합 1.350, 밴드 1.50배). 그 로봇이 전진하면 겹칠 수 있다
+2026-10-13T23:16:49.534043579Z [fms] [ACTION_MANAGER:zone_3_p0][UNKNOWN-FUTURE] robot SEC_Logistics_1 경로를 보냄 — 상대 'SEC_Process_1' 는 남은 명령이 없어 **미래를 모르는데** 경로와 1.980m (반경 합 1.350, 밴드 1.50배). 그 로봇이 전진하면 겹칠 수 있다
+2026-10-13T23:17:47.842893127Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 3 candidates
+2026-10-13T23:17:47.842907866Z [fms] [Manager][CandDiff] robot='SEC_Process_1' prev_count=3 new_count=3 added=[] removed=[] prio_changed=[A04(P21→P10)]
+2026-10-13T23:17:47.842910121Z [fms] [Manager][HoldKeep] robot='SEC_Process_1' hold released: hold_node 'A04' priority 10 <= arrival-hold threshold 20 (demoted to waypoint)
+2026-10-13T23:17:47.842911469Z [fms] [Manager] SendStop 생략 robot=SEC_Process_1 reason=candidate_change_replan (no_pending_command)
+2026-10-13T23:17:47.980239126Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:17:47.980439532Z [fms] [2026-10-14 08:17:47.980] [info] [08:17:47] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 8 edge(s): A04 → A04 (async batch)
+2026-10-13T23:17:48.180780814Z [fms] [2026-10-14 08:17:48.180] [info] [08:17:48] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 8 ok + 0 timeout(낙관): A04 → A04
+2026-10-13T23:17:48.381011627Z [fms] [2026-10-14 08:17:48.380] [info] [08:17:48] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 7 edge(s): A04 → A04 (async batch)
+2026-10-13T23:17:48.581218830Z [fms] [2026-10-14 08:17:48.581] [info] [08:17:48] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 7 ok + 0 timeout(낙관): A04 → A04
+2026-10-13T23:18:18.005960501Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:18:18.006208981Z [fms] [2026-10-14 08:18:18.006] [info] [08:18:18] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 8 edge(s): A04 → A04 (async batch)
+2026-10-13T23:18:18.206535156Z [fms] [2026-10-14 08:18:18.206] [info] [08:18:18] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 8 ok + 0 timeout(낙관): A04 → A04
+2026-10-13T23:18:48.027443083Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:19:18.048096394Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:19:48.067228007Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:20:18.088694213Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:20:48.109508173Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:21:18.130965104Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:21:48.150711968Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:22:18.170037242Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:22:48.188987251Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:23:18.214289575Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:23:48.230837006Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:24:18.251029333Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:24:48.271712115Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:25:18.290695194Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:25:48.310212331Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:26:18.330124453Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:26:48.349670702Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:27:18.369966347Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:27:48.389086804Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:28:18.409069805Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:28:48.429296690Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:29:18.450160649Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:29:48.469481850Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:30:18.490944542Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:30:48.510346591Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:31:03.128291151Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 0 candidates
+2026-10-13T23:31:03.128299823Z [fms] [Manager][CandDiff] robot='SEC_Process_1' prev_count=3 new_count=0 added=[] removed=[A04(P10),A19(P10),A21(P10)] prio_changed=[]
+2026-10-13T23:31:03.128301168Z [fms] [Manager] SendStop 생략 robot=SEC_Process_1 reason=candidate_change_replan (no_pending_command)
+2026-10-13T23:31:10.094486484Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 3 candidates
+2026-10-13T23:31:10.094509317Z [fms] [Manager][CandDiff] robot='SEC_Process_1' prev_count=0 new_count=3 added=[A04(P10),A06(P10),A19(P21)] removed=[] prio_changed=[]
+2026-10-13T23:31:10.094511906Z [fms] [Manager] SendStop 생략 robot=SEC_Process_1 reason=candidate_change_replan (no_pending_command)
+2026-10-13T23:31:10.131997506Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A19, method: pp)
+2026-10-13T23:31:10.132222024Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] A04 → Z2_004 (aid=01a1379b-0ab3-7000-b281-c98e17d08738 pred=)
+2026-10-13T23:31:10.132234313Z [fms] [2026-10-14 08:31:10.132] [info] [08:31:10] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 3 edge(s): A04 → A19 (async batch)
+2026-10-13T23:31:10.138297493Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_004 → LOC_246 (aid=01a1379b-0ab3-7001-9937-c8a1c3411edb pred=01a1379b-0ab3-7000-b281-c98e17d08738)
+2026-10-13T23:31:10.168073461Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] LOC_246 → A19 (aid=01a1379b-0ab3-7002-8c30-fba3581d1b6f pred=01a1379b-0ab3-7001-9937-c8a1c3411edb)
+2026-10-13T23:31:10.332614502Z [fms] [2026-10-14 08:31:10.332] [info] [08:31:10] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 3 ok + 0 timeout(낙관): A04 → A19
+2026-10-13T23:31:40.153088932Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A19, method: pp)
+2026-10-13T23:31:50.108452856Z [fms] [ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A19 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+2026-10-13T23:31:50.110072649Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 hold/safety changed: 0 -> 1
+2026-10-13T23:31:52.586913682Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 3 candidates
+2026-10-13T23:31:52.586928506Z [fms] [Manager][CandDiff] robot='SEC_Process_1' prev_count=3 new_count=3 added=[A21(P10)] removed=[A06(P10)] prio_changed=[A04(P10→P21),A19(P21→P10)]
+2026-10-13T23:31:52.586932462Z [fms] [Manager][HoldKeep] robot='SEC_Process_1' hold released: hold_node 'A19' priority 10 < new top 21 (higher-priority destination available)
+2026-10-13T23:31:52.586935064Z [fms] [Manager] SendStop 생략 robot=SEC_Process_1 reason=candidate_change_replan (no_pending_command)
+2026-10-13T23:31:52.761389018Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:31:52.761504992Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] A19 → LOC_246 (aid=01a1379b-b139-7000-8300-28c8afe22a22 pred=)
+2026-10-13T23:31:52.761541768Z [fms] [2026-10-14 08:31:52.761] [info] [08:31:52] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 3 edge(s): A19 → A04 (async batch)
+2026-10-13T23:31:52.766871039Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] LOC_246 → Z2_004 (aid=01a1379b-b139-7001-8a78-397dbdd19b63 pred=01a1379b-b139-7000-8300-28c8afe22a22)
+2026-10-13T23:31:52.775715268Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_004 → A04 (aid=01a1379b-b139-7002-91e2-b26970dd2317 pred=01a1379b-b139-7001-8a78-397dbdd19b63)
+2026-10-13T23:31:52.961725634Z [fms] [2026-10-14 08:31:52.961] [info] [08:31:52] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 3 ok + 0 timeout(낙관): A19 → A04
+2026-10-13T23:32:22.788774743Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:32:32.601307624Z [fms] [ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A04 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+2026-10-13T23:32:32.626675421Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 hold/safety changed: 0 -> 1
+2026-10-13T23:50:31.992443831Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 3 candidates
+2026-10-13T23:50:31.992462623Z [fms] [Manager][CandDiff] robot='SEC_Process_1' prev_count=3 new_count=3 added=[] removed=[] prio_changed=[A04(P21→P10)]
+2026-10-13T23:50:31.992466606Z [fms] [Manager][HoldKeep] robot='SEC_Process_1' hold released: hold_node 'A04' priority 10 <= arrival-hold threshold 20 (demoted to waypoint)
+2026-10-13T23:50:31.992469068Z [fms] [Manager] SendStop 생략 robot=SEC_Process_1 reason=candidate_change_replan (no_pending_command)
+2026-10-13T23:50:31.996958140Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A04, method: pp)
+2026-10-13T23:50:34.473276284Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 3 candidates
+2026-10-13T23:50:34.473291893Z [fms] [Manager][CandDiff] robot='SEC_Process_1' prev_count=3 new_count=3 added=[A06(P21)] removed=[A04(P10)] prio_changed=[]
+2026-10-13T23:50:34.473293492Z [fms] [Manager] SendStop 생략 robot=SEC_Process_1 reason=candidate_change_replan (no_pending_command)
+2026-10-13T23:50:34.598834320Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A06, method: pp)
+2026-10-13T23:50:34.599147338Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] A04 → Z2_004 (aid=01a137ac-cf66-7000-9c3b-64ad9c6c107f pred=)
+2026-10-13T23:50:34.599159535Z [fms] [2026-10-14 08:50:34.598] [info] [08:50:34] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 8 edge(s): A04 → A06 (async batch)
+2026-10-13T23:50:34.606528996Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_004 → LOC_217 (aid=01a137ac-cf66-7001-9e0c-72c74e84b5ad pred=01a137ac-cf66-7000-9c3b-64ad9c6c107f)
+2026-10-13T23:50:34.648585277Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] LOC_217 → Z2_011 (aid=01a137ac-cf66-7002-9303-c35230ecaecc pred=01a137ac-cf66-7001-9e0c-72c74e84b5ad)
+2026-10-13T23:50:34.652454359Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_011 → Z2_012 (aid=01a137ac-cf66-7003-bfa2-84d0053bc931 pred=01a137ac-cf66-7002-9303-c35230ecaecc)
+2026-10-13T23:50:34.657122496Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_012 → LOC_194 (aid=01a137ac-cf66-7004-99dd-c9c50d98d174 pred=01a137ac-cf66-7003-bfa2-84d0053bc931)
+2026-10-13T23:50:34.660554214Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] LOC_194 → Z2_005 (aid=01a137ac-cf66-7005-8e4e-2a1aea5b74d5 pred=01a137ac-cf66-7004-99dd-c9c50d98d174)
+2026-10-13T23:50:34.663890935Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_005 → Z2_006 (aid=01a137ac-cf66-7006-9f3c-502d9e0f81cd pred=01a137ac-cf66-7005-8e4e-2a1aea5b74d5)
+2026-10-13T23:50:34.666951734Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_006 → A06 (aid=01a137ac-cf66-7007-b185-87a7f1a2e6c5 pred=01a137ac-cf66-7006-9f3c-502d9e0f81cd)
+2026-10-13T23:50:34.799247740Z [fms] [2026-10-14 08:50:34.799] [info] [08:50:34] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 8 ok + 0 timeout(낙관): A04 → A06
+2026-10-13T23:51:04.620795474Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A06, method: pp)
+2026-10-13T23:51:10.607653075Z [fms] [CommZenoh] SendStop robot=SEC_Process_1 reason=obstacle_injected
+2026-10-13T23:51:10.607654513Z [fms] [CommZenoh] Sent stop to SEC_Process_1 on topic [amr/SEC_Process_1/move/stop]
+2026-10-13T23:51:10.607655959Z [fms] [Manager][OBSTACLE-STOP] robot='SEC_Process_1' stopped (obstacle on cur/path)
+2026-10-13T23:51:10.671500491Z [fms] [2026-10-14 08:51:10.671] [info] [08:51:10] [StuckMonitor] robot SEC_Process_1 안전노드 'Z2_006' 도달 → escape 소진(목적지 복귀)
+2026-10-13T23:51:11.025397190Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A21, method: pp)
+2026-10-13T23:51:11.025613500Z [fms] [2026-10-14 08:51:11.025] [info] [08:51:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 2 edge(s): Z2_006 → A21 (async batch)
+2026-10-13T23:51:11.025823737Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_006 → Z2_005 (aid=01a137ad-5db1-7000-9c0f-d248a5b7cdcb pred=)
+2026-10-13T23:51:11.029838677Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_005 → A21 (aid=01a137ad-5db1-7001-8615-d1c839b0c600 pred=01a137ad-5db1-7000-9c0f-d248a5b7cdcb)
+2026-10-13T23:51:11.225794637Z [fms] [2026-10-14 08:51:11.225] [info] [08:51:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 2 ok + 0 timeout(낙관): Z2_006 → A21
+2026-10-13T23:51:17.029765353Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A06, method: pp)
+2026-10-13T23:51:17.030107515Z [fms] [2026-10-14 08:51:17.029] [info] [08:51:17] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 3 edge(s): A21 → A06 (async batch)
+2026-10-13T23:51:17.030114019Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] A21 → Z2_005 (aid=01a137ad-7525-7000-b632-b68c3fc0a450 pred=01a137ad-5db1-7001-8615-d1c839b0c600)
+2026-10-13T23:51:17.034650952Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_005 → Z2_006 (aid=01a137ad-7525-7001-aad0-8abb7559daf0 pred=01a137ad-7525-7000-b632-b68c3fc0a450)
+2026-10-13T23:51:17.039903190Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_006 → A06 (aid=01a137ad-7525-7002-9b66-6f5592b58931 pred=01a137ad-7525-7001-aad0-8abb7559daf0)
+2026-10-13T23:51:17.230124712Z [fms] [2026-10-14 08:51:17.229] [info] [08:51:17] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 3 ok + 0 timeout(낙관): A21 → A06
+2026-10-13T23:51:47.050564131Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A06, method: pp)
+2026-10-13T23:52:02.626041517Z [fms] [ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A06 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+2026-10-13T23:52:04.362426426Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 hold/safety changed: 0 -> 1
+2026-10-13T23:52:04.610153572Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 3 candidates
+2026-10-13T23:53:43.170247353Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 3 candidates
+2026-10-13T23:53:43.170265690Z [fms] [Manager][CandDiff] robot='SEC_Process_1' prev_count=3 new_count=3 added=[] removed=[] prio_changed=[A06(P21→P10)]
+2026-10-13T23:53:43.170269367Z [fms] [Manager][HoldKeep] robot='SEC_Process_1' hold released: hold_node 'A06' priority 10 <= arrival-hold threshold 20 (demoted to waypoint)
+2026-10-13T23:53:43.170271818Z [fms] [Manager] SendStop 생략 robot=SEC_Process_1 reason=candidate_change_replan (no_pending_command)
+2026-10-13T23:53:43.313539610Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A06, method: pp)
+2026-10-13T23:53:44.706407203Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 4 candidates
+2026-10-13T23:53:44.706423668Z [fms] [Manager][CandDiff] robot='SEC_Process_1' prev_count=3 new_count=4 added=[A05(P21),A20(P10)] removed=[A06(P10)] prio_changed=[]
+2026-10-13T23:53:44.706425752Z [fms] [Manager] SendStop 생략 robot=SEC_Process_1 reason=candidate_change_replan (no_pending_command)
+2026-10-13T23:53:44.714603030Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A05, method: pp)
+2026-10-13T23:53:44.714842735Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] A06 → Z2_006 (aid=01a137af-b60a-7000-8696-9f628fd63b25 pred=)
+2026-10-13T23:53:44.714865027Z [fms] [2026-10-14 08:53:44.714] [info] [08:53:44] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 5 edge(s): A06 → A05 (async batch)
+2026-10-13T23:53:44.718955087Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_006 → Z2_005 (aid=01a137af-b60a-7001-96c5-fc137232ed2d pred=01a137af-b60a-7000-8696-9f628fd63b25)
+2026-10-13T23:53:44.723845779Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_005 → LOC_194 (aid=01a137af-b60a-7002-9a63-abb9ffd1d216 pred=01a137af-b60a-7001-96c5-fc137232ed2d)
+2026-10-13T23:53:44.729252936Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] LOC_194 → Z2_012 (aid=01a137af-b60a-7003-ad56-17870ad40d71 pred=01a137af-b60a-7002-9a63-abb9ffd1d216)
+2026-10-13T23:53:44.733257111Z [fms] [CommZenoh] enqueue → [amr/SEC_Process_1/multi/enqueue] Z2_012 → A05 (aid=01a137af-b60a-7004-b456-7024920b619b pred=01a137af-b60a-7003-ad56-17870ad40d71)
+2026-10-13T23:53:44.915114444Z [fms] [2026-10-14 08:53:44.914] [info] [08:53:44] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 5 ok + 0 timeout(낙관): A06 → A05
+2026-10-13T23:54:14.736163490Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A05, method: pp)
+2026-10-13T23:54:28.721823570Z [fms] [ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_1 이(가) 목적지 A05 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+2026-10-13T23:54:28.732272451Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 hold/safety changed: 0 -> 1
+2026-10-13T23:54:29.747715298Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 4 candidates
+2026-10-13T23:56:06.517496088Z [fms] [GoalSubscriber] Received goals for SEC_Process_1: 4 candidates
+2026-10-13T23:56:06.517511540Z [fms] [Manager][CandDiff] robot='SEC_Process_1' prev_count=4 new_count=4 added=[] removed=[] prio_changed=[A05(P21→P10)]
+2026-10-13T23:56:06.517513978Z [fms] [Manager][HoldKeep] robot='SEC_Process_1' hold released: hold_node 'A05' priority 10 <= arrival-hold threshold 20 (demoted to waypoint)
+2026-10-13T23:56:06.517524664Z [fms] [Manager] SendStop 생략 robot=SEC_Process_1 reason=candidate_change_replan (no_pending_command)
+2026-10-13T23:56:06.596848568Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A05, method: pp)
+2026-10-13T23:56:36.620652655Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A05, method: pp)
+2026-10-13T23:57:06.643978178Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A05, method: pp)
+2026-10-13T23:57:36.664475639Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A05, method: pp)
+2026-10-13T23:58:06.689561834Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A05, method: pp)
+2026-10-13T23:58:36.711861195Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A05, method: pp)
+2026-10-13T23:59:06.735876830Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A05, method: pp)
+2026-10-13T23:59:36.756063923Z [fms] [CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A05, method: pp)
