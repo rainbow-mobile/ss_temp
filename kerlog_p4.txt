@@ -1,0 +1,474 @@
+[목 10월 15 16:56:33 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.UBTC.RUCC], AE_NOT_FOUND (20230628/psargs-332)
+
+[목 10월 15 16:56:33 2026] No Local Variables are initialized for Method [_PLD]
+
+[목 10월 15 16:56:33 2026] No Arguments are initialized for method [_PLD]
+
+[목 10월 15 16:56:33 2026] ACPI Error: Aborting method \_SB.PC00.XHCI.RHUB.HS02._PLD due to previous error (AE_NOT_FOUND) (20230628/psparse-529)
+[목 10월 15 16:56:33 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.UBTC.RUCC], AE_NOT_FOUND (20230628/psargs-332)
+
+[목 10월 15 16:56:33 2026] No Local Variables are initialized for Method [_PLD]
+
+[목 10월 15 16:56:33 2026] No Arguments are initialized for method [_PLD]
+
+[목 10월 15 16:56:33 2026] ACPI Error: Aborting method \_SB.PC00.XHCI.RHUB.HS02._PLD due to previous error (AE_NOT_FOUND) (20230628/psparse-529)
+[목 10월 15 16:56:34 2026] usb 3-3: new full-speed USB device number 3 using xhci_hcd
+[목 10월 15 16:56:34 2026] EXT4-fs (nvme0n1p2): mounted filesystem 1f23dc85-20ae-4f39-b0de-c2ef9f3b1f62 ro with ordered data mode. Quota mode: none.
+[목 10월 15 16:56:34 2026] systemd[1]: Inserted module 'autofs4'
+[목 10월 15 16:56:34 2026] systemd[1]: systemd 249.11-0ubuntu3.21 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+[목 10월 15 16:56:34 2026] systemd[1]: Detected architecture x86-64.
+[목 10월 15 16:56:34 2026] systemd[1]: Hostname set to <rainbow-Default-string>.
+[목 10월 15 16:56:34 2026] block nvme0n1: the capability attribute has been deprecated.
+[목 10월 15 16:56:34 2026] systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[목 10월 15 16:56:34 2026] systemd[1]: /etc/systemd/system/teamviewerd.service:9: PIDFile= references a path below legacy directory /var/run/, updating /var/run/teamviewerd.pid → /run/teamviewerd.pid; please update the unit file accordingly.
+[목 10월 15 16:56:34 2026] systemd[1]: /lib/systemd/system/snapd.service:23: Unknown key name 'RestartMode' in section 'Service', ignoring.
+[목 10월 15 16:56:34 2026] usb 3-3: New USB device found, idVendor=0403, idProduct=6015, bcdDevice=10.00
+[목 10월 15 16:56:34 2026] usb 3-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[목 10월 15 16:56:34 2026] usb 3-3: Product: FT230X Basic UART
+[목 10월 15 16:56:34 2026] usb 3-3: Manufacturer: FTDI
+[목 10월 15 16:56:34 2026] usb 3-3: SerialNumber: DO01DTDG
+[목 10월 15 16:56:34 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.UBTC.RUCC], AE_NOT_FOUND (20230628/psargs-332)
+
+[목 10월 15 16:56:34 2026] No Local Variables are initialized for Method [_PLD]
+
+[목 10월 15 16:56:34 2026] No Arguments are initialized for method [_PLD]
+
+[목 10월 15 16:56:34 2026] ACPI Error: Aborting method \_SB.PC00.XHCI.RHUB.HS03._PLD due to previous error (AE_NOT_FOUND) (20230628/psparse-529)
+[목 10월 15 16:56:34 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.UBTC.RUCC], AE_NOT_FOUND (20230628/psargs-332)
+
+[목 10월 15 16:56:34 2026] No Local Variables are initialized for Method [_PLD]
+
+[목 10월 15 16:56:34 2026] No Arguments are initialized for method [_PLD]
+
+[목 10월 15 16:56:34 2026] ACPI Error: Aborting method \_SB.PC00.XHCI.RHUB.HS03._PLD due to previous error (AE_NOT_FOUND) (20230628/psparse-529)
+[목 10월 15 16:56:34 2026] systemd[1]: Queued start job for default target Graphical Interface.
+[목 10월 15 16:56:34 2026] systemd[1]: Created slice Slice /system/modprobe.
+[목 10월 15 16:56:34 2026] systemd[1]: Created slice Slice /system/systemd-fsck.
+[목 10월 15 16:56:34 2026] systemd[1]: Created slice User and Session Slice.
+[목 10월 15 16:56:34 2026] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[목 10월 15 16:56:34 2026] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[목 10월 15 16:56:34 2026] systemd[1]: Reached target User and Group Name Lookups.
+[목 10월 15 16:56:34 2026] systemd[1]: Reached target Remote File Systems.
+[목 10월 15 16:56:34 2026] systemd[1]: Reached target Slice Units.
+[목 10월 15 16:56:34 2026] systemd[1]: Reached target Mounting snaps.
+[목 10월 15 16:56:34 2026] systemd[1]: Reached target Local Verity Protected Volumes.
+[목 10월 15 16:56:34 2026] systemd[1]: Listening on Syslog Socket.
+[목 10월 15 16:56:34 2026] systemd[1]: Listening on fsck to fsckd communication Socket.
+[목 10월 15 16:56:34 2026] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[목 10월 15 16:56:34 2026] systemd[1]: Listening on Journal Audit Socket.
+[목 10월 15 16:56:34 2026] systemd[1]: Listening on Journal Socket (/dev/log).
+[목 10월 15 16:56:34 2026] systemd[1]: Listening on Journal Socket.
+[목 10월 15 16:56:34 2026] systemd[1]: Listening on udev Control Socket.
+[목 10월 15 16:56:34 2026] systemd[1]: Listening on udev Kernel Socket.
+[목 10월 15 16:56:34 2026] systemd[1]: Mounting Huge Pages File System...
+[목 10월 15 16:56:34 2026] systemd[1]: Mounting POSIX Message Queue File System...
+[목 10월 15 16:56:34 2026] systemd[1]: Mounting Kernel Debug File System...
+[목 10월 15 16:56:34 2026] systemd[1]: Mounting Kernel Trace File System...
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Journal Service...
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Set the console keyboard layout...
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Create List of Static Device Nodes...
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Load Kernel Module configfs...
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Load Kernel Module drm...
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Load Kernel Module efi_pstore...
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Load Kernel Module fuse...
+[목 10월 15 16:56:34 2026] systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Load Kernel Modules...
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Remount Root and Kernel File Systems...
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Coldplug All udev Devices...
+[목 10월 15 16:56:34 2026] pstore: Using crash dump compression: deflate
+[목 10월 15 16:56:34 2026] systemd[1]: Mounted Huge Pages File System.
+[목 10월 15 16:56:34 2026] systemd[1]: Mounted POSIX Message Queue File System.
+[목 10월 15 16:56:34 2026] systemd[1]: Mounted Kernel Debug File System.
+[목 10월 15 16:56:34 2026] systemd[1]: Mounted Kernel Trace File System.
+[목 10월 15 16:56:34 2026] systemd[1]: Finished Create List of Static Device Nodes.
+[목 10월 15 16:56:34 2026] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[목 10월 15 16:56:34 2026] systemd[1]: Finished Load Kernel Module configfs.
+[목 10월 15 16:56:34 2026] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[목 10월 15 16:56:34 2026] systemd[1]: Finished Load Kernel Module drm.
+[목 10월 15 16:56:34 2026] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[목 10월 15 16:56:34 2026] systemd[1]: Finished Load Kernel Module fuse.
+[목 10월 15 16:56:34 2026] systemd[1]: Mounting FUSE Control File System...
+[목 10월 15 16:56:34 2026] systemd[1]: Mounting Kernel Configuration File System...
+[목 10월 15 16:56:34 2026] systemd[1]: Mounted FUSE Control File System.
+[목 10월 15 16:56:34 2026] systemd[1]: Mounted Kernel Configuration File System.
+[목 10월 15 16:56:34 2026] pstore: Registered efi_pstore as persistent store backend
+[목 10월 15 16:56:34 2026] systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+[목 10월 15 16:56:34 2026] systemd[1]: Finished Load Kernel Module efi_pstore.
+[목 10월 15 16:56:34 2026] lp: driver loaded but no devices found
+[목 10월 15 16:56:34 2026] ppdev: user-space parallel port driver
+[목 10월 15 16:56:34 2026] EXT4-fs (nvme0n1p2): re-mounted 1f23dc85-20ae-4f39-b0de-c2ef9f3b1f62 r/w.
+[목 10월 15 16:56:34 2026] systemd[1]: Finished Remount Root and Kernel File Systems.
+[목 10월 15 16:56:34 2026] systemd[1]: Activating swap /swapfile...
+[목 10월 15 16:56:34 2026] systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Load/Save Random Seed...
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Create System Users...
+[목 10월 15 16:56:34 2026] Adding 2097148k swap on /swapfile.  Priority:-2 extents:8 across:209575936k SS
+[목 10월 15 16:56:34 2026] systemd[1]: Activated swap /swapfile.
+[목 10월 15 16:56:34 2026] systemd[1]: Reached target Swaps.
+[목 10월 15 16:56:34 2026] systemd[1]: Finished Load/Save Random Seed.
+[목 10월 15 16:56:34 2026] systemd[1]: Condition check resulted in First Boot Complete being skipped.
+[목 10월 15 16:56:34 2026] systemd[1]: Finished Load Kernel Modules.
+[목 10월 15 16:56:34 2026] systemd[1]: Starting Apply Kernel Variables...
+[목 10월 15 16:56:34 2026] systemd[1]: Started Journal Service.
+[목 10월 15 16:56:34 2026] systemd-journald[400]: Received client request to flush runtime journal.
+[목 10월 15 16:56:34 2026] loop0: detected capacity change from 0 to 129600
+[목 10월 15 16:56:34 2026] loop1: detected capacity change from 0 to 8
+[목 10월 15 16:56:34 2026] loop2: detected capacity change from 0 to 130624
+[목 10월 15 16:56:34 2026] loop3: detected capacity change from 0 to 151512
+[목 10월 15 16:56:34 2026] loop4: detected capacity change from 0 to 136816
+[목 10월 15 16:56:34 2026] loop5: detected capacity change from 0 to 517800
+[목 10월 15 16:56:34 2026] loop6: detected capacity change from 0 to 709280
+[목 10월 15 16:56:34 2026] loop7: detected capacity change from 0 to 527544
+[목 10월 15 16:56:34 2026] loop8: detected capacity change from 0 to 716176
+[목 10월 15 16:56:34 2026] loop9: detected capacity change from 0 to 1088496
+[목 10월 15 16:56:34 2026] usb 3-4: new high-speed USB device number 4 using xhci_hcd
+[목 10월 15 16:56:34 2026] intel_vsec 0000:00:0a.0: enabling device (0000 -> 0002)
+[목 10월 15 16:56:34 2026] resource: resource sanity check: requesting [mem 0x00000000fedc0000-0x00000000fedcffff], which spans more than pnp 00:07 [mem 0xfedc0000-0xfedc7fff]
+[목 10월 15 16:56:34 2026] caller igen6_probe+0x1bb/0x5f0 [igen6_edac] mapping multiple BARs
+[목 10월 15 16:56:34 2026] intel_vpu 0000:00:0b.0: enabling device (0000 -> 0002)
+[목 10월 15 16:56:34 2026] EDAC MC0: Giving out device to module igen6_edac controller Intel_client_SoC MC#0: DEV 0000:00:00.0 (INTERRUPT)
+[목 10월 15 16:56:34 2026] EDAC MC1: Giving out device to module igen6_edac controller Intel_client_SoC MC#1: DEV 0000:00:00.0 (INTERRUPT)
+[목 10월 15 16:56:34 2026] EDAC igen6 MC1: HANDLING IBECC MEMORY ERROR
+[목 10월 15 16:56:34 2026] EDAC igen6 MC1: ADDR 0x7fffffffe0
+[목 10월 15 16:56:34 2026] EDAC igen6 MC0: HANDLING IBECC MEMORY ERROR
+[목 10월 15 16:56:34 2026] EDAC igen6 MC0: ADDR 0x7fffffffe0
+[목 10월 15 16:56:34 2026] EDAC igen6: v2.5.1
+[목 10월 15 16:56:34 2026] intel_vpu 0000:00:0b.0: [drm] Firmware: intel/vpu/vpu_37xx_v0.0.bin, version: 20251016*MTL_CLIENT_SILICON-release*1600*ci_tag_ud202544_vpu_rc_20251016_1600*74b0ef77ba8
+[목 10월 15 16:56:34 2026] usb 3-4: New USB device found, idVendor=03e7, idProduct=2485, bcdDevice= 0.01
+[목 10월 15 16:56:34 2026] usb 3-4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[목 10월 15 16:56:34 2026] usb 3-4: Product: Movidius MyriadX
+[목 10월 15 16:56:34 2026] usb 3-4: Manufacturer: Movidius Ltd.
+[목 10월 15 16:56:34 2026] usb 3-4: SerialNumber: 03e72485
+[목 10월 15 16:56:34 2026] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[목 10월 15 16:56:34 2026] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[목 10월 15 16:56:34 2026] Creating 1 MTD partitions on "0000:00:1f.5":
+[목 10월 15 16:56:34 2026] 0x000000000000-0x000002000000 : "BIOS"
+[목 10월 15 16:56:34 2026] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+[목 10월 15 16:56:34 2026] RAPL PMU: API unit is 2^-32 Joules, 3 fixed counters, 655360 ms ovfl timer
+[목 10월 15 16:56:34 2026] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[목 10월 15 16:56:34 2026] RAPL PMU: hw unit of domain package 2^-14 Joules
+[목 10월 15 16:56:34 2026] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[목 10월 15 16:56:34 2026] usb 3-5: new high-speed USB device number 5 using xhci_hcd
+[목 10월 15 16:56:34 2026] [drm] Initialized intel_vpu 1.0.0 20230117 for 0000:00:0b.0 on minor 0
+[목 10월 15 16:56:35 2026] usb 3-5: New USB device found, idVendor=03e7, idProduct=2485, bcdDevice= 0.01
+[목 10월 15 16:56:35 2026] usb 3-5: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[목 10월 15 16:56:35 2026] usb 3-5: Product: Movidius MyriadX
+[목 10월 15 16:56:35 2026] usb 3-5: Manufacturer: Movidius Ltd.
+[목 10월 15 16:56:35 2026] usb 3-5: SerialNumber: 03e72485
+[목 10월 15 16:56:35 2026] cryptd: max_cpu_qlen set to 1000
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] VT-d active for gfx access
+[목 10월 15 16:56:35 2026] AVX2 version of gcm_enc/dec engaged.
+[목 10월 15 16:56:35 2026] AES CTR mode by8 optimization enabled
+[목 10월 15 16:56:35 2026] Console: switching to colour dummy device 80x25
+[목 10월 15 16:56:35 2026] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] snd_hda_intel 0000:00:1f.3: enabling device (0000 -> 0002)
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: vgaarb: deactivate vga console
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] Using Transparent Hugepages
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] *ERROR* Unexpected child device config size 40 (expected 39 for VBT version 256)
+[목 10월 15 16:56:35 2026] ------------[ cut here ]------------
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: Port B asks to use VBT vswing/preemph tables
+[목 10월 15 16:56:35 2026] WARNING: CPU: 8 PID: 511 at drivers/gpu/drm/i915/display/intel_bios.c:2674 print_ddi_port+0x3cd/0x450 [i915]
+[목 10월 15 16:56:35 2026] Modules linked in: rtw89_8852be(+) snd_pcm_dmaengine rtw89_8852b snd_hda_intel rtw89_pci irqbypass snd_intel_dspcfg crct10dif_pclmul snd_intel_sdw_acpi polyval_clmulni polyval_generic snd_hda_codec rtw89_core ghash_clmulni_intel sha256_ssse3 sha1_ssse3 snd_hda_core aesni_intel snd_hwdep crypto_simd cryptd i915(+) nls_iso8859_1 snd_pcm mac80211 snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq drm_buddy ttm snd_seq_device pmt_telemetry mei_gsc_proxy snd_timer drm_display_helper pmt_class rapl cmdlinepart cfg80211 cec snd spi_nor intel_cstate mei_me rc_core mtd intel_vpu wmi_bmof soundcore mei libarc4 i2c_algo_bit igen6_edac intel_vsec acpi_tad mac_hid acpi_pad sch_fq_codel msr parport_pc ppdev lp parport efi_pstore ip_tables x_tables autofs4 nvme crc32_pclmul i2c_i801 spi_intel_pci thunderbolt intel_lpss_pci nvme_core spi_intel i2c_smbus igc intel_lpss idma64 xhci_pci nvme_auth xhci_pci_renesas video wmi pinctrl_meteorlake
+[목 10월 15 16:56:35 2026] CPU: 8 PID: 511 Comm: systemd-udevd Not tainted 6.8.0-136-generic #136~22.04.1-Ubuntu
+[목 10월 15 16:56:35 2026] Hardware name: Default string Default string/Default string, BIOS V1.12 10/31/2025
+[목 10월 15 16:56:35 2026] RIP: 0010:print_ddi_port+0x3cd/0x450 [i915]
+[목 10월 15 16:56:35 2026] Code: fc ff ff 49 8b 7e 08 48 8b 5f 50 48 85 db 74 21 e8 48 a6 ce c6 44 89 e9 48 89 da 48 c7 c7 30 db 18 c1 48 89 c6 e8 f3 df 26 c6 <0f> 0b e9 96 fe ff ff 48 8b 1f eb da 8b 7d d0 31 f6 45 89 e8 48 c7
+[목 10월 15 16:56:35 2026] RSP: 0018:ffffd13501ffb750 EFLAGS: 00010246
+[목 10월 15 16:56:35 2026] RAX: 0000000000000000 RBX: ffff8c0c42f7b300 RCX: 0000000000000000
+[목 10월 15 16:56:35 2026] RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000000000000
+[목 10월 15 16:56:35 2026] RBP: ffffd13501ffb7a8 R08: 0000000000000000 R09: 0000000000000000
+[목 10월 15 16:56:35 2026] R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000000
+[목 10월 15 16:56:35 2026] R13: 0000000000000042 R14: ffff8c0c56998000 R15: 0000000000000001
+[목 10월 15 16:56:35 2026] FS:  0000781a6623a8c0(0000) GS:ffff8c0fafe00000(0000) knlGS:0000000000000000
+[목 10월 15 16:56:35 2026] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[목 10월 15 16:56:35 2026] CR2: 00007cfb71b458f0 CR3: 000000010f630006 CR4: 0000000000f70ef0
+[목 10월 15 16:56:35 2026] PKRU: 55555554
+[목 10월 15 16:56:35 2026] Call Trace:
+[목 10월 15 16:56:35 2026]  <TASK>
+[목 10월 15 16:56:35 2026]  parse_ddi_ports+0x18f/0x230 [i915]
+[목 10월 15 16:56:35 2026]  intel_bios_init+0x26b/0x380 [i915]
+[목 10월 15 16:56:35 2026]  intel_display_driver_probe_noirq+0x3b/0x240 [i915]
+[목 10월 15 16:56:35 2026]  i915_driver_probe+0x2fc/0x600 [i915]
+[목 10월 15 16:56:35 2026]  ? drm_privacy_screen_get+0x16d/0x190
+[목 10월 15 16:56:35 2026]  ? acpi_dev_found+0x64/0x80
+[목 10월 15 16:56:35 2026]  i915_pci_probe+0xd2/0x170 [i915]
+[목 10월 15 16:56:35 2026]  local_pci_probe+0x44/0xb0
+[목 10월 15 16:56:35 2026]  pci_call_probe+0x55/0x1a0
+[목 10월 15 16:56:35 2026]  pci_device_probe+0x84/0x120
+[목 10월 15 16:56:35 2026]  really_probe+0x1c9/0x430
+[목 10월 15 16:56:35 2026]  __driver_probe_device+0xa1/0x1e0
+[목 10월 15 16:56:35 2026]  driver_probe_device+0x24/0xd0
+[목 10월 15 16:56:35 2026]  __driver_attach+0x10b/0x210
+[목 10월 15 16:56:35 2026]  ? __pfx___driver_attach+0x10/0x10
+[목 10월 15 16:56:35 2026]  bus_for_each_dev+0x8a/0xf0
+[목 10월 15 16:56:35 2026]  driver_attach+0x1e/0x30
+[목 10월 15 16:56:35 2026]  bus_add_driver+0x14e/0x290
+[목 10월 15 16:56:35 2026]  driver_register+0x5e/0x130
+[목 10월 15 16:56:35 2026]  __pci_register_driver+0x5e/0x70
+[목 10월 15 16:56:35 2026]  i915_pci_register_driver+0x23/0x30 [i915]
+[목 10월 15 16:56:35 2026]  i915_init+0x34/0x120 [i915]
+[목 10월 15 16:56:35 2026]  ? __pfx_i915_init+0x10/0x10 [i915]
+[목 10월 15 16:56:35 2026]  do_one_initcall+0x5b/0x340
+[목 10월 15 16:56:35 2026]  do_init_module+0x97/0x290
+[목 10월 15 16:56:35 2026]  load_module+0xb48/0xc80
+[목 10월 15 16:56:35 2026]  init_module_from_file+0x96/0x100
+[목 10월 15 16:56:35 2026]  ? init_module_from_file+0x96/0x100
+[목 10월 15 16:56:35 2026]  idempotent_init_module+0x11c/0x310
+[목 10월 15 16:56:35 2026]  __x64_sys_finit_module+0x64/0xd0
+[목 10월 15 16:56:35 2026]  x64_sys_call+0x15ed/0x2480
+[목 10월 15 16:56:35 2026]  do_syscall_64+0x89/0x180
+[목 10월 15 16:56:35 2026]  ? syscall_exit_to_user_mode+0x43/0x1e0
+[목 10월 15 16:56:35 2026]  ? do_syscall_64+0x95/0x180
+[목 10월 15 16:56:35 2026]  ? arch_exit_to_user_mode_prepare.constprop.0+0x97/0xe0
+[목 10월 15 16:56:35 2026]  ? syscall_exit_to_user_mode+0x43/0x1e0
+[목 10월 15 16:56:35 2026]  ? do_syscall_64+0x95/0x180
+[목 10월 15 16:56:35 2026]  ? irqentry_exit+0x43/0x50
+[목 10월 15 16:56:35 2026]  entry_SYSCALL_64_after_hwframe+0x78/0x80
+[목 10월 15 16:56:35 2026] RIP: 0033:0x781a6611e8cd
+[목 10월 15 16:56:35 2026] Code: 5b 41 5c c3 66 0f 1f 84 00 00 00 00 00 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 33 b5 0f 00 f7 d8 64 89 01 48
+[목 10월 15 16:56:35 2026] RSP: 002b:00007ffee04b7358 EFLAGS: 00000246 ORIG_RAX: 0000000000000139
+[목 10월 15 16:56:35 2026] RAX: ffffffffffffffda RBX: 00006269c7bc42e0 RCX: 0000781a6611e8cd
+[목 10월 15 16:56:35 2026] RDX: 0000000000000000 RSI: 0000781a6645f441 RDI: 0000000000000014
+[목 10월 15 16:56:35 2026] RBP: 0000000000020000 R08: 0000000000000000 R09: 0000000000000002
+[목 10월 15 16:56:35 2026] R10: 0000000000000014 R11: 0000000000000246 R12: 0000781a6645f441
+[목 10월 15 16:56:35 2026] R13: 00006269c7baeea0 R14: 00006269c7d222b0 R15: 00006269c7d2f530
+[목 10월 15 16:56:35 2026]  </TASK>
+[목 10월 15 16:56:35 2026] ---[ end trace 0000000000000000 ]---
+[목 10월 15 16:56:35 2026] rtw89_8852be 0000:2c:00.0: loaded firmware rtw89/rtw8852b_fw-1.bin
+[목 10월 15 16:56:35 2026] rtw89_8852be 0000:2c:00.0: enabling device (0000 -> 0003)
+[목 10월 15 16:56:35 2026] rtw89_8852be 0000:2c:00.0: Firmware version 0.29.29.5 (da87cccd), cmd version 0, type 5
+[목 10월 15 16:56:35 2026] rtw89_8852be 0000:2c:00.0: Firmware version 0.29.29.5 (da87cccd), cmd version 0, type 3
+[목 10월 15 16:56:35 2026] audit: type=1400 audit(1792050995.472:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc" pid=677 comm="apparmor_parser"
+[목 10월 15 16:56:35 2026] audit: type=1400 audit(1792050995.472:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=668 comm="apparmor_parser"
+[목 10월 15 16:56:35 2026] audit: type=1400 audit(1792050995.472:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=668 comm="apparmor_parser"
+[목 10월 15 16:56:35 2026] audit: type=1400 audit(1792050995.473:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=679 comm="apparmor_parser"
+[목 10월 15 16:56:35 2026] audit: type=1400 audit(1792050995.473:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=667 comm="apparmor_parser"
+[목 10월 15 16:56:35 2026] audit: type=1400 audit(1792050995.473:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oosplash" pid=676 comm="apparmor_parser"
+[목 10월 15 16:56:35 2026] audit: type=1400 audit(1792050995.473:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=674 comm="apparmor_parser"
+[목 10월 15 16:56:35 2026] audit: type=1400 audit(1792050995.473:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=674 comm="apparmor_parser"
+[목 10월 15 16:56:35 2026] audit: type=1400 audit(1792050995.473:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=674 comm="apparmor_parser"
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/mtl_dmc.bin (v2.17)
+[목 10월 15 16:56:35 2026] usb 3-6: new full-speed USB device number 6 using xhci_hcd
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] GT0: GuC firmware i915/mtl_guc_70.bin version 70.20.0
+[목 10월 15 16:56:35 2026] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] GT0: GUC: submission enabled
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] GT0: GUC: SLPC enabled
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] GT0: GUC: RC enabled
+[목 10월 15 16:56:35 2026] mei_gsc_proxy 0000:00:16.0-0f73db04-97ab-4125-b893-e904ad0d5464: bound 0000:00:02.0 (ops i915_gsc_proxy_component_ops [i915])
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] GT1: GuC firmware i915/mtl_guc_70.bin version 70.20.0
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] GT1: HuC firmware i915/mtl_huc_gsc.bin version 8.5.4
+[목 10월 15 16:56:35 2026] sof-audio-pci-intel-mtl 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] GT1: HuC: authenticated for clear media
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] GT1: GUC: submission enabled
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] GT1: GUC: SLPC enabled
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] GT1: GUC: RC enabled
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] Protected Xe Path (PXP) protected content support initialized
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] PHY B failed to request refclk after 1us.
+[목 10월 15 16:56:35 2026] usb 3-6: New USB device found, idVendor=0bda, idProduct=b85b, bcdDevice= 0.00
+[목 10월 15 16:56:35 2026] usb 3-6: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[목 10월 15 16:56:35 2026] usb 3-6: Product: Bluetooth Radio
+[목 10월 15 16:56:35 2026] usb 3-6: Manufacturer: Realtek
+[목 10월 15 16:56:35 2026] usb 3-6: SerialNumber: 00e04c000001
+[목 10월 15 16:56:35 2026] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] sof-audio-pci-intel-mtl 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] usbcore: registered new interface driver usbserial_generic
+[목 10월 15 16:56:35 2026] usbserial: USB Serial support registered for generic
+[목 10월 15 16:56:35 2026] input: Logitech Gamepad F710 as /devices/pci0000:00/0000:00:14.0/usb3/3-2/3-2:1.0/input/input5
+[목 10월 15 16:56:35 2026] usbcore: registered new interface driver xpad
+[목 10월 15 16:56:35 2026] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] sof-audio-pci-intel-mtl 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] usbcore: registered new interface driver ftdi_sio
+[목 10월 15 16:56:35 2026] usbserial: USB Serial support registered for FTDI USB Serial Device
+[목 10월 15 16:56:35 2026] ftdi_sio 3-3:1.0: FTDI USB Serial Device converter detected
+[목 10월 15 16:56:35 2026] usb 3-3: Detected FT-X
+[목 10월 15 16:56:35 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.UBTC.RUCC], AE_NOT_FOUND (20230628/psargs-332)
+
+[목 10월 15 16:56:35 2026] No Local Variables are initialized for Method [_PLD]
+
+[목 10월 15 16:56:35 2026] No Arguments are initialized for method [_PLD]
+
+[목 10월 15 16:56:35 2026] ACPI Error: Aborting method \_SB.PC00.XHCI.RHUB.HS03._PLD due to previous error (AE_NOT_FOUND) (20230628/psparse-529)
+[목 10월 15 16:56:35 2026] usb 3-3: FTDI USB Serial Device converter now attached to ttyUSB0
+[목 10월 15 16:56:35 2026] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] sof-audio-pci-intel-mtl 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] Bluetooth: Core ver 2.22
+[목 10월 15 16:56:35 2026] NET: Registered PF_BLUETOOTH protocol family
+[목 10월 15 16:56:35 2026] Bluetooth: HCI device and connection manager initialized
+[목 10월 15 16:56:35 2026] Bluetooth: HCI socket layer initialized
+[목 10월 15 16:56:35 2026] Bluetooth: L2CAP socket layer initialized
+[목 10월 15 16:56:35 2026] Bluetooth: SCO socket layer initialized
+[목 10월 15 16:56:35 2026] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] usbcore: registered new interface driver btusb
+[목 10월 15 16:56:35 2026] sof-audio-pci-intel-mtl 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] sof-audio-pci-intel-mtl 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] Bluetooth: hci0: RTL: examining hci_ver=0b hci_rev=000b lmp_ver=0b lmp_subver=8852
+[목 10월 15 16:56:35 2026] Bluetooth: hci0: RTL: rom_version status=0 version=1
+[목 10월 15 16:56:35 2026] Bluetooth: hci0: RTL: btrtl_initialize: key id 0
+[목 10월 15 16:56:35 2026] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_fw.bin
+[목 10월 15 16:56:35 2026] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_config.bin
+[목 10월 15 16:56:35 2026] Bluetooth: hci0: RTL: cfg_sz 6, total sz 38955
+[목 10월 15 16:56:35 2026] [drm] Initialized i915 1.6.0 20230929 for 0000:00:02.0 on minor 1
+[목 10월 15 16:56:35 2026] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[목 10월 15 16:56:35 2026] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input6
+[목 10월 15 16:56:35 2026] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[목 10월 15 16:56:35 2026] i915 display info: display version: 14
+[목 10월 15 16:56:35 2026] i915 display info: cursor_needs_physical: no
+[목 10월 15 16:56:35 2026] i915 display info: has_cdclk_crawl: yes
+[목 10월 15 16:56:35 2026] i915 display info: has_cdclk_squash: yes
+[목 10월 15 16:56:35 2026] i915 display info: has_ddi: yes
+[목 10월 15 16:56:35 2026] i915 display info: has_dp_mst: yes
+[목 10월 15 16:56:35 2026] i915 display info: has_dsb: yes
+[목 10월 15 16:56:35 2026] i915 display info: has_fpga_dbg: yes
+[목 10월 15 16:56:35 2026] i915 display info: has_gmch: no
+[목 10월 15 16:56:35 2026] i915 display info: has_hotplug: yes
+[목 10월 15 16:56:35 2026] i915 display info: has_hti: no
+[목 10월 15 16:56:35 2026] i915 display info: has_ipc: yes
+[목 10월 15 16:56:35 2026] i915 display info: has_overlay: no
+[목 10월 15 16:56:35 2026] i915 display info: has_psr: yes
+[목 10월 15 16:56:35 2026] i915 display info: has_psr_hw_tracking: no
+[목 10월 15 16:56:35 2026] i915 display info: overlay_needs_physical: no
+[목 10월 15 16:56:35 2026] i915 display info: supports_tv: no
+[목 10월 15 16:56:35 2026] i915 display info: has_hdcp: yes
+[목 10월 15 16:56:35 2026] i915 display info: has_dmc: yes
+[목 10월 15 16:56:35 2026] i915 display info: has_dsc: yes
+[목 10월 15 16:56:35 2026] i915 display info: rawclk rate: 38400 kHz
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] GT1: Loaded GSC firmware i915/mtl_gsc_1.bin (cv1.0, r102.0.0.1655, svn 1)
+[목 10월 15 16:56:35 2026] rtw89_8852be 0000:2c:00.0: chip rfe_type is 1
+[목 10월 15 16:56:35 2026] i915 0000:00:02.0: [drm] GT1: HuC: authenticated for all workloads
+[목 10월 15 16:56:35 2026] rtw89_8852be 0000:2c:00.0: rfkill hardware state changed to enable
+[목 10월 15 16:56:35 2026] Bluetooth: hci0: RTL: fw version 0xdfb791cb
+[목 10월 15 16:56:35 2026] Bluetooth: hci0: Failed to read codec capabilities (-22)
+[목 10월 15 16:56:35 2026] Bluetooth: hci0: AOSP extensions version v0.96
+[목 10월 15 16:56:35 2026] Bluetooth: hci0: AOSP quality report is not supported
+[목 10월 15 16:56:35 2026] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[목 10월 15 16:56:35 2026] Bluetooth: BNEP filters: protocol multicast
+[목 10월 15 16:56:35 2026] Bluetooth: BNEP socket layer initialized
+[목 10월 15 16:56:36 2026] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[목 10월 15 16:56:36 2026] fbcon: i915drmfb (fb0) is primary device
+[목 10월 15 16:56:36 2026] Console: switching to colour frame buffer device 240x67
+[목 10월 15 16:56:36 2026] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[목 10월 15 16:56:36 2026] Bluetooth: MGMT ver 1.22
+[목 10월 15 16:56:36 2026] NET: Registered PF_ALG protocol family
+[목 10월 15 16:56:36 2026] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC888-VD: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:line
+[목 10월 15 16:56:36 2026] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[목 10월 15 16:56:36 2026] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[목 10월 15 16:56:36 2026] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[목 10월 15 16:56:36 2026] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[목 10월 15 16:56:36 2026] snd_hda_codec_realtek hdaudioC0D0:      Mic=0x18
+[목 10월 15 16:56:36 2026] intel_rapl_msr: PL4 support detected.
+[목 10월 15 16:56:36 2026] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input7
+[목 10월 15 16:56:36 2026] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input8
+[목 10월 15 16:56:36 2026] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input9
+[목 10월 15 16:56:36 2026] input: HDA Intel PCH HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input10
+[목 10월 15 16:56:36 2026] intel_rapl_common: Found RAPL domain package
+[목 10월 15 16:56:36 2026] intel_rapl_common: Found RAPL domain core
+[목 10월 15 16:56:36 2026] intel_rapl_common: Found RAPL domain uncore
+[목 10월 15 16:56:36 2026] intel_rapl_common: Found RAPL domain psys
+[목 10월 15 16:56:36 2026] rtw89_8852be 0000:2c:00.0 wlp44s0: renamed from wlan0
+[목 10월 15 16:56:36 2026] Bluetooth: hci0: Bad flag given (0x1) vs supported (0x0)
+[목 10월 15 16:56:37 2026] systemd-journald[400]: File /var/log/journal/eb0b6efcb88a475ca0763a1cced4b6d2/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+[목 10월 15 16:56:38 2026] igc 0000:2e:00.0 enp46s0: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX
+[목 10월 15 16:56:39 2026] Bluetooth: RFCOMM TTY layer initialized
+[목 10월 15 16:56:39 2026] Bluetooth: RFCOMM socket layer initialized
+[목 10월 15 16:56:39 2026] Bluetooth: RFCOMM ver 1.11
+[목 10월 15 16:56:41 2026] igc 0000:2f:00.0 enp47s0: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX
+[목 10월 15 16:56:41 2026] igc 0000:2f:00.0 enp47s0: NIC Link is Down
+[목 10월 15 16:56:44 2026] kauditd_printk_skb: 53 callbacks suppressed
+[목 10월 15 16:56:44 2026] audit: type=1400 audit(1792051004.601:64): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=1957 comm="apparmor_parser"
+[목 10월 15 16:56:44 2026] Initializing XFRM netlink socket
+[목 10월 15 16:56:44 2026] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+[목 10월 15 16:56:44 2026] rfkill: input handler disabled
+[목 10월 15 16:56:50 2026] audit: type=1326 audit(1792051011.185:65): auid=1000 uid=1000 gid=1000 ses=2 subj=snap.snapd-desktop-integration.snapd-desktop-integration pid=2674 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=203 compat=0 ip=0x794dfb91e6f1 code=0x50000
+[목 10월 15 16:56:50 2026] audit: type=1326 audit(1792051011.185:66): auid=1000 uid=1000 gid=1000 ses=2 subj=snap.snapd-desktop-integration.snapd-desktop-integration pid=2674 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=141 compat=0 ip=0x794dfb99865b code=0x50000
+[목 10월 15 16:56:50 2026] audit: type=1326 audit(1792051011.189:67): auid=1000 uid=1000 gid=1000 ses=2 subj=snap.snapd-desktop-integration.snapd-desktop-integration pid=2674 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=203 compat=0 ip=0x794dfb91e6f1 code=0x50000
+[목 10월 15 16:56:50 2026] audit: type=1326 audit(1792051011.195:68): auid=1000 uid=1000 gid=1000 ses=2 subj=snap.snapd-desktop-integration.snapd-desktop-integration pid=2674 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=141 compat=0 ip=0x794dfb99865b code=0x50000
+[목 10월 15 16:56:52 2026] igc 0000:2f:00.0 enp47s0: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX
+[목 10월 15 16:56:56 2026] usb 3-5: USB disconnect, device number 5
+[목 10월 15 16:56:56 2026] usb 3-5: usbfs: usb_submit_urb returned -19
+[목 10월 15 16:56:58 2026] usb 4-2: new SuperSpeed USB device number 2 using xhci_hcd
+[목 10월 15 16:56:58 2026] usb 4-2: New USB device found, idVendor=03e7, idProduct=f63b, bcdDevice= 1.00
+[목 10월 15 16:56:58 2026] usb 4-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[목 10월 15 16:56:58 2026] usb 4-2: Product: Luxonis Device
+[목 10월 15 16:56:58 2026] usb 4-2: Manufacturer: Intel Corporation
+[목 10월 15 16:56:58 2026] usb 4-2: SerialNumber: 19443010018EDB5A00
+[목 10월 15 16:56:58 2026] usb 3-4: USB disconnect, device number 4
+[목 10월 15 16:57:00 2026] usb 4-1: new SuperSpeed USB device number 3 using xhci_hcd
+[목 10월 15 16:57:00 2026] usb 4-1: New USB device found, idVendor=03e7, idProduct=f63b, bcdDevice= 1.00
+[목 10월 15 16:57:00 2026] usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[목 10월 15 16:57:00 2026] usb 4-1: Product: Luxonis Device
+[목 10월 15 16:57:00 2026] usb 4-1: Manufacturer: Intel Corporation
+[목 10월 15 16:57:00 2026] usb 4-1: SerialNumber: 1944301011DBD85A00
+[목 10월 15 17:51:10 2026] usb 3-2: USB disconnect, device number 2
+[목 10월 15 17:51:10 2026] xpad 3-2:1.0: xpad_try_sending_next_out_packet - usb_submit_urb failed with result -19
+[목 10월 15 17:51:10 2026] usb 3-2: new full-speed USB device number 7 using xhci_hcd
+[목 10월 15 17:51:10 2026] usb 3-2: New USB device found, idVendor=046d, idProduct=c219, bcdDevice= 3.05
+[목 10월 15 17:51:10 2026] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[목 10월 15 17:51:10 2026] usb 3-2: Product: Logitech Cordless RumblePad 2
+[목 10월 15 17:51:10 2026] usb 3-2: Manufacturer: Logitech
+[목 10월 15 17:51:10 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.UBTC.RUCC], AE_NOT_FOUND (20230628/psargs-332)
+
+[목 10월 15 17:51:10 2026] No Local Variables are initialized for Method [_PLD]
+
+[목 10월 15 17:51:10 2026] No Arguments are initialized for method [_PLD]
+
+[목 10월 15 17:51:10 2026] ACPI Error: Aborting method \_SB.PC00.XHCI.RHUB.HS02._PLD due to previous error (AE_NOT_FOUND) (20230628/psparse-529)
+[목 10월 15 17:51:10 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.UBTC.RUCC], AE_NOT_FOUND (20230628/psargs-332)
+
+[목 10월 15 17:51:10 2026] No Local Variables are initialized for Method [_PLD]
+
+[목 10월 15 17:51:10 2026] No Arguments are initialized for method [_PLD]
+
+[목 10월 15 17:51:10 2026] ACPI Error: Aborting method \_SB.PC00.XHCI.RHUB.HS02._PLD due to previous error (AE_NOT_FOUND) (20230628/psparse-529)
+[목 10월 15 17:51:10 2026] usb 3-2: USB disconnect, device number 7
+[목 10월 15 17:51:10 2026] hid: raw HID events driver (C) Jiri Kosina
+[목 10월 15 17:51:10 2026] usbcore: registered new interface driver usbhid
+[목 10월 15 17:51:10 2026] usbhid: USB HID core driver
+[목 10월 15 17:51:11 2026] usb 3-2: new full-speed USB device number 8 using xhci_hcd
+[목 10월 15 17:51:11 2026] usb 3-2: New USB device found, idVendor=046d, idProduct=c21f, bcdDevice= 3.05
+[목 10월 15 17:51:11 2026] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[목 10월 15 17:51:11 2026] usb 3-2: Product: Wireless Gamepad F710
+[목 10월 15 17:51:11 2026] usb 3-2: Manufacturer: Logitech
+[목 10월 15 17:51:11 2026] usb 3-2: SerialNumber: 64C494CE
+[목 10월 15 17:51:11 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.UBTC.RUCC], AE_NOT_FOUND (20230628/psargs-332)
+
+[목 10월 15 17:51:11 2026] No Local Variables are initialized for Method [_PLD]
+
+[목 10월 15 17:51:11 2026] No Arguments are initialized for method [_PLD]
+
+[목 10월 15 17:51:11 2026] ACPI Error: Aborting method \_SB.PC00.XHCI.RHUB.HS02._PLD due to previous error (AE_NOT_FOUND) (20230628/psparse-529)
+[목 10월 15 17:51:11 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.UBTC.RUCC], AE_NOT_FOUND (20230628/psargs-332)
+
+[목 10월 15 17:51:11 2026] No Local Variables are initialized for Method [_PLD]
+
+[목 10월 15 17:51:11 2026] No Arguments are initialized for method [_PLD]
+
+[목 10월 15 17:51:11 2026] ACPI Error: Aborting method \_SB.PC00.XHCI.RHUB.HS02._PLD due to previous error (AE_NOT_FOUND) (20230628/psparse-529)
+[목 10월 15 17:51:11 2026] input: Logitech Gamepad F710 as /devices/pci0000:00/0000:00:14.0/usb3/3-2/3-2:1.0/input/input11
+[목 10월 15 17:51:28 2026] usb 3-2: USB disconnect, device number 8
+[목 10월 15 17:51:28 2026] xpad 3-2:1.0: xpad_try_sending_next_out_packet - usb_submit_urb failed with result -19
+[목 10월 15 17:51:29 2026] usb 3-2: new full-speed USB device number 9 using xhci_hcd
+[목 10월 15 17:51:29 2026] usb 3-2: New USB device found, idVendor=046d, idProduct=c219, bcdDevice= 3.05
+[목 10월 15 17:51:29 2026] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[목 10월 15 17:51:29 2026] usb 3-2: Product: Logitech Cordless RumblePad 2
+[목 10월 15 17:51:29 2026] usb 3-2: Manufacturer: Logitech
+[목 10월 15 17:51:29 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.UBTC.RUCC], AE_NOT_FOUND (20230628/psargs-332)
+
+[목 10월 15 17:51:29 2026] No Local Variables are initialized for Method [_PLD]
+
+[목 10월 15 17:51:29 2026] No Arguments are initialized for method [_PLD]
+
+[목 10월 15 17:51:29 2026] ACPI Error: Aborting method \_SB.PC00.XHCI.RHUB.HS02._PLD due to previous error (AE_NOT_FOUND) (20230628/psparse-529)
+[목 10월 15 17:51:29 2026] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.UBTC.RUCC], AE_NOT_FOUND (20230628/psargs-332)
+
+[목 10월 15 17:51:29 2026] No Local Variables are initialized for Method [_PLD]
+
+[목 10월 15 17:51:29 2026] No Arguments are initialized for method [_PLD]
+
+[목 10월 15 17:51:29 2026] ACPI Error: Aborting method \_SB.PC00.XHCI.RHUB.HS02._PLD due to previous error (AE_NOT_FOUND) (20230628/psparse-529)
+[목 10월 15 17:51:29 2026] input: Logitech Logitech Cordless RumblePad 2 as /devices/pci0000:00/0000:00:14.0/usb3/3-2/3-2:1.0/0003:046D:C219.0001/input/input12
+[목 10월 15 17:51:29 2026] logitech 0003:046D:C219.0001: input,hidraw0: USB HID v1.11 Gamepad [Logitech Logitech Cordless RumblePad 2] on usb-0000:00:14.0-2/input0
+[목 10월 15 17:51:29 2026] hid_logitech: Force feedback for Logitech force feedback devices by Johann Deneux <johann.deneux@it.uu.se>
+[목 10월 15 19:00:25 2026] perf: interrupt took too long (2501 > 2500), lowering kernel.perf_event_max_sample_rate to 79000
+rainbow@rainbow-Default-string:~$
