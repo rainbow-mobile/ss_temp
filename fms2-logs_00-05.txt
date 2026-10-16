@@ -1,0 +1,185 @@
+2026-10-16T04:00:02.270954859Z [fms] [CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+2026-10-16T04:00:11.278242887Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_223 → LOC_225 (aid=01a142de-0e0d-7000-853a-debb5770eb76 pred=01a142dd-b423-7008-aacc-f83e0dbb3f5c)
+2026-10-16T04:00:11.278262263Z [fms] [2026-10-16 13:00:11.278] [info] [13:00:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_223 → LOC_225 (async batch)
+2026-10-16T04:00:11.478427198Z [fms] [2026-10-16 13:00:11.478] [info] [13:00:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_223 → LOC_225
+2026-10-16T04:00:18.117055848Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:00:18.283992079Z [fms] [2026-10-16 13:00:18.283] [info] [13:00:18] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 8 edge(s): A13 → A13 (async batch)
+2026-10-16T04:00:18.484181773Z [fms] [2026-10-16 13:00:18.484] [info] [13:00:18] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 8 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:00:18.684527094Z [fms] [2026-10-16 13:00:18.684] [info] [13:00:18] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 2 edge(s): A13 → A13 (async batch)
+2026-10-16T04:00:18.684545225Z [fms] [CommZenoh] Sent move to SEC_Logistics_1 on topic [amr/SEC_Logistics_1/move/goal] (cmd: goal, goal: CHL1, method: pp)
+2026-10-16T04:00:18.884819410Z [fms] [2026-10-16 13:00:18.884] [info] [13:00:18] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 2 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:00:20.686435007Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_225 → LOC_224 (aid=01a142de-32ce-7000-ada2-48e8ee9786ee pred=01a142de-0e0d-7000-853a-debb5770eb76)
+2026-10-16T04:00:20.686454126Z [fms] [2026-10-16 13:00:20.686] [info] [13:00:20] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_225 → LOC_224 (async batch)
+2026-10-16T04:00:20.886632682Z [fms] [2026-10-16 13:00:20.886] [info] [13:00:20] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_225 → LOC_224
+2026-10-16T04:00:32.295294421Z [fms] [CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+2026-10-16T04:00:33.296106960Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_224 → CHL1 (aid=01a142de-640f-7000-a5ae-1c812a3d232b pred=01a142de-32ce-7000-ada2-48e8ee9786ee)
+2026-10-16T04:00:33.296171504Z [fms] [2026-10-16 13:00:33.295] [info] [13:00:33] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_224 → CHL1 (async batch)
+2026-10-16T04:00:33.496297063Z [fms] [2026-10-16 13:00:33.496] [info] [13:00:33] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_224 → CHL1
+2026-10-16T04:00:48.130932842Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:00:48.308235039Z [fms] [2026-10-16 13:00:48.308] [info] [13:00:48] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 7 edge(s): A13 → A13 (async batch)
+2026-10-16T04:00:48.508403235Z [fms] [2026-10-16 13:00:48.508] [info] [13:00:48] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 7 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:00:48.708632331Z [fms] [CommZenoh] Sent move to SEC_Logistics_1 on topic [amr/SEC_Logistics_1/move/goal] (cmd: goal, goal: CHL1, method: pp)
+2026-10-16T04:01:02.318605087Z [fms] [CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+2026-10-16T04:01:11.146428231Z [fms] [GoalSubscriber] Received goals for SEC_Logistics_2: 1 candidates
+2026-10-16T04:01:11.146442708Z [fms] [Manager][CandDiff] robot='SEC_Logistics_2' prev_count=1 new_count=1 added=[CHL2(P31)] removed=[WIP_CLN4_2(P31)] prio_changed=[]
+2026-10-16T04:01:11.146444552Z [fms] [Manager][HoldKeep] robot='SEC_Logistics_2' hold released: hold_node 'WIP_CLN4_2' removed from candidates
+2026-10-16T04:01:11.146459731Z [fms] [Manager] SendStop 생략 robot=SEC_Logistics_2 reason=candidate_change_replan (no_pending_command)
+2026-10-16T04:01:11.146140464Z [goal-input-server] [2026-10-16 13:01:11.146] [info] [11] Set 1 candidates for robot SEC_Logistics_2
+2026-10-16T04:01:11.147681293Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: 목표/후보 변경
+2026-10-16T04:01:11.147731388Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:01:11.326233710Z [fms] [2026-10-16 13:01:11.326] [info] [13:01:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 8 edge(s): A13 → A13 (async batch)
+2026-10-16T04:01:11.326254199Z [fms] [CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: CHL2, method: pp)
+2026-10-16T04:01:11.326358146Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] WIP_CLN4_2 → WIP_CLN4_1 (aid=01a142de-f89e-7004-b425-5cc17dfed638 pred=)
+2026-10-16T04:01:11.326366809Z [fms] [2026-10-16 13:01:11.326] [info] [13:01:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): WIP_CLN4_2 → WIP_CLN3_2 (async batch)
+2026-10-16T04:01:11.326592648Z [fms] [2026-10-16 13:01:11.326] [info] [13:01:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 4 edge(s): CHL1 → CHL1 (async batch)
+2026-10-16T04:01:11.331117008Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] WIP_CLN4_1 → LOC_205 (aid=01a142de-f89e-7005-861b-3d082426fcc5 pred=01a142de-f89e-7004-b425-5cc17dfed638)
+2026-10-16T04:01:11.341530800Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_205 → WIP_CLN3_3 (aid=01a142de-f89e-7006-ab45-fc8d1d4ba56c pred=01a142de-f89e-7005-861b-3d082426fcc5)
+2026-10-16T04:01:11.346015060Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] WIP_CLN3_3 → WIP_CLN3_2 (aid=01a142de-f89e-7007-9641-1331e35fd193 pred=01a142de-f89e-7006-ab45-fc8d1d4ba56c)
+2026-10-16T04:01:11.526722709Z [fms] [2026-10-16 13:01:11.526] [info] [13:01:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 8 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:01:11.526735384Z [fms] [2026-10-16 13:01:11.526] [info] [13:01:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): WIP_CLN4_2 → WIP_CLN3_2
+2026-10-16T04:01:11.526737117Z [fms] [2026-10-16 13:01:11.526] [info] [13:01:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 4 ok + 0 timeout(낙관): CHL1 → CHL1
+2026-10-16T04:01:11.727265120Z [fms] [2026-10-16 13:01:11.726] [info] [13:01:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 8 edge(s): A13 → A13 (async batch)
+2026-10-16T04:01:11.727278962Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] WIP_CLN3_2 → WIP_CLN3_1 (aid=01a142de-fa2f-7000-992b-d17fa2219830 pred=01a142de-f89e-7007-9641-1331e35fd193)
+2026-10-16T04:01:11.727280324Z [fms] [2026-10-16 13:01:11.727] [info] [13:01:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 4 edge(s): WIP_CLN3_2 → b055e289-bbde-4cdc-9b04-6afaf8237dc7 (async batch)
+2026-10-16T04:01:11.727281276Z [fms] [2026-10-16 13:01:11.727] [info] [13:01:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 4 edge(s): CHL1 → CHL1 (async batch)
+2026-10-16T04:01:11.730950211Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] WIP_CLN3_1 → LOC_206 (aid=01a142de-fa2f-7001-aa30-0ed223ee6a15 pred=01a142de-fa2f-7000-992b-d17fa2219830)
+2026-10-16T04:01:11.734053036Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_206 → LOC_207 (aid=01a142de-fa2f-7002-b39b-c64fc9551893 pred=01a142de-fa2f-7001-aa30-0ed223ee6a15)
+2026-10-16T04:01:11.741353513Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_207 → b055e289-bbde-4cdc-9b04-6afaf8237dc7 (aid=01a142de-fa2f-7003-b03d-6940ee10f582 pred=01a142de-fa2f-7002-b39b-c64fc9551893)
+2026-10-16T04:01:11.927539020Z [fms] [2026-10-16 13:01:11.927] [info] [13:01:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 8 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:01:11.927557006Z [fms] [2026-10-16 13:01:11.927] [info] [13:01:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 4 ok + 0 timeout(낙관): WIP_CLN3_2 → b055e289-bbde-4cdc-9b04-6afaf8237dc7
+2026-10-16T04:01:11.927558678Z [fms] [2026-10-16 13:01:11.927] [info] [13:01:11] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 4 ok + 0 timeout(낙관): CHL1 → CHL1
+2026-10-16T04:01:12.127843070Z [fms] [2026-10-16 13:01:12.127] [info] [13:01:12] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 4 edge(s): CHL1 → CHL1 (async batch)
+2026-10-16T04:01:12.328165348Z [fms] [2026-10-16 13:01:12.327] [info] [13:01:12] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 4 ok + 0 timeout(낙관): CHL1 → CHL1
+2026-10-16T04:01:15.130460578Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] b055e289-bbde-4cdc-9b04-6afaf8237dc7 → LOC_201 (aid=01a142df-077a-7000-bb99-563bba6cefb0 pred=01a142de-fa2f-7003-b03d-6940ee10f582)
+2026-10-16T04:01:15.130484431Z [fms] [2026-10-16 13:01:15.130] [info] [13:01:15] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 1 edge(s): b055e289-bbde-4cdc-9b04-6afaf8237dc7 → LOC_201 (async batch)
+2026-10-16T04:01:15.330644995Z [fms] [2026-10-16 13:01:15.330] [info] [13:01:15] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 1 ok + 0 timeout(낙관): b055e289-bbde-4cdc-9b04-6afaf8237dc7 → LOC_201
+2026-10-16T04:01:18.733582193Z [fms] [CommZenoh] Sent move to SEC_Logistics_1 on topic [amr/SEC_Logistics_1/move/goal] (cmd: goal, goal: CHL1, method: pp)
+2026-10-16T04:01:21.736264668Z [fms] [2026-10-16 13:01:21.736] [info] [13:01:21] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 1 edge(s): LOC_201 → LOC_200 (async batch)
+2026-10-16T04:01:21.736282165Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_201 → LOC_200 (aid=01a142df-2147-7000-860f-dd725e6a3a34 pred=01a142df-077a-7000-bb99-563bba6cefb0)
+2026-10-16T04:01:21.936406021Z [fms] [2026-10-16 13:01:21.936] [info] [13:01:21] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 1 ok + 0 timeout(낙관): LOC_201 → LOC_200
+2026-10-16T04:01:24.338418493Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_200 → LOC_247 (aid=01a142df-2b72-7000-bca9-655ea858cf25 pred=01a142df-2147-7000-860f-dd725e6a3a34)
+2026-10-16T04:01:24.338436566Z [fms] [2026-10-16 13:01:24.338] [info] [13:01:24] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 1 edge(s): LOC_200 → LOC_247 (async batch)
+2026-10-16T04:01:24.538692295Z [fms] [2026-10-16 13:01:24.538] [info] [13:01:24] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 1 ok + 0 timeout(낙관): LOC_200 → LOC_247
+2026-10-16T04:01:26.340493567Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_247 → CHL2 (aid=01a142df-3344-7000-aab2-2e48a78d9d0b pred=01a142df-2b72-7000-bca9-655ea858cf25)
+2026-10-16T04:01:26.340525322Z [fms] [2026-10-16 13:01:26.340] [info] [13:01:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 1 edge(s): LOC_247 → CHL2 (async batch)
+2026-10-16T04:01:26.540656129Z [fms] [2026-10-16 13:01:26.540] [info] [13:01:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 1 ok + 0 timeout(낙관): LOC_247 → CHL2
+2026-10-16T04:01:32.345295108Z [fms] [CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+2026-10-16T04:01:41.165206910Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:01:41.353012080Z [fms] [2026-10-16 13:01:41.352] [info] [13:01:41] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 3 edge(s): A13 → A13 (async batch)
+2026-10-16T04:01:41.353029126Z [fms] [CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: CHL2, method: pp)
+2026-10-16T04:01:41.353186301Z [fms] [2026-10-16 13:01:41.353] [info] [13:01:41] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 3 edge(s): CHL1 → CHL1 (async batch)
+2026-10-16T04:01:41.553371937Z [fms] [2026-10-16 13:01:41.553] [info] [13:01:41] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 3 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:01:41.553386515Z [fms] [2026-10-16 13:01:41.553] [info] [13:01:41] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 3 ok + 0 timeout(낙관): CHL1 → CHL1
+2026-10-16T04:01:42.011932971Z [fms] [2026-10-16 13:01:42.011] [info] [13:01:42] [CollisionMonitor][MODEL-DIFF] 기동 후 누적 — 원 모델이었다면 놓쳤을 겹침 1건 / 냈을 오경보 1건 (사건 기준, 같은 상태 지속은 5초마다 1건). 상세는 GET /api/footprint
+2026-10-16T04:01:48.758915463Z [fms] [CommZenoh] Sent move to SEC_Logistics_1 on topic [amr/SEC_Logistics_1/move/goal] (cmd: goal, goal: CHL1, method: pp)
+2026-10-16T04:01:53.161156903Z [fms] [ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Logistics_1 이(가) 목적지 CHL1 (우선순위: 31)에 도착하여 홀드 상태로 설정됨
+2026-10-16T04:01:53.171813944Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Logistics_1 hold/safety changed: 0 -> 1
+2026-10-16T04:01:53.171827174Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:01:53.362651314Z [fms] [2026-10-16 13:01:53.362] [info] [13:01:53] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 3 edge(s): A13 → A13 (async batch)
+2026-10-16T04:01:53.562813273Z [fms] [2026-10-16 13:01:53.562] [info] [13:01:53] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 3 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:01:55.176183910Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Logistics_1 state changed: stop -> not ready
+2026-10-16T04:01:55.176210635Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:01:55.176213171Z [fms] [2026-10-16 13:01:55.174] [warning] [13:01:55] [ZoneManager:zone_3_p0][ALIGN] 로봇 SEC_Logistics_1 이(가) not ready 상태이므로, 명령은 무시하되 현재 위치를 점유 장애물로 유지합니다.
+2026-10-16T04:01:55.364726757Z [fms] [2026-10-16 13:01:55.364] [info] [13:01:55] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 3 edge(s): A13 → A13 (async batch)
+2026-10-16T04:01:55.564809137Z [fms] [2026-10-16 13:01:55.564] [info] [13:01:55] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 3 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:02:02.370114676Z [fms] [CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+2026-10-16T04:02:11.375538676Z [fms] [CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: CHL2, method: pp)
+2026-10-16T04:02:25.185552357Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:02:32.390984606Z [fms] [CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+2026-10-16T04:02:35.175093023Z [fms] [ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Logistics_2 이(가) 목적지 CHL2 (우선순위: 31)에 도착하여 홀드 상태로 설정됨
+2026-10-16T04:02:35.190941929Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Logistics_2 hold/safety changed: 0 -> 1
+2026-10-16T04:02:35.190958307Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:02:37.193596818Z [fms] [2026-10-16 13:02:37.193] [warning] [13:02:37] [ZoneManager:zone_3_p0][ALIGN] 로봇 SEC_Logistics_2 이(가) not ready 상태이므로, 명령은 무시하되 현재 위치를 점유 장애물로 유지합니다.
+2026-10-16T04:02:37.193707612Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Logistics_2 state changed: stop -> not ready
+2026-10-16T04:02:37.193720537Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:03:02.411584446Z [fms] [CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+2026-10-16T04:03:07.202486013Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:03:32.432608048Z [fms] [CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+2026-10-16T04:03:37.211618971Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:04:02.451534703Z [fms] [CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+2026-10-16T04:04:07.220472713Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:04:22.305094922Z [fms] [2026-10-16 13:04:22.304] [info] [13:04:22] [SAFETY] robot=SEC_Logistics_2 'none' -> 'sf_operational_stop' level=1 sent_depth=0 robot_queue=0 state=not ready cur=CHL2 age=269
+2026-10-16T04:04:22.305117431Z [fms] [Manager][SAFETY] robot='SEC_Logistics_2' 안전상태 진입 → 계획 제외 @CHL2
+2026-10-16T04:04:22.305363927Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Logistics_2
+2026-10-16T04:04:22.305446273Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:04:22.465531365Z [fms] [2026-10-16 13:04:22.465] [info] [13:04:22] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 safety reset → sent-chain clear (SendStop 없음: 로봇이 이미 정지)
+2026-10-16T04:04:22.808408252Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: 정체 복구/안전상태 리셋 처리
+2026-10-16T04:04:22.808441669Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:04:24.908168687Z [fms] [2026-10-16 13:04:24.907] [info] [13:04:24] [SAFETY] robot=SEC_Logistics_2 'sf_operational_stop' -> 'none' level=0 sent_depth=0 robot_queue=0 state=not ready cur=CHL2 age=416
+2026-10-16T04:04:24.908423435Z [fms] [Manager][HoldKeep] robot='SEC_Logistics_2' hold preserved on 'CHL2' (source=auto_detected, candidates republished)
+2026-10-16T04:04:24.908431565Z [fms] [Manager][SAFETY] robot='SEC_Logistics_2' 안전상태 해제 → 재계획
+2026-10-16T04:04:25.068026765Z [fms] [ActionManager] SendStop 생략 robot=SEC_Logistics_2 reason=safety_release (no_pending_command)
+2026-10-16T04:04:25.068073065Z [fms] [2026-10-16 13:04:25.067] [info] [13:04:25] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 safety reset → sent-chain clear (SendStop 생략: 보낸 명령 없음)
+2026-10-16T04:04:25.311809191Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Logistics_2, 정체 복구/안전상태 리셋 처리
+2026-10-16T04:04:25.311829300Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:04:32.472801949Z [fms] [CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+2026-10-16T04:04:33.316028515Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Logistics_1 state changed: not ready -> stop
+2026-10-16T04:04:33.316149972Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:04:33.553884675Z [fms] [GoalSubscriber] Received goals for SEC_Logistics_1: 1 candidates
+2026-10-16T04:04:33.553897497Z [fms] [Manager][CandDiff] robot='SEC_Logistics_1' prev_count=1 new_count=1 added=[WIP_RE3_3(P31)] removed=[CHL1(P31)] prio_changed=[]
+2026-10-16T04:04:33.553898959Z [fms] [Manager][HoldKeep] robot='SEC_Logistics_1' hold released: hold_node 'CHL1' removed from candidates
+2026-10-16T04:04:33.553483443Z [goal-input-server] [2026-10-16 13:04:33.553] [info] [13] Set 1 candidates for robot SEC_Logistics_1
+2026-10-16T04:04:33.554003396Z [fms] [Manager] SendStop 생략 robot=SEC_Logistics_1 reason=candidate_change_replan (no_pending_command)
+2026-10-16T04:04:33.819115440Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: zone 전환/출구 변경, 목표/후보 변경
+2026-10-16T04:04:33.819142472Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:04:33.873980855Z [fms] [2026-10-16 13:04:33.873] [info] [13:04:33] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 8 edge(s): A13 → A13 (async batch)
+2026-10-16T04:04:33.874004310Z [fms] [CommZenoh] Sent move to SEC_Logistics_1 on topic [amr/SEC_Logistics_1/move/goal] (cmd: goal, goal: WIP_RE3_3, method: pp)
+2026-10-16T04:04:33.874115700Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] CHL1 → LOC_224 (aid=01a142e2-0fd1-7008-b6c3-0d81feb6e690 pred=)
+2026-10-16T04:04:33.874119029Z [fms] [2026-10-16 13:04:33.874] [info] [13:04:33] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 8 edge(s): CHL1 → LOC_121 (async batch)
+2026-10-16T04:04:33.891723438Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_224 → LOC_225 (aid=01a142e2-0fd1-7009-877d-59cb7d79a9e5 pred=01a142e2-0fd1-7008-b6c3-0d81feb6e690)
+2026-10-16T04:04:33.918270290Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_225 → LOC_223 (aid=01a142e2-0fd1-700a-9892-1ba6f15c25bd pred=01a142e2-0fd1-7009-877d-59cb7d79a9e5)
+2026-10-16T04:04:33.948387492Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_223 → LOC_129 (aid=01a142e2-0fd1-700b-88b3-c9f53182de25 pred=01a142e2-0fd1-700a-9892-1ba6f15c25bd)
+2026-10-16T04:04:33.964680697Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_129 → LOC_127 (aid=01a142e2-0fd1-700c-a4e4-38e8fd943012 pred=01a142e2-0fd1-700b-88b3-c9f53182de25)
+2026-10-16T04:04:33.981421626Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_127 → LOC_125 (aid=01a142e2-0fd1-700d-ae46-2c41e554cff0 pred=01a142e2-0fd1-700c-a4e4-38e8fd943012)
+2026-10-16T04:04:34.009542016Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_125 → LOC_123 (aid=01a142e2-0fd1-700e-8302-86ad5d09fb13 pred=01a142e2-0fd1-700d-ae46-2c41e554cff0)
+2026-10-16T04:04:34.019288340Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_123 → LOC_121 (aid=01a142e2-0fd1-700f-ae42-4d8c73549d91 pred=01a142e2-0fd1-700e-8302-86ad5d09fb13)
+2026-10-16T04:04:34.074318081Z [fms] [2026-10-16 13:04:34.074] [info] [13:04:34] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 8 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:04:34.074329430Z [fms] [2026-10-16 13:04:34.074] [info] [13:04:34] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 8 ok + 0 timeout(낙관): CHL1 → LOC_121
+2026-10-16T04:04:34.274712414Z [fms] [2026-10-16 13:04:34.274] [info] [13:04:34] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 4 edge(s): A13 → A13 (async batch)
+2026-10-16T04:04:34.474995799Z [fms] [2026-10-16 13:04:34.474] [info] [13:04:34] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 4 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:04:35.827864367Z [fms] [ZoneManager:zone_3_p0][REPLAN] Robot SEC_Logistics_2 state changed: not ready -> stop
+2026-10-16T04:04:35.828136324Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:04:35.876290543Z [fms] [2026-10-16 13:04:35.876] [info] [13:04:35] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 8 edge(s): A13 → A13 (async batch)
+2026-10-16T04:04:36.076802894Z [fms] [2026-10-16 13:04:36.076] [info] [13:04:36] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 8 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:04:36.277123059Z [fms] [2026-10-16 13:04:36.276] [info] [13:04:36] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 4 edge(s): A13 → A13 (async batch)
+2026-10-16T04:04:36.464858568Z [fms] [GoalSubscriber] Received goals for SEC_Logistics_2: 1 candidates
+2026-10-16T04:04:36.464873546Z [fms] [Manager][CandDiff] robot='SEC_Logistics_2' prev_count=1 new_count=1 added=[WIP_RE3_3(P31)] removed=[CHL2(P31)] prio_changed=[]
+2026-10-16T04:04:36.464875143Z [fms] [Manager][HoldKeep] robot='SEC_Logistics_2' hold released: hold_node 'CHL2' removed from candidates
+2026-10-16T04:04:36.464876241Z [fms] [Manager] SendStop 생략 robot=SEC_Logistics_2 reason=candidate_change_replan (no_pending_command)
+2026-10-16T04:04:36.464265412Z [goal-input-server] [2026-10-16 13:04:36.463] [info] [13] Set 1 candidates for robot SEC_Logistics_2
+2026-10-16T04:04:36.466417551Z [fms] [ZoneManager:zone_3_p0][REPLAN] Force replan: zone 전환/출구 변경, 목표/후보 변경
+2026-10-16T04:04:36.466433034Z [fms] [ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+2026-10-16T04:04:36.677720189Z [fms] [2026-10-16 13:04:36.677] [info] [13:04:36] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 4 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:04:36.677989442Z [fms] [CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: LOC_121, method: pp)
+2026-10-16T04:04:36.678143131Z [fms] [2026-10-16 13:04:36.677] [info] [13:04:36] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): CHL2 → CHL2 (async batch)
+2026-10-16T04:04:36.878435664Z [fms] [2026-10-16 13:04:36.878] [info] [13:04:36] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 8 edge(s): A13 → A13 (async batch)
+2026-10-16T04:04:36.878455313Z [fms] [2026-10-16 13:04:36.878] [info] [13:04:36] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): CHL2 → CHL2
+2026-10-16T04:04:37.078719351Z [fms] [2026-10-16 13:04:37.078] [info] [13:04:37] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 8 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:04:37.078837836Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] CHL2 → LOC_235 (aid=01a142e2-1c56-7000-b5de-34c6be763e05 pred=)
+2026-10-16T04:04:37.079044562Z [fms] [2026-10-16 13:04:37.078] [info] [13:04:37] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): CHL2 → LOC_132 (async batch)
+2026-10-16T04:04:37.083635770Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_235 → LOC_175 (aid=01a142e2-1c56-7001-a3ff-d10a598cfa9a pred=01a142e2-1c56-7000-b5de-34c6be763e05)
+2026-10-16T04:04:37.106481361Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_175 → LOC_169 (aid=01a142e2-1c56-7002-ad34-c6ca68adba82 pred=01a142e2-1c56-7001-a3ff-d10a598cfa9a)
+2026-10-16T04:04:37.112517683Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_169 → LOC_168 (aid=01a142e2-1c56-7003-8a2a-7cebe08d4cfe pred=01a142e2-1c56-7002-ad34-c6ca68adba82)
+2026-10-16T04:04:37.115547289Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_168 → LOC_167 (aid=01a142e2-1c56-7004-8b75-31841103bf30 pred=01a142e2-1c56-7003-8a2a-7cebe08d4cfe)
+2026-10-16T04:04:37.119696289Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_167 → LOC_163 (aid=01a142e2-1c56-7005-90a7-b7a0f58229a4 pred=01a142e2-1c56-7004-8b75-31841103bf30)
+2026-10-16T04:04:37.124214647Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_163 → LOC_162 (aid=01a142e2-1c56-7006-bc55-9ff580217ee5 pred=01a142e2-1c56-7005-90a7-b7a0f58229a4)
+2026-10-16T04:04:37.128210346Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_162 → LOC_132 (aid=01a142e2-1c56-7007-9fb7-73ae546f8c79 pred=01a142e2-1c56-7006-bc55-9ff580217ee5)
+2026-10-16T04:04:37.279321289Z [fms] [2026-10-16 13:04:37.279] [info] [13:04:37] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 8 edge(s): A13 → A13 (async batch)
+2026-10-16T04:04:37.279338974Z [fms] [2026-10-16 13:04:37.279] [info] [13:04:37] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): CHL2 → LOC_132
+2026-10-16T04:04:37.479758213Z [fms] [2026-10-16 13:04:37.479] [info] [13:04:37] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 8 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:04:37.680131606Z [fms] [2026-10-16 13:04:37.679] [info] [13:04:37] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 2 edge(s): A13 → A13 (async batch)
+2026-10-16T04:04:37.880197130Z [fms] [2026-10-16 13:04:37.880] [info] [13:04:37] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 2 ok + 0 timeout(낙관): A13 → A13
+2026-10-16T04:04:45.288584463Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_121 → LOC_119 (aid=01a142e2-3c68-7000-9138-3b5f1a158bf1 pred=01a142e2-0fd1-700f-ae42-4d8c73549d91)
+2026-10-16T04:04:45.288602168Z [fms] [2026-10-16 13:04:45.288] [info] [13:04:45] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_121 → LOC_119 (async batch)
+2026-10-16T04:04:45.488873133Z [fms] [2026-10-16 13:04:45.488] [info] [13:04:45] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_121 → LOC_119
+2026-10-16T04:04:49.092491755Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_119 → LOC_232 (aid=01a142e2-4b44-7000-84e3-33003b1209d0 pred=01a142e2-3c68-7000-9138-3b5f1a158bf1)
+2026-10-16T04:04:49.092517852Z [fms] [2026-10-16 13:04:49.092] [info] [13:04:49] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_119 → LOC_232 (async batch)
+2026-10-16T04:04:49.292723758Z [fms] [2026-10-16 13:04:49.292] [info] [13:04:49] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_119 → LOC_232
+2026-10-16T04:04:50.294062187Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_132 → LOC_238 (aid=01a142e2-4ff5-7000-bb41-c552e22e5b4b pred=01a142e2-1c56-7007-9fb7-73ae546f8c79)
+2026-10-16T04:04:50.294084042Z [fms] [2026-10-16 13:04:50.293] [info] [13:04:50] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 1 edge(s): LOC_132 → LOC_238 (async batch)
+2026-10-16T04:04:50.494244945Z [fms] [2026-10-16 13:04:50.494] [info] [13:04:50] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 1 ok + 0 timeout(낙관): LOC_132 → LOC_238
+2026-10-16T04:04:55.700218624Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_232 → LOC_120 (aid=01a142e2-6513-7000-917a-3ad18161bfc6 pred=01a142e2-4b44-7000-84e3-33003b1209d0)
+2026-10-16T04:04:55.700244768Z [fms] [2026-10-16 13:04:55.699] [info] [13:04:55] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_232 → LOC_120 (async batch)
+2026-10-16T04:04:55.900328048Z [fms] [2026-10-16 13:04:55.900] [info] [13:04:55] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_232 → LOC_120
+2026-10-16T04:04:59.905066017Z [fms] [CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_120 → WIP_RE3_3 (aid=01a142e2-7580-7000-9b2f-c92a4dc0bdc4 pred=01a142e2-6513-7000-917a-3ad18161bfc6)
+2026-10-16T04:04:59.905103992Z [fms] [2026-10-16 13:04:59.904] [info] [13:04:59] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_120 → WIP_RE3_3 (async batch)
