@@ -1,0 +1,240 @@
+
+[CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: WIP_CLN4_2, method: pp)
+10-19 15:49:27.367
+fms
+[2026-10-19 15:49:27.366] [info] [15:49:27] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 6 ok + 0 timeout(낙관): A13 → A13
+10-19 15:49:27.567
+fms
+[CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+10-19 15:49:40.157
+zone-service
+[2026-10-19 15:49:40.157] [info] [20] [ZonePublisher] Published snapshot v70 (2 sub-zones)
+10-19 15:49:40.159
+obstacle-service
+[2026-10-19 15:49:40.159] [info] [31] [TopologySubscriber] Topology v70 from subscribe: 228 nodes
+10-19 15:49:40.159
+obstacle-service
+[2026-10-19 15:49:40.159] [info] [31] [TopologyCache] 228 nodes cached (topology v70)
+10-19 15:49:40.159
+obstacle-service
+[2026-10-19 15:49:40.159] [info] [31] [ObstacleStore] Recompute v87: 1 obstacle(s), 12 blocked node(s)
+10-19 15:49:40.159
+obstacle-service
+[2026-10-19 15:49:40.159] [info] [31] [ObstaclePublisher] Published snapshot v87 (1 obstacle(s))
+10-19 15:49:40.160
+fms
+[ObstacleSubscriber] Snapshot v87 from subscribe: 12 blocked node(s), 0 escape(s), 0 soft-cost(s)
+10-19 15:49:40.160
+fms
+[Manager] OnObstaclesChanged v87: 12 blocked node(s), 0 newly blocked
+10-19 15:49:40.160
+fms
+[Manager] Force replan triggered by external event
+10-19 15:49:40.160
+fms
+[ZoneSubscriber] Snapshot v70 from subscribe: 2 zones, 0 zone-graph edges, 228 nodes mapped
+10-19 15:49:40.160
+fms
+[Manager] Zone topology v70 received: 2 zone(s)
+10-19 15:49:40.160
+fms
+[Manager]   zone='zone_3_p0' nodes=228 boundary=0
+10-19 15:49:40.160
+fms
+[Manager]   zone='zone_root' nodes=0 boundary=0
+10-19 15:49:40.162
+fms
+terminate called after throwing an instance of 'std::bad_alloc'
+10-19 15:49:40.162
+fms
+  what():  std::bad_alloc
+10-19 15:49:40.162
+fms
+10-19 15:49:40.162
+fms
+=== [FMS CRASH] signal received — dumping backtrace ===
+10-19 15:49:40.162
+fms
+signal=6 (SIGABRT)
+10-19 15:49:40.163
+fms
+fms(+0xd3200)[0x6047eda16200]
+10-19 15:49:40.163
+fms
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7fe89bed1520]
+10-19 15:49:40.163
+fms
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7fe89bf259bc]
+10-19 15:49:40.163
+fms
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7fe89bed1476]
+10-19 15:49:40.163
+fms
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7fe89beb77f3]
+10-19 15:49:40.163
+fms
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7fe89c263b9e]
+10-19 15:49:40.163
+fms
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7fe89c26f20c]
+10-19 15:49:40.163
+fms
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7fe89c26f277]
+10-19 15:49:40.163
+fms
+/lib/x86_64-linux-gnu/libstdc++.so.6(__cxa_rethrow+0x4b)[0x7fe89c26f52b]
+10-19 15:49:40.163
+fms
+fms(_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_+0x228)[0x6047eda25ae8]
+10-19 15:49:40.163
+fms
+fms(_ZN11ZoneManager9PlanCycleEv+0xa8e)[0x6047edb511ee]
+10-19 15:49:40.163
+fms
+fms(_ZN11ZoneManager8PlanLoopEv+0x124)[0x6047edb64204]
+10-19 15:49:40.164
+fms
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xdc253)[0x7fe89c29d253]
+10-19 15:49:40.164
+fms
+/lib/x86_64-linux-gnu/libc.so.6(+0x94a83)[0x7fe89bf23a83]
+10-19 15:49:40.164
+fms
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44)[0x7fe89bfb4a44]
+10-19 15:49:40.164
+fms
+=== end backtrace ===
+10-19 15:49:40.164
+fms
+10-19 15:49:40.164
+fms
+=== [FMS CRASH] signal received — dumping backtrace ===
+10-19 15:49:40.164
+fms
+signal=11 (SIGSEGV)
+10-19 15:49:40.164
+fms
+fms(+0xd3200)[0x6047eda16200]
+10-19 15:49:40.164
+fms
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7fe89bed1520]
+10-19 15:49:40.164
+fms
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x178)[0x7fe89beb7898]
+10-19 15:49:40.164
+fms
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e)[0x7fe89c263b9e]
+10-19 15:49:40.164
+fms
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c)[0x7fe89c26f20c]
+10-19 15:49:40.164
+fms
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277)[0x7fe89c26f277]
+10-19 15:49:40.164
+fms
+/lib/x86_64-linux-gnu/libstdc++.so.6(__cxa_rethrow+0x4b)[0x7fe89c26f52b]
+10-19 15:49:40.164
+fms
+fms(_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_+0x228)[0x6047eda25ae8]
+10-19 15:49:40.164
+fms
+fms(_ZN11ZoneManager9PlanCycleEv+0xa8e)[0x6047edb511ee]
+10-19 15:49:40.164
+fms
+fms(_ZN11ZoneManager8PlanLoopEv+0x124)[0x6047edb64204]
+10-19 15:49:40.164
+fms
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xdc253)[0x7fe89c29d253]
+10-19 15:49:40.164
+fms
+/lib/x86_64-linux-gnu/libc.so.6(+0x94a83)[0x7fe89bf23a83]
+10-19 15:49:40.164
+fms
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44)[0x7fe89bfb4a44]
+10-19 15:49:40.164
+fms
+=== end backtrace ===
+10-19 15:49:40.285
+zenoh-router
+2026-10-19T06:49:40.284835Z  WARN rx-1 ThreadId(07) zenoh::net::routing::dispatcher::queries: Request to update QueryableInfo for inexistent face id: 9, on resource: 'fms/command/init'
+10-19 15:49:40.285
+zenoh-router
+2026-10-19T06:49:40.285057Z  WARN rx-1 ThreadId(07) zenoh::net::routing::dispatcher::queries: Request to update QueryableInfo for inexistent face id: 9, on resource: 'fms/command/load'
+10-19 15:49:40.285
+zenoh-router
+2026-10-19T06:49:40.285062Z  WARN rx-1 ThreadId(07) zenoh::net::routing::dispatcher::queries: Request to update QueryableInfo for inexistent face id: 9, on resource: 'fms/health'
+10-19 15:49:41.833
+fms-web
+2026/10/19 06:49:41 [error] 36#36: *224057 connect() failed (111: Connection refused) while connecting to upstream, client: 10.249.40.34, server: _, request: "GET /api/config HTTP/1.1", upstream: "http://172.19.0.11:8081/api/config", host: "10.244.201.165:3003", referrer: "http://10.244.201.165:3003/index.html"
+10-19 15:49:41.833
+fms-web
+10.249.40.34 - - [19/Oct/2026:06:49:41 +0000] "GET /api/config HTTP/1.1" 502 559 "http://10.244.201.165:3003/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+10-19 15:49:42.012
+fms-web
+2026/10/19 06:49:42 [error] 39#39: *224632 connect() failed (111: Connection refused) while connecting to upstream, client: 10.249.40.34, server: _, request: "GET /api/config HTTP/1.1", upstream: "http://172.19.0.11:8081/api/config", host: "10.244.201.165:3003", referrer: "http://10.244.201.165:3003/index.html"
+10-19 15:49:42.012
+fms-web
+10.249.40.34 - - [19/Oct/2026:06:49:42 +0000] "GET /api/config HTTP/1.1" 502 559 "http://10.244.201.165:3003/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+10-19 15:49:42.013
+fms-web
+2026/10/19 06:49:42 [error] 36#36: *224057 connect() failed (111: Connection refused) while connecting to upstream, client: 10.249.40.34, server: _, request: "GET /api/fms/paths HTTP/1.1", upstream: "http://172.19.0.11:8081/api/paths", host: "10.244.201.165:3003", referrer: "http://10.244.201.165:3003/index.html"
+10-19 15:49:42.013
+fms-web
+10.249.40.34 - - [19/Oct/2026:06:49:42 +0000] "GET /api/fms/paths HTTP/1.1" 502 559 "http://10.244.201.165:3003/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+10-19 15:49:42.014
+fms-web
+10.249.40.34 - - [19/Oct/2026:06:49:42 +0000] "GET /api/fms/hold HTTP/1.1" 502 559 "http://10.244.201.165:3003/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+10-19 15:49:42.014
+fms-web
+2026/10/19 06:49:42 [error] 38#38: *224630 connect() failed (111: Connection refused) while connecting to upstream, client: 10.249.40.34, server: _, request: "GET /api/fms/hold HTTP/1.1", upstream: "http://172.19.0.11:8081/api/hold", host: "10.244.201.165:3003", referrer: "http://10.244.201.165:3003/index.html"
+10-19 15:49:42.015
+fms-web
+10.249.40.34 - - [19/Oct/2026:06:49:42 +0000] "GET /api/fms/assignments HTTP/1.1" 502 559 "http://10.244.201.165:3003/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+10-19 15:49:42.015
+fms-web
+2026/10/19 06:49:42 [error] 39#39: *224632 connect() failed (111: Connection refused) while connecting to upstream, client: 10.249.40.34, server: _, request: "GET /api/fms/assignments HTTP/1.1", upstream: "http://172.19.0.11:8081/api/assignments", host: "10.244.201.165:3003", referrer: "http://10.244.201.165:3003/index.html"
+10-19 15:49:42.016
+fms-web
+10.249.40.34 - - [19/Oct/2026:06:49:42 +0000] "GET /api/fms/avoidance HTTP/1.1" 502 559 "http://10.244.201.165:3003/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+10-19 15:49:42.016
+fms-web
+2026/10/19 06:49:42 [error] 38#38: *224618 connect() failed (111: Connection refused) while connecting to upstream, client: 10.249.40.34, server: _, request: "GET /api/fms/avoidance HTTP/1.1", upstream: "http://172.19.0.11:8081/api/avoidance", host: "10.244.201.165:3003", referrer: "http://10.244.201.165:3003/index.html"
+10-19 15:49:42.018
+fms-web
+2026/10/19 06:49:42 [error] 38#38: *224630 connect() failed (111: Connection refused) while connecting to upstream, client: 10.249.40.34, server: _, request: "GET /api/fms/crossing HTTP/1.1", upstream: "http://172.19.0.11:8081/api/crossing", host: "10.244.201.165:3003", referrer: "http://10.244.201.165:3003/index.html"
+10-19 15:49:42.018
+fms-web
+10.249.40.34 - - [19/Oct/2026:06:49:42 +0000] "GET /api/fms/crossing HTTP/1.1" 502 559 "http://10.244.201.165:3003/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+10-19 15:49:42.019
+fms-web
+10.249.40.34 - - [19/Oct/2026:06:49:42 +0000] "GET /api/config HTTP/1.1" 502 559 "http://10.244.201.165:3003/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+10-19 15:49:42.019
+fms-web
+2026/10/19 06:49:42 [error] 38#38: *224618 connect() failed (111: Connection refused) while connecting to upstream, client: 10.249.40.34, server: _, request: "GET /api/config HTTP/1.1", upstream: "http://172.19.0.11:8081/api/config", host: "10.244.201.165:3003", referrer: "http://10.244.201.165:3003/index.html"
+10-19 15:49:42.019
+fms-web
+2026/10/19 06:49:42 [error] 39#39: *224632 connect() failed (111: Connection refused) while connecting to upstream, client: 10.249.40.34, server: _, request: "GET /api/fms/localization HTTP/1.1", upstream: "http://172.19.0.11:8081/api/localization", host: "10.244.201.165:3003", referrer: "http://10.244.201.165:3003/index.html"
+10-19 15:49:42.019
+fms-web
+10.249.40.34 - - [19/Oct/2026:06:49:42 +0000] "GET /api/fms/localization HTTP/1.1" 502 559 "http://10.244.201.165:3003/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+10-19 15:49:42.020
+fms-web
+2026/10/19 06:49:42 [error] 37#37: *224628 connect() failed (111: Connection refused) while connecting to upstream, client: 10.249.40.34, server: _, request: "GET /api/fms/goals/undelivered HTTP/1.1", upstream: "http://172.19.0.11:8081/api/goals/undelivered", host: "10.244.201.165:3003", referrer: "http://10.244.201.165:3003/index.html"
+10-19 15:49:42.020
+fms-web
+10.249.40.34 - - [19/Oct/2026:06:49:42 +0000] "GET /api/fms/goals/undelivered HTTP/1.1" 502 559 "http://10.244.201.165:3003/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36" "-"
+10-19 15:49:42.155
+fms
+[CONFIG][FOOTPRINT][UNSAFE] robot_types.pro.radius=0.650 < 외접원 1.000 인데 footprint.PLANNER_ENABLED=true — 주차(방향 미상) 로봇의 폴백이 실제 차체보다 작아 부딪히는 거리까지 붙는 계획이 허용됩니다. radius 를 1.000 이상으로 올리거나 PLANNER_ENABLED=false 로 두십시오. (CLAUDE.md §4.1-27/29)
+10-19 15:49:42.155
+fms
+[CONFIG][FOOTPRINT][UNSAFE] robot_types.default.radius=0.700 < 외접원 0.935 인데 footprint.PLANNER_ENABLED=true — 주차(방향 미상) 로봇의 폴백이 실제 차체보다 작아 부딪히는 거리까지 붙는 계획이 허용됩니다. radius 를 0.935 이상으로 올리거나 PLANNER_ENABLED=false 로 두십시오. (CLAUDE.md §4.1-27/29)
+10-19 15:49:42.156
+fms
+[2026-10-19 15:49:42.155] [info] [Application] Config loaded from: /usr/local/bin/config/config.json
+10-19 15:49:42.157
+fms
+[2026-10-19 15:49:42.156] [info] [Application] Logger initialized at: /usr/local/bin/fmslog/
+10-19 15:49:42.157
+fms
+[ZENOH_SESSION] Retry thread started

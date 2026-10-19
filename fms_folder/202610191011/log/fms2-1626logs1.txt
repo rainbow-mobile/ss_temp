@@ -1,0 +1,1066 @@
+
+10-19 15:11:15.734
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:11:15.905
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] Z2_020 → LOC_194 (aid=01a152c9-2341-7000-8204-eed2c6f98fc8 pred=01a152c8-df3a-7000-815b-449e6eb2c244)
+10-19 15:11:15.905
+fms
+[2026-10-19 15:11:15.905] [info] [15:11:15] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 1 edge(s): Z2_020 → LOC_194 (async batch)
+10-19 15:11:16.105
+fms
+[2026-10-19 15:11:16.105] [info] [15:11:16] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 1 ok + 0 timeout(낙관): Z2_020 → LOC_194
+10-19 15:11:18.307
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] LOC_194 → Z2_017 (aid=01a152c9-2ca3-7000-a79a-2f0eef90849d pred=01a152c9-2341-7000-8204-eed2c6f98fc8)
+10-19 15:11:18.308
+fms
+[2026-10-19 15:11:18.307] [info] [15:11:18] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 1 edge(s): LOC_194 → Z2_017 (async batch)
+10-19 15:11:18.507
+fms
+[2026-10-19 15:11:18.507] [info] [15:11:18] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 1 ok + 0 timeout(낙관): LOC_194 → Z2_017
+10-19 15:11:19.908
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] Z2_017 → L19 (aid=01a152c9-32e4-7000-a6ea-a7037c2306a6 pred=01a152c9-2ca3-7000-a79a-2f0eef90849d)
+10-19 15:11:19.908
+fms
+[2026-10-19 15:11:19.908] [info] [15:11:19] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 1 edge(s): Z2_017 → L19 (async batch)
+10-19 15:11:20.109
+fms
+[2026-10-19 15:11:20.108] [info] [15:11:20] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 1 ok + 0 timeout(낙관): Z2_017 → L19
+10-19 15:11:20.755
+fms
+[GoalSubscriber] Received goals for SEC_Process_3: 3 candidates
+10-19 15:11:21.513
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_2/multi/enqueue] L19 → LOC_187 (aid=01a152c9-3928-7000-9d77-d217cbe87b42 pred=01a152c9-32e4-7000-a6ea-a7037c2306a6)
+10-19 15:11:21.513
+fms
+[2026-10-19 15:11:21.513] [info] [15:11:21] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 1 edge(s): L19 → LOC_187 (async batch)
+10-19 15:11:21.513
+fms
+[ACTION_MANAGER:zone_3_p0][UNKNOWN-FUTURE] robot SEC_Logistics_2 경로를 보냄 — 상대 'SEC_Process_1' 는 남은 명령이 없어 **미래를 모르는데** 경로와 1.993m (반경 합 1.350, 밴드 1.50배). 그 로봇이 전진하면 겹칠 수 있다
+10-19 15:11:21.713
+fms
+[2026-10-19 15:11:21.713] [info] [15:11:21] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 1 ok + 0 timeout(낙관): L19 → LOC_187
+10-19 15:11:28.918
+fms
+[CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: LOC_187, method: pp)
+10-19 15:11:45.406
+fms
+[GoalSubscriber] Received goals for SEC_Process_3: 3 candidates
+10-19 15:11:45.406
+fms
+[Manager][CandDiff] robot='SEC_Process_3' prev_count=3 new_count=3 added=[] removed=[] prio_changed=[A13(P21→P10)]
+10-19 15:11:45.406
+fms
+[Manager][HoldKeep] robot='SEC_Process_3' hold released: hold_node 'A13' priority 10 <= arrival-hold threshold 20 (demoted to waypoint)
+10-19 15:11:45.406
+fms
+[Manager] SendStop 생략 robot=SEC_Process_3 reason=candidate_change_replan (no_pending_command)
+10-19 15:11:45.407
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 목표/후보 변경
+10-19 15:11:45.407
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:11:45.530
+fms
+[CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+10-19 15:11:45.531
+fms
+[2026-10-19 15:11:45.530] [info] [15:11:45] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 1 edge(s): A13 → A13 (async batch)
+10-19 15:11:45.731
+fms
+[2026-10-19 15:11:45.731] [info] [15:11:45] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 1 ok + 0 timeout(낙관): A13 → A13
+10-19 15:11:46.560
+interlock-service
+[2026-10-19 15:11:46.560] [info] [7] [interlock][auto] area=cross_a 위상 → requested : 대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)
+10-19 15:11:46.596
+interlock-service
+[2026-10-19 15:11:46.596] [info] [7] [interlock][auto] area=cross_a lock=true 전송 (ack=accept)
+10-19 15:11:50.791
+fms
+[GoalSubscriber] Received goals for SEC_Process_3: 3 candidates
+10-19 15:11:50.791
+fms
+[Manager][CandDiff] robot='SEC_Process_3' prev_count=3 new_count=3 added=[] removed=[] prio_changed=[A13(P10→P21)]
+10-19 15:11:50.791
+fms
+[Manager] SendStop 생략 robot=SEC_Process_3 reason=candidate_change_replan (no_pending_command)
+10-19 15:11:50.793
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_3 이(가) 목적지 A13 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-19 15:11:50.794
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 목표/후보 변경
+10-19 15:11:50.794
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:11:52.230
+fms
+[2026-10-19 15:11:52.229] [info] [15:11:52] [SAFETY] robot=SEC_Logistics_1 'none' -> 'sf_operational_stop' level=1 sent_depth=0 robot_queue=0 state=stop cur=WIP_RE2_2 age=307
+10-19 15:11:52.230
+fms
+[Manager][SAFETY] robot='SEC_Logistics_1' 안전상태 진입 → 계획 제외 @WIP_RE2_2
+10-19 15:11:52.230
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Logistics_1
+10-19 15:11:52.230
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:11:52.336
+fms
+[2026-10-19 15:11:52.336] [info] [15:11:52] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 safety reset → sent-chain clear (SendStop 없음: 로봇이 이미 정지)
+10-19 15:11:52.733
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 정체 복구/안전상태 리셋 처리
+10-19 15:11:52.733
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:11:55.793
+fms
+[GoalSubscriber] Received goals for SEC_Process_3: 3 candidates
+10-19 15:11:56.834
+fms
+[2026-10-19 15:11:56.834] [info] [15:11:56] [SAFETY] robot=SEC_Logistics_1 'sf_operational_stop' -> 'none' level=0 sent_depth=0 robot_queue=0 state=stop cur=WIP_RE2_2 age=456
+10-19 15:11:56.834
+fms
+[Manager][HoldKeep] robot='SEC_Logistics_1' hold preserved on 'WIP_RE2_2' (source=auto_detected, candidates republished)
+10-19 15:11:56.834
+fms
+[Manager][SAFETY] robot='SEC_Logistics_1' 안전상태 해제 → 재계획
+10-19 15:11:56.940
+fms
+[ActionManager] SendStop 생략 robot=SEC_Logistics_1 reason=safety_release (no_pending_command)
+10-19 15:11:56.940
+fms
+[2026-10-19 15:11:56.940] [info] [15:11:56] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 safety reset → sent-chain clear (SendStop 생략: 보낸 명령 없음)
+10-19 15:11:57.238
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Logistics_1, 정체 복구/안전상태 리셋 처리
+10-19 15:11:57.238
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:11:58.942
+fms
+[CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: LOC_187, method: pp)
+10-19 15:12:03.540
+fms
+[GoalSubscriber] Received goals for SEC_Logistics_1: 3 candidates
+10-19 15:12:03.540
+fms
+[Manager][CandDiff] robot='SEC_Logistics_1' prev_count=1 new_count=3 added=[L13(P10),L15(P31),L28(P10)] removed=[WIP_RE2_2(P31)] prio_changed=[]
+10-19 15:12:03.540
+fms
+[Manager][HoldKeep] robot='SEC_Logistics_1' hold released: hold_node 'WIP_RE2_2' removed from candidates
+10-19 15:12:03.540
+fms
+[Manager] SendStop 생략 robot=SEC_Logistics_1 reason=candidate_change_replan (no_pending_command)
+10-19 15:12:03.540
+fms
+[Manager][WORK-AREA] robot='SEC_Logistics_1' go:wip_re → go:공정구역3 (cur=WIP_RE2_2 desired=L15)
+10-19 15:12:03.742
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: zone 전환/출구 변경, 목표/후보 변경
+10-19 15:12:03.742
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:12:03.946
+fms
+[CommZenoh] Sent move to SEC_Logistics_1 on topic [amr/SEC_Logistics_1/move/goal] (cmd: goal, goal: L15, method: pp)
+10-19 15:12:03.946
+fms
+[2026-10-19 15:12:03.946] [info] [15:12:03] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:03.946
+fms
+[2026-10-19 15:12:03.946] [info] [15:12:03] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 8 edge(s): WIP_RE2_2 → LOC_163 (async batch)
+10-19 15:12:03.946
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] WIP_RE2_2 → WIP_RE2_3 (aid=01a152c9-dee9-7008-9608-c22a11d5ba72 pred=)
+10-19 15:12:03.951
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] WIP_RE2_3 → LOC_124 (aid=01a152c9-dee9-7009-b843-0c511c0965e4 pred=01a152c9-dee9-7008-9608-c22a11d5ba72)
+10-19 15:12:03.998
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_124 → LOC_128 (aid=01a152c9-dee9-700a-a690-aea1434e5f02 pred=01a152c9-dee9-7009-b843-0c511c0965e4)
+10-19 15:12:04.006
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_128 → LOC_214 (aid=01a152c9-dee9-700b-89b8-8d0587371b52 pred=01a152c9-dee9-700a-a690-aea1434e5f02)
+10-19 15:12:04.010
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_214 → LOC_238 (aid=01a152c9-dee9-700c-b472-2b436b51e105 pred=01a152c9-dee9-700b-89b8-8d0587371b52)
+10-19 15:12:04.015
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_238 → LOC_132 (aid=01a152c9-dee9-700d-9b75-fde9aa7d25f7 pred=01a152c9-dee9-700c-b472-2b436b51e105)
+10-19 15:12:04.021
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_132 → LOC_162 (aid=01a152c9-dee9-700e-859f-6dbb762916be pred=01a152c9-dee9-700d-9b75-fde9aa7d25f7)
+10-19 15:12:04.024
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_162 → LOC_163 (aid=01a152c9-dee9-700f-8443-b38fd2997d43 pred=01a152c9-dee9-700e-859f-6dbb762916be)
+10-19 15:12:04.146
+fms
+[2026-10-19 15:12:04.146] [info] [15:12:04] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:04.146
+fms
+[2026-10-19 15:12:04.146] [info] [15:12:04] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 8 ok + 0 timeout(낙관): WIP_RE2_2 → LOC_163
+10-19 15:12:04.346
+fms
+[2026-10-19 15:12:04.346] [info] [15:12:04] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:04.546
+fms
+[2026-10-19 15:12:04.546] [info] [15:12:04] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:04.747
+fms
+[2026-10-19 15:12:04.747] [info] [15:12:04] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 2 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:04.947
+fms
+[2026-10-19 15:12:04.947] [info] [15:12:04] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 2 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:06.548
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_163 → LOC_167 (aid=01a152c9-e914-7000-ac4e-fb733abc331e pred=01a152c9-dee9-700f-8443-b38fd2997d43)
+10-19 15:12:06.548
+fms
+[2026-10-19 15:12:06.548] [info] [15:12:06] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_163 → LOC_167 (async batch)
+10-19 15:12:06.749
+fms
+[2026-10-19 15:12:06.748] [info] [15:12:06] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_163 → LOC_167
+10-19 15:12:08.951
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_167 → LOC_168 (aid=01a152c9-f277-7000-bb95-5f151571bf9a pred=01a152c9-e914-7000-ac4e-fb733abc331e)
+10-19 15:12:08.951
+fms
+[2026-10-19 15:12:08.951] [info] [15:12:08] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_167 → LOC_168 (async batch)
+10-19 15:12:09.151
+fms
+[2026-10-19 15:12:09.151] [info] [15:12:09] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_167 → LOC_168
+10-19 15:12:13.755
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_168 → LOC_185 (aid=01a152ca-053b-7000-b9fe-dfae278edd38 pred=01a152c9-f277-7000-bb95-5f151571bf9a)
+10-19 15:12:13.755
+fms
+[2026-10-19 15:12:13.755] [info] [15:12:13] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_168 → LOC_185 (async batch)
+10-19 15:12:13.955
+fms
+[2026-10-19 15:12:13.955] [info] [15:12:13] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_168 → LOC_185
+10-19 15:12:19.360
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_185 → LOC_184 (aid=01a152ca-1b1f-7000-8f38-1b806ea9f31c pred=01a152ca-053b-7000-b9fe-dfae278edd38)
+10-19 15:12:19.360
+fms
+[2026-10-19 15:12:19.359] [info] [15:12:19] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_185 → LOC_184 (async batch)
+10-19 15:12:19.457
+fms
+[2026-10-19 15:12:19.457] [info] [15:12:19] [SAFETY] robot=SEC_Process_3 'none' -> 'sf_operational_stop' level=1 sent_depth=0 robot_queue=0 state=stop cur=A13 age=355
+10-19 15:12:19.457
+fms
+[Manager][SAFETY] robot='SEC_Process_3' 안전상태 진입 → 계획 제외 @A13
+10-19 15:12:19.457
+fms
+[CHARGING] publish(changed) robot=SEC_Process_1 node=CHP2 standby=A20 available=0 docked=0 since_ms=1792390113443 blocked_by=[SEC_Logistics_2(L03)]
+10-19 15:12:19.457
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Process_3
+10-19 15:12:19.457
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:12:19.560
+fms
+[2026-10-19 15:12:19.559] [info] [15:12:19] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 safety reset → sent-chain clear (SendStop 없음: 로봇이 이미 정지)
+10-19 15:12:19.560
+fms
+[2026-10-19 15:12:19.560] [info] [15:12:19] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:19.560
+fms
+[2026-10-19 15:12:19.560] [info] [15:12:19] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_185 → LOC_184
+10-19 15:12:19.760
+fms
+[2026-10-19 15:12:19.760] [info] [15:12:19] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:19.961
+fms
+[2026-10-19 15:12:19.960] [info] [15:12:19] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 6 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:19.963
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 정체 복구/안전상태 리셋 처리
+10-19 15:12:19.963
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:12:20.161
+fms
+[2026-10-19 15:12:20.161] [info] [15:12:20] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 6 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:20.362
+fms
+[2026-10-19 15:12:20.361] [info] [15:12:20] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:20.562
+fms
+[2026-10-19 15:12:20.562] [info] [15:12:20] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:22.564
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_184 → LOC_183 (aid=01a152ca-27a4-7000-bf61-89adcc08cb18 pred=01a152ca-1b1f-7000-8f38-1b806ea9f31c)
+10-19 15:12:22.564
+fms
+[2026-10-19 15:12:22.564] [info] [15:12:22] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_184 → LOC_183 (async batch)
+10-19 15:12:22.661
+fms
+[2026-10-19 15:12:22.661] [info] [15:12:22] [SAFETY] robot=SEC_Process_3 'sf_operational_stop' -> 'none' level=0 sent_depth=0 robot_queue=0 state=stop cur=A13 age=49
+10-19 15:12:22.661
+fms
+[Manager][HoldKeep] robot='SEC_Process_3' hold preserved on 'A13' (source=auto_detected, candidates republished)
+10-19 15:12:22.661
+fms
+[Manager][SAFETY] robot='SEC_Process_3' 안전상태 해제 → 재계획
+10-19 15:12:22.661
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Process_3
+10-19 15:12:22.661
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:12:22.764
+fms
+[ActionManager] SendStop 생략 robot=SEC_Process_3 reason=safety_release (no_pending_command)
+10-19 15:12:22.764
+fms
+[2026-10-19 15:12:22.764] [info] [15:12:22] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 safety reset → sent-chain clear (SendStop 생략: 보낸 명령 없음)
+10-19 15:12:22.765
+fms
+[2026-10-19 15:12:22.765] [info] [15:12:22] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:22.765
+fms
+[2026-10-19 15:12:22.765] [info] [15:12:22] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_184 → LOC_183
+10-19 15:12:22.965
+fms
+[2026-10-19 15:12:22.965] [info] [15:12:22] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:23.166
+fms
+[2026-10-19 15:12:23.165] [info] [15:12:23] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 5 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:23.167
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 정체 복구/안전상태 리셋 처리
+10-19 15:12:23.167
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:12:23.288
+fms
+[GoalSubscriber] Received goals for SEC_Process_3: 3 candidates
+10-19 15:12:23.288
+fms
+[Manager][CandDiff] robot='SEC_Process_3' prev_count=3 new_count=3 added=[] removed=[] prio_changed=[A13(P21→P10)]
+10-19 15:12:23.288
+fms
+[Manager][HoldKeep] robot='SEC_Process_3' hold released: hold_node 'A13' priority 10 <= arrival-hold threshold 20 (demoted to waypoint)
+10-19 15:12:23.288
+fms
+[Manager] SendStop 생략 robot=SEC_Process_3 reason=candidate_change_replan (no_pending_command)
+10-19 15:12:23.366
+fms
+[2026-10-19 15:12:23.366] [info] [15:12:23] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 5 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:23.566
+fms
+[2026-10-19 15:12:23.566] [info] [15:12:23] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:23.673
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 목표/후보 변경
+10-19 15:12:23.673
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:12:23.767
+fms
+[CommZenoh] Sent move to SEC_Process_3 on topic [amr/SEC_Process_3/move/goal] (cmd: goal, goal: A13, method: pp)
+10-19 15:12:23.767
+fms
+[2026-10-19 15:12:23.767] [info] [15:12:23] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE fire 8 edge(s): A13 → A13 (async batch)
+10-19 15:12:23.767
+fms
+[2026-10-19 15:12:23.767] [info] [15:12:23] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:23.862
+fms
+[2026-10-19 15:12:23.862] [info] [15:12:23] [SAFETY] robot=SEC_Process_3 'none' -> 'sf_operational_stop' level=1 sent_depth=0 robot_queue=0 state=stop cur=A13 age=248
+10-19 15:12:23.862
+fms
+[Manager][SAFETY] robot='SEC_Process_3' 안전상태 진입 → 계획 제외 @A13
+10-19 15:12:23.967
+fms
+[2026-10-19 15:12:23.967] [info] [15:12:23] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 safety reset → sent-chain clear (SendStop 없음: 로봇이 이미 정지)
+10-19 15:12:23.967
+fms
+[2026-10-19 15:12:23.967] [info] [15:12:23] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 ENQUEUE 8 ok + 0 timeout(낙관): A13 → A13
+10-19 15:12:23.967
+fms
+[2026-10-19 15:12:23.967] [info] [15:12:23] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 5 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:24.168
+fms
+[2026-10-19 15:12:24.167] [info] [15:12:24] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 5 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:24.177
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Process_3, 정체 복구/안전상태 리셋 처리
+10-19 15:12:24.177
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:12:24.368
+fms
+[2026-10-19 15:12:24.368] [info] [15:12:24] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:24.568
+fms
+[2026-10-19 15:12:24.568] [info] [15:12:24] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:24.769
+fms
+[2026-10-19 15:12:24.769] [info] [15:12:24] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 5 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:24.969
+fms
+[2026-10-19 15:12:24.969] [info] [15:12:24] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 5 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:25.813
+fms
+[GoalSubscriber] Received goals for SEC_Process_3: 3 candidates
+10-19 15:12:25.813
+fms
+[Manager][CandDiff] robot='SEC_Process_3' prev_count=3 new_count=3 added=[] removed=[] prio_changed=[A13(P10→P21)]
+10-19 15:12:25.813
+fms
+[Manager] SendStop 생략 robot=SEC_Process_3 reason=candidate_change_replan (no_pending_command)
+10-19 15:12:25.815
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 목표/후보 변경
+10-19 15:12:25.815
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:12:25.970
+fms
+[2026-10-19 15:12:25.970] [info] [15:12:25] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:25.970
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_183 → LOC_212 (aid=01a152ca-34f2-7008-9c31-d35feff00b83 pred=01a152ca-27a4-7000-bf61-89adcc08cb18)
+10-19 15:12:25.970
+fms
+[2026-10-19 15:12:25.970] [info] [15:12:25] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_183 → LOC_212 (async batch)
+10-19 15:12:26.171
+fms
+[2026-10-19 15:12:26.170] [info] [15:12:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:26.171
+fms
+[2026-10-19 15:12:26.171] [info] [15:12:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_183 → LOC_212
+10-19 15:12:26.371
+fms
+[2026-10-19 15:12:26.371] [info] [15:12:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 4 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:26.572
+fms
+[2026-10-19 15:12:26.571] [info] [15:12:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 4 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:26.666
+fms
+[2026-10-19 15:12:26.666] [info] [15:12:26] [SAFETY] robot=SEC_Process_3 'sf_operational_stop' -> 'none' level=0 sent_depth=0 robot_queue=0 state=stop cur=A13 age=42
+10-19 15:12:26.666
+fms
+[Manager][SAFETY] robot='SEC_Process_3' 안전상태 해제 → 재계획
+10-19 15:12:26.667
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Process_3 이(가) 목적지 A13 (우선순위: 21)에 도착하여 홀드 상태로 설정됨
+10-19 15:12:26.667
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Process_3
+10-19 15:12:26.667
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:12:26.772
+fms
+[ActionManager] SendStop 생략 robot=SEC_Process_3 reason=safety_release (no_pending_command)
+10-19 15:12:26.772
+fms
+[2026-10-19 15:12:26.772] [info] [15:12:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_3 safety reset → sent-chain clear (SendStop 생략: 보낸 명령 없음)
+10-19 15:12:26.772
+fms
+[2026-10-19 15:12:26.772] [info] [15:12:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:26.972
+fms
+[2026-10-19 15:12:26.972] [info] [15:12:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:27.171
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 정체 복구/안전상태 리셋 처리
+10-19 15:12:27.172
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:12:27.374
+fms
+[2026-10-19 15:12:27.373] [info] [15:12:27] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:27.573
+fms
+[2026-10-19 15:12:27.573] [info] [15:12:27] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:27.773
+fms
+[2026-10-19 15:12:27.773] [info] [15:12:27] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 4 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:27.974
+fms
+[2026-10-19 15:12:27.973] [info] [15:12:27] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 4 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:28.975
+fms
+[CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: LOC_187, method: pp)
+10-19 15:12:29.907
+fms
+[GoalSubscriber] Received goals for SEC_Process_1: 4 candidates
+10-19 15:12:29.907
+fms
+[Manager][CandDiff] robot='SEC_Process_1' prev_count=3 new_count=4 added=[A04(P10),A05(P10),A06(P10)] removed=[A21(P10),CHP2(P21)] prio_changed=[A20(P10→P21)]
+10-19 15:12:29.907
+fms
+[Manager][HoldKeep] robot='SEC_Process_1' hold released: hold_node 'CHP2' removed from candidates
+10-19 15:12:29.907
+fms
+[Manager] SendStop 생략 robot=SEC_Process_1 reason=candidate_change_replan (no_pending_command)
+10-19 15:12:29.908
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: zone 전환/출구 변경, 목표/후보 변경
+10-19 15:12:29.908
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:12:29.917
+fms
+[2026-10-19 15:12:29.917] [warning] [15:12:29] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.588 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:12:34.914
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:12:34.926
+fms
+[2026-10-19 15:12:34.925] [warning] [15:12:34] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:12:34.977
+fms
+[CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A20, method: pp)
+10-19 15:12:34.977
+fms
+[2026-10-19 15:12:34.977] [info] [15:12:34] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 8 edge(s): CHP2 → CHP2 (async batch)
+10-19 15:12:34.978
+fms
+[2026-10-19 15:12:34.978] [info] [15:12:34] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:34.978
+fms
+[CommZenoh] Sent move to SEC_Logistics_1 on topic [amr/SEC_Logistics_1/move/goal] (cmd: goal, goal: L15, method: pp)
+10-19 15:12:35.178
+fms
+[2026-10-19 15:12:35.178] [info] [15:12:35] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 8 ok + 0 timeout(낙관): CHP2 → CHP2
+10-19 15:12:35.178
+fms
+[2026-10-19 15:12:35.178] [info] [15:12:35] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:35.379
+fms
+[2026-10-19 15:12:35.378] [info] [15:12:35] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 4 edge(s): CHP2 → CHP2 (async batch)
+10-19 15:12:35.379
+fms
+[2026-10-19 15:12:35.378] [info] [15:12:35] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 4 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:35.579
+fms
+[2026-10-19 15:12:35.579] [info] [15:12:35] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 4 ok + 0 timeout(낙관): CHP2 → CHP2
+10-19 15:12:35.579
+fms
+[2026-10-19 15:12:35.579] [info] [15:12:35] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 4 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:38.581
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_212 → LOC_85 (aid=01a152ca-6635-7000-a2fe-3626e26c5e10 pred=01a152ca-34f2-7008-9c31-d35feff00b83)
+10-19 15:12:38.581
+fms
+[2026-10-19 15:12:38.581] [info] [15:12:38] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_212 → LOC_85 (async batch)
+10-19 15:12:38.781
+fms
+[2026-10-19 15:12:38.781] [info] [15:12:38] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_212 → LOC_85
+10-19 15:12:39.936
+fms
+[2026-10-19 15:12:39.936] [warning] [15:12:39] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:12:40.468
+fms
+[ObstacleSubscriber] Snapshot v73 from subscribe: 0 blocked node(s), 0 escape(s), 0 soft-cost(s)
+10-19 15:12:40.468
+fms
+[Manager] OnObstaclesChanged v73: 0 blocked node(s), 0 newly blocked
+10-19 15:12:40.468
+fms
+[Manager] Force replan triggered by external event
+10-19 15:12:40.468
+interlock-service
+[2026-10-19 15:12:40.467] [info] [7] [interlock][auto] area=cross_a 위상 → open : 타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중
+10-19 15:12:40.468
+interlock-service
+[2026-10-19 15:12:40.468] [info] [7] [interlock][auto] area=cross_a 장애물 해제 성공 (id=ob_1) — TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1
+10-19 15:12:40.469
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 장애물 변경
+10-19 15:12:45.472
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:12:45.586
+fms
+[CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: L02, method: pp)
+10-19 15:12:45.586
+fms
+[2026-10-19 15:12:45.586] [info] [15:12:45] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:45.586
+fms
+[2026-10-19 15:12:45.586] [info] [15:12:45] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 8 edge(s): CHP2 → CHP2 (async batch)
+10-19 15:12:45.786
+fms
+[2026-10-19 15:12:45.786] [info] [15:12:45] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:45.786
+fms
+[2026-10-19 15:12:45.786] [info] [15:12:45] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 8 ok + 0 timeout(낙관): CHP2 → CHP2
+10-19 15:12:45.987
+fms
+[2026-10-19 15:12:45.987] [info] [15:12:45] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 3 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:45.987
+fms
+[2026-10-19 15:12:45.987] [info] [15:12:45] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 3 edge(s): CHP2 → CHP2 (async batch)
+10-19 15:12:46.187
+fms
+[2026-10-19 15:12:46.187] [info] [15:12:46] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 3 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:46.187
+fms
+[2026-10-19 15:12:46.187] [info] [15:12:46] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 3 ok + 0 timeout(낙관): CHP2 → CHP2
+10-19 15:12:46.628
+interlock-service
+[2026-10-19 15:12:46.628] [info] [7] [interlock][auto] area=cross_a lock=true 전송 (ack=accept)
+10-19 15:12:49.790
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_85 → LOC_72 (aid=01a152ca-91fe-7000-80fa-e60d7d2121ba pred=01a152ca-6635-7000-a2fe-3626e26c5e10)
+10-19 15:12:49.790
+fms
+[2026-10-19 15:12:49.790] [info] [15:12:49] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_85 → LOC_72 (async batch)
+10-19 15:12:49.952
+fms
+[2026-10-19 15:12:49.952] [warning] [15:12:49] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:12:49.991
+fms
+[2026-10-19 15:12:49.991] [info] [15:12:49] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_85 → LOC_72
+10-19 15:12:53.476
+fms
+[ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 stuck idle 16.6s (cur=CHP2 goal=A20) → replan
+10-19 15:12:54.961
+fms
+[2026-10-19 15:12:54.960] [warning] [15:12:54] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:12:58.479
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:12:58.597
+fms
+[2026-10-19 15:12:58.597] [info] [15:12:58] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:58.597
+fms
+[2026-10-19 15:12:58.597] [info] [15:12:58] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 8 edge(s): CHP2 → CHP2 (async batch)
+10-19 15:12:58.797
+fms
+[2026-10-19 15:12:58.797] [info] [15:12:58] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:58.797
+fms
+[2026-10-19 15:12:58.797] [info] [15:12:58] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 8 ok + 0 timeout(낙관): CHP2 → CHP2
+10-19 15:12:58.998
+fms
+[2026-10-19 15:12:58.997] [info] [15:12:58] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 2 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:12:58.998
+fms
+[2026-10-19 15:12:58.998] [info] [15:12:58] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 2 edge(s): CHP2 → CHP2 (async batch)
+10-19 15:12:59.198
+fms
+[2026-10-19 15:12:59.198] [info] [15:12:59] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 2 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:12:59.198
+fms
+[2026-10-19 15:12:59.198] [info] [15:12:59] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 2 ok + 0 timeout(낙관): CHP2 → CHP2
+10-19 15:12:59.969
+fms
+[2026-10-19 15:12:59.968] [warning] [15:12:59] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:12:59.999
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_72 → LOC_71 (aid=01a152ca-b9de-7000-9a64-326e41088fbc pred=01a152ca-91fe-7000-80fa-e60d7d2121ba)
+10-19 15:12:59.999
+fms
+[2026-10-19 15:12:59.999] [info] [15:12:59] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_72 → LOC_71 (async batch)
+10-19 15:13:00.199
+fms
+[2026-10-19 15:13:00.199] [info] [15:13:00] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_72 → LOC_71
+10-19 15:13:02.481
+fms
+[ZoneManager:zone_3_p0][REPLAN] Robot SEC_Logistics_2 stuck idle 15.0s (cur=LOC_187 goal=L02) → replan
+10-19 15:13:04.977
+fms
+[2026-10-19 15:13:04.977] [warning] [15:13:04] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:13:07.483
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:13:07.603
+fms
+[CommZenoh] Sent move to SEC_Logistics_1 on topic [amr/SEC_Logistics_1/move/goal] (cmd: goal, goal: L15, method: pp)
+10-19 15:13:07.604
+fms
+[CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A20, method: pp)
+10-19 15:13:07.604
+fms
+[2026-10-19 15:13:07.604] [info] [15:13:07] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:13:07.604
+fms
+[2026-10-19 15:13:07.604] [info] [15:13:07] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 8 edge(s): CHP2 → CHP2 (async batch)
+10-19 15:13:07.804
+fms
+[2026-10-19 15:13:07.804] [info] [15:13:07] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:13:07.804
+fms
+[2026-10-19 15:13:07.804] [info] [15:13:07] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 8 ok + 0 timeout(낙관): CHP2 → CHP2
+10-19 15:13:08.004
+fms
+[2026-10-19 15:13:08.004] [info] [15:13:08] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 1 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:13:08.004
+fms
+[2026-10-19 15:13:08.004] [info] [15:13:08] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 1 edge(s): CHP2 → CHP2 (async batch)
+10-19 15:13:08.205
+fms
+[2026-10-19 15:13:08.205] [info] [15:13:08] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 1 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:13:08.205
+fms
+[2026-10-19 15:13:08.205] [info] [15:13:08] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 1 ok + 0 timeout(낙관): CHP2 → CHP2
+10-19 15:13:09.986
+fms
+[2026-10-19 15:13:09.986] [warning] [15:13:09] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:13:10.607
+fms
+[CommZenoh] enqueue → [amr/SEC_Logistics_1/multi/enqueue] LOC_71 → L15 (aid=01a152ca-e34f-7000-85da-8cc14f5032f7 pred=01a152ca-b9de-7000-9a64-326e41088fbc)
+10-19 15:13:10.607
+fms
+[2026-10-19 15:13:10.607] [info] [15:13:10] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE fire 1 edge(s): LOC_71 → L15 (async batch)
+10-19 15:13:10.807
+fms
+[2026-10-19 15:13:10.807] [info] [15:13:10] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 ENQUEUE 1 ok + 0 timeout(낙관): LOC_71 → L15
+10-19 15:13:14.080
+interlock-service
+[2026-10-19 15:13:14.080] [info] [7] [interlock][intent] area=cross_a 현재 규칙이 닫음 — 그런데 들어갈 일 있는 로봇 SEC_Logistics_2(L03 p31) (후보 기준이면 열어 둠, 누적 1회)
+10-19 15:13:14.080
+interlock-service
+[2026-10-19 15:13:14.080] [info] [7] [interlock][auto] area=cross_a 위상 → closing : 작업 완료 — 재차단 후 정착 대기(반납 전 필수)
+10-19 15:13:14.081
+fms
+[ObstacleSubscriber] Snapshot v74 from subscribe: 12 blocked node(s), 0 escape(s), 0 soft-cost(s)
+10-19 15:13:14.081
+fms
+[Manager] OnObstaclesChanged v74: 12 blocked node(s), 12 newly blocked
+10-19 15:13:14.081
+fms
+[Manager] Force replan triggered by external event
+10-19 15:13:14.081
+interlock-service
+[2026-10-19 15:13:14.081] [info] [7] [interlock][auto] area=cross_a 장애물 설정 성공 (id=ob_2)
+10-19 15:13:14.082
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 장애물 변경
+10-19 15:13:14.082
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:13:14.998
+fms
+[2026-10-19 15:13:14.998] [warning] [15:13:14] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:13:18.165
+interlock-service
+[2026-10-19 15:13:18.165] [info] [7] [interlock][auto] area=cross_a 위상 → releasing : 타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송
+10-19 15:13:18.214
+interlock-service
+[2026-10-19 15:13:18.213] [info] [7] [interlock][auto] area=cross_a lock=false 전송 (ack=accept)
+10-19 15:13:19.089
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:13:19.213
+fms
+[2026-10-19 15:13:19.213] [info] [15:13:19] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 8 edge(s): CHP2 → CHP2 (async batch)
+10-19 15:13:19.213
+fms
+[CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: LOC_187, method: pp)
+10-19 15:13:19.213
+fms
+[2026-10-19 15:13:19.213] [info] [15:13:19] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 8 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:13:19.413
+fms
+[2026-10-19 15:13:19.413] [info] [15:13:19] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 8 ok + 0 timeout(낙관): CHP2 → CHP2
+10-19 15:13:19.413
+fms
+[2026-10-19 15:13:19.413] [info] [15:13:19] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 8 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:13:20.007
+fms
+[2026-10-19 15:13:20.006] [warning] [15:13:20] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.580 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:13:20.238
+interlock-service
+[2026-10-19 15:13:20.238] [info] [7] [interlock][auto] area=cross_a 위상 → cooldown : 반납 완료 — 타사 작업시간 보장(재취득 억제)
+10-19 15:13:21.091
+fms
+[ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 stuck idle 20.6s (cur=CHP2 goal=A20) → replan
+10-19 15:13:21.091
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:13:26.102
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:13:26.218
+fms
+[2026-10-19 15:13:26.218] [info] [15:13:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 7 edge(s): CHP2 → CHP2 (async batch)
+10-19 15:13:26.218
+fms
+[2026-10-19 15:13:26.218] [info] [15:13:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 7 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:13:26.418
+fms
+[2026-10-19 15:13:26.418] [info] [15:13:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 7 ok + 0 timeout(낙관): CHP2 → CHP2
+10-19 15:13:26.418
+fms
+[2026-10-19 15:13:26.418] [info] [15:13:26] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 7 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:13:30.024
+fms
+[2026-10-19 15:13:30.024] [warning] [15:13:30] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:13:37.628
+fms
+[CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A20, method: pp)
+10-19 15:13:37.628
+fms
+[CommZenoh] Sent move to SEC_Logistics_1 on topic [amr/SEC_Logistics_1/move/goal] (cmd: goal, goal: L15, method: pp)
+10-19 15:13:40.040
+fms
+[2026-10-19 15:13:40.040] [warning] [15:13:40] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.578 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:13:44.110
+fms
+[ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 stuck idle 16.0s (cur=CHP2 goal=A20) → replan
+10-19 15:13:44.110
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:13:49.120
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:13:49.237
+fms
+[2026-10-19 15:13:49.236] [info] [15:13:49] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE fire 2 edge(s): CHP2 → CHP2 (async batch)
+10-19 15:13:49.237
+fms
+[CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: LOC_187, method: pp)
+10-19 15:13:49.237
+fms
+[2026-10-19 15:13:49.237] [info] [15:13:49] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE fire 2 edge(s): LOC_187 → LOC_187 (async batch)
+10-19 15:13:49.437
+fms
+[2026-10-19 15:13:49.437] [info] [15:13:49] [ACTION_MANAGER:zone_3_p0] robot SEC_Process_1 ENQUEUE 2 ok + 0 timeout(낙관): CHP2 → CHP2
+10-19 15:13:49.437
+fms
+[2026-10-19 15:13:49.437] [info] [15:13:49] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_2 ENQUEUE 2 ok + 0 timeout(낙관): LOC_187 → LOC_187
+10-19 15:13:50.056
+fms
+[2026-10-19 15:13:50.056] [warning] [15:13:50] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.577 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:13:50.752
+interlock-service
+[2026-10-19 15:13:50.751] [info] [7] [interlock][auto] area=cross_a 위상 → idle : 평상시 — 타사 우선, 우리 구역 차단
+10-19 15:13:55.064
+fms
+[2026-10-19 15:13:55.063] [warning] [15:13:55] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.578 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:13:55.887
+fms
+[GoalSubscriber] Received goals for SEC_Logistics_2: 0 candidates
+10-19 15:13:55.887
+fms
+[Manager][CandDiff] robot='SEC_Logistics_2' prev_count=4 new_count=0 added=[] removed=[L02(P15),L03(P31),LOC_187(P10),LOC_218(P10)] prio_changed=[]
+10-19 15:13:55.888
+fms
+[Manager] SendStop 생략 robot=SEC_Logistics_2 reason=candidate_change_replan (no_pending_command)
+10-19 15:13:55.888
+fms
+[CHARGING] publish(changed) robot=SEC_Process_1 node=CHP2 standby=A20 available=0 docked=0 since_ms=1792390113443 blocked_by=[]
+10-19 15:13:55.888
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: zone 전환/출구 변경, 목표/후보 변경
+10-19 15:13:55.888
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:13:56.847
+interlock-service
+[2026-10-19 15:13:56.847] [info] [7] [interlock][intent] area=cross_a 들어갈 일 있는 로봇: 없음 (관측 전용 — 판정에는 아직 안 쓴다)
+10-19 15:13:57.630
+fms
+[GoalSubscriber] Received goals for SEC_Logistics_2: 4 candidates
+10-19 15:13:57.630
+fms
+[Manager][CandDiff] robot='SEC_Logistics_2' prev_count=0 new_count=4 added=[L02(P15),L03(P31),LOC_187(P10),LOC_218(P10)] removed=[] prio_changed=[]
+10-19 15:13:57.630
+fms
+[Manager] SendStop 생략 robot=SEC_Logistics_2 reason=candidate_change_replan (no_pending_command)
+10-19 15:13:57.631
+fms
+[CHARGING] publish(changed) robot=SEC_Process_1 node=CHP2 standby=A20 available=0 docked=0 since_ms=1792390113443 blocked_by=[SEC_Logistics_2(L03)]
+10-19 15:13:57.878
+interlock-service
+[2026-10-19 15:13:57.878] [info] [7] [interlock][intent] area=cross_a 들어갈 일 있는 로봇: SEC_Logistics_2(L03 p31) (관측 전용 — 판정에는 아직 안 쓴다)
+10-19 15:14:00.894
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:14:01.044
+fms
+[CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: L03, method: pp)
+10-19 15:14:01.395
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: zone 전환/출구 변경, 목표/후보 변경
+10-19 15:14:01.395
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:14:01.632
+fms
+[ZoneManager:zone_3_p0][ARRIVAL] 로봇 SEC_Logistics_1 이(가) 목적지 L15 (우선순위: 31)에 도착하여 홀드 상태로 설정됨
+10-19 15:14:05.079
+fms
+[2026-10-19 15:14:05.079] [warning] [15:14:05] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.580 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:14:06.401
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:14:06.446
+fms
+[CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: LOC_187, method: pp)
+10-19 15:14:06.570
+fms
+[2026-10-19 15:14:06.570] [info] [15:14:06] [SAFETY] robot=SEC_Logistics_1 'none' -> 'sf_operational_stop' level=1 sent_depth=0 robot_queue=0 state=stop cur=L15 age=219
+10-19 15:14:06.570
+fms
+[Manager][SAFETY] robot='SEC_Logistics_1' 안전상태 진입 → 계획 제외 @L15
+10-19 15:14:06.647
+fms
+[2026-10-19 15:14:06.647] [info] [15:14:06] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 safety reset → sent-chain clear (SendStop 없음: 로봇이 이미 정지)
+10-19 15:14:06.902
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Logistics_1, 정체 복구/안전상태 리셋 처리
+10-19 15:14:06.902
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:14:10.090
+fms
+[2026-10-19 15:14:10.089] [warning] [15:14:10] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:14:11.909
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:14:12.051
+fms
+[CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A20, method: pp)
+10-19 15:14:13.910
+fms
+[ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 stuck idle 22.8s (cur=CHP2 goal=A20) → replan
+10-19 15:14:13.910
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:14:18.918
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:14:20.787
+fms
+[2026-10-19 15:14:20.787] [info] [15:14:20] [SAFETY] robot=SEC_Logistics_1 'sf_operational_stop' -> 'none' level=0 sent_depth=0 robot_queue=0 state=stop cur=L15 age=407
+10-19 15:14:20.787
+fms
+[Manager][HoldKeep] robot='SEC_Logistics_1' hold preserved on 'L15' (source=auto_detected, candidates republished)
+10-19 15:14:20.787
+fms
+[Manager][SAFETY] robot='SEC_Logistics_1' 안전상태 해제 → 재계획
+10-19 15:14:20.788
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Logistics_1
+10-19 15:14:20.788
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:14:24.191
+fms
+[2026-10-19 15:14:24.190] [info] [15:14:24] [SAFETY] robot=SEC_Logistics_1 'none' -> 'sf_operational_stop' level=1 sent_depth=0 robot_queue=0 state=stop cur=L15 age=304
+10-19 15:14:24.191
+fms
+[Manager][SAFETY] robot='SEC_Logistics_1' 안전상태 진입 → 계획 제외 @L15
+10-19 15:14:25.118
+fms
+[2026-10-19 15:14:25.118] [warning] [15:14:25] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:14:25.793
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:14:25.859
+fms
+[2026-10-19 15:14:25.859] [info] [15:14:25] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 safety reset → sent-chain clear (SendStop 없음: 로봇이 이미 정지)
+10-19 15:14:26.294
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Logistics_1, 정체 복구/안전상태 리셋 처리
+10-19 15:14:26.294
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:14:30.128
+fms
+[2026-10-19 15:14:30.128] [warning] [15:14:30] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.581 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:14:31.299
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:14:35.138
+fms
+[2026-10-19 15:14:35.138] [warning] [15:14:35] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:14:36.468
+fms
+[CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: LOC_187, method: pp)
+10-19 15:14:38.408
+fms
+[2026-10-19 15:14:38.408] [info] [15:14:38] [SAFETY] robot=SEC_Logistics_1 'sf_operational_stop' -> 'none' level=0 sent_depth=0 robot_queue=0 state=stop cur=L15 age=486
+10-19 15:14:38.408
+fms
+[Manager][HoldKeep] robot='SEC_Logistics_1' hold preserved on 'L15' (source=auto_detected, candidates republished)
+10-19 15:14:38.408
+fms
+[Manager][SAFETY] robot='SEC_Logistics_1' 안전상태 해제 → 재계획
+10-19 15:14:38.409
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 안전상태 리셋: SEC_Logistics_1
+10-19 15:14:38.409
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:14:40.148
+fms
+[2026-10-19 15:14:40.147] [warning] [15:14:40] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:14:43.414
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:14:43.472
+fms
+[ActionManager] SendStop 생략 robot=SEC_Logistics_1 reason=safety_release (no_pending_command)
+10-19 15:14:43.472
+fms
+[2026-10-19 15:14:43.472] [info] [15:14:43] [ACTION_MANAGER:zone_3_p0] robot SEC_Logistics_1 safety reset → sent-chain clear (SendStop 생략: 보낸 명령 없음)
+10-19 15:14:43.472
+fms
+[CommZenoh] Sent move to SEC_Process_1 on topic [amr/SEC_Process_1/move/goal] (cmd: goal, goal: A20, method: pp)
+10-19 15:14:43.915
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: 정체 복구/안전상태 리셋 처리
+10-19 15:14:43.915
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:14:45.156
+fms
+[2026-10-19 15:14:45.155] [warning] [15:14:45] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.580 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:14:48.920
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:14:50.921
+fms
+[ZoneManager:zone_3_p0][REPLAN] Robot SEC_Process_1 stuck idle 17.6s (cur=CHP2 goal=A20) → replan
+10-19 15:14:50.921
+fms
+[ZoneManager:zone_3_p0][INITIAL_PATH] 2 virtual-only overlap pair(s) — proceeding
+10-19 15:14:55.172
+fms
+[2026-10-19 15:14:55.171] [warning] [15:14:55] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.579 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:14:55.927
+fms
+[ZoneManager:zone_3_p0][SOLVER] timeout (zone has blockers) → deadline 유지: 5000ms
+10-19 15:15:06.486
+fms
+[CommZenoh] Sent move to SEC_Logistics_2 on topic [amr/SEC_Logistics_2/move/goal] (cmd: goal, goal: LOC_187, method: pp)
+10-19 15:15:10.196
+fms
+[2026-10-19 15:15:10.196] [warning] [15:15:10] [CollisionMonitor] pair=(SEC_Logistics_2,SEC_Process_1) REST-RISK 정지 상태로 외접원 기준 위반 — dist=1.580 < circ_sum=1.935 @LOC_187/CHP2 (지향 통과로 들어왔으나 그 자리에 설 수는 없는 배치)
+10-19 15:15:12.225
+fms
+[GoalSubscriber] Received goals for SEC_Logistics_1: 1 candidates
+10-19 15:15:12.225
+fms
+[Manager][CandDiff] robot='SEC_Logistics_1' prev_count=3 new_count=1 added=[WIP_RE2_3(P31)] removed=[L13(P10),L15(P31),L28(P10)] prio_changed=[]
+10-19 15:15:12.225
+fms
+[Manager][HoldKeep] robot='SEC_Logistics_1' hold released: hold_node 'L15' removed from candidates
+10-19 15:15:12.225
+fms
+[Manager] SendStop 생략 robot=SEC_Logistics_1 reason=candidate_change_replan (no_pending_command)
+10-19 15:15:12.225
+fms
+[Manager][WORK-AREA] robot='SEC_Logistics_1' go:공정구역3 → go:wip_re (cur=L15 desired=WIP_RE2_3)
+10-19 15:15:12.432
+fms
+[ZoneManager:zone_3_p0][REPLAN] Force replan: zone 전환/출구 변경, 목표/후보 변경
