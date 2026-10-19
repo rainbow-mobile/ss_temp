@@ -1,0 +1,609 @@
+{"actor":"auto","area":"cross_a","at_ms":1790897445956,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1790897450172,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1790902924441,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790902985427,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790903046353,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790903107411,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790903168405,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790903229340,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790903290308,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790903339852,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1790903351304,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790903412391,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790903473362,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790903534356,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790903574624,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1790903578877,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1790905592227,"detail":"무응답: Could not establish connection","forced":false,"guard_code":"","ok":false,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1790905628783,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1790905633015,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1790916694522,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790916695655,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1790933826499,"detail":"무응답: Could not establish connection","forced":false,"guard_code":"","ok":false,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1790933849146,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1790933853360,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1790934398305,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790934435473,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1790934662493,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790934689433,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1790935605687,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1790935609892,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791246096966,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791246098069,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791249562487,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791249584604,"detail":"무응답: Could not establish connection","forced":false,"guard_code":"","ok":false,"op":"auto:unlock"}
+{"actor":"172.19.0.1","area":"cross_a","at_ms":1791253277425,"detail":"사이클 다시 시작 — 위상을 초기화했습니다","forced":false,"guard_code":"","ok":true,"op":"resume"}
+{"actor":"auto","area":"cross_a","at_ms":1791263342199,"detail":"무응답: Could not establish connection","forced":false,"guard_code":"","ok":false,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791263361591,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791263365652,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791273263401,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791273264411,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791276618231,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791276630308,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791329933628,"detail":"무응답: Could not establish connection","forced":false,"guard_code":"","ok":false,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791329971058,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791329975093,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791347085576,"detail":"무응답: Could not establish connection","forced":false,"guard_code":"","ok":false,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791347107857,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791347111890,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349282163,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349283170,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunCharging, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349342554,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349402890,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349463274,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349477353,"detail":"개방 중 확인이 깨짐 — 즉시 재차단(사유는 guards.unblock.reason 참조)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791349497467,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349523613,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349531667,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791349535699,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349735807,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349793160,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349796188,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349856539,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791349905810,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791349909854,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791351091682,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791351152071,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791351208403,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791351212471,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791351272807,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791351333164,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791351393501,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791351435731,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791351439765,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354070069,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354130451,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354143527,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354190787,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354251135,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354311483,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354371836,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354390946,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791354394983,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354808399,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354868776,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354875819,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354929135,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791354989476,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791355049830,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791355095086,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791355099117,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791355337549,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791355397883,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791355458240,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791355518582,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791355541720,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791355578930,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791355639271,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791355699640,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791355755951,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791355759979,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791356983069,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791356991126,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791365475011,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791365476027,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791367263821,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791367278917,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791371996621,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791371997634,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791373384839,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791373385854,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791375935175,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791375936189,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791380739148,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791380766311,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389217305,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389273622,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389277659,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389338038,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389398417,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389458797,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389459803,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791389463835,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389546354,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389548364,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389606714,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389667111,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389727498,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389787875,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389848274,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389908675,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791389969060,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791390029455,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791390089850,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791390150378,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791390201728,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791390205757,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791392380391,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791392440789,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791392441797,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791392501171,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791392561533,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791392621924,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791392655139,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791392659168,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791414710015,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791414770399,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791414783487,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791414830784,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791414891167,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791414951557,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791415011958,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791415072357,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791415093502,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791415097531,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791424966542,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791436658986,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791436719450,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791436779878,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791436793977,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791436840290,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791436900688,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791436920817,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791436924856,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791450739013,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791450740037,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791454497624,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791454498643,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791460522789,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791460548962,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791462265863,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791462326300,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791462346441,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791462386737,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791462447163,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791462507615,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791462559996,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791462564031,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791462905394,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791462906401,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791462965872,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791463026272,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791463086676,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791463147092,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791463147102,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791463151143,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464162208,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464165233,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464222632,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464244801,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791464248833,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464583157,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464585169,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464643569,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464704013,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464764451,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464824866,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464885258,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464945696,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791464979926,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791464983959,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791504598532,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791504659015,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791504697304,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791504719472,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791504779920,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791504840375,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791504900824,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791504912907,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791504916949,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505175882,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505236319,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505241354,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505296775,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505357229,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505417709,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505431819,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791505435859,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505755294,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505815771,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505830901,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505876242,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505936689,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791505997144,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791506010236,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791506014330,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791506214831,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791506215847,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791506839535,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791506899997,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791506960446,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791506971523,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791507020903,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791507081352,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791507141849,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791507198284,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791507202328,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791508456468,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791508516989,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791508526071,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791508586534,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791508641938,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791508646988,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791508707487,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791508767974,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791508828456,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791508859677,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791508863738,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791514728014,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791514731034,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunCharging, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791514788459,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791514848922,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791514909366,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791514969828,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791515020206,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791515024245,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791521857343,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791521912765,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791521917813,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791521978270,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791522038750,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791522099282,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791522138584,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791522142623,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791522360312,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791522420761,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791522439908,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791522481225,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791522541681,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791522602131,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791522639424,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791522643462,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791523473702,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791523474723,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791523969451,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791524029929,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791524030936,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791524090373,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791524150820,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791524211270,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791524246530,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791524250570,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791525349661,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791525410114,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791525470559,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791525471567,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791525530985,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791525591443,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791525651904,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791525712386,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791525772818,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791525786918,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791525790955,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791526216044,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791526276466,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791526336924,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791526383278,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791526469919,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791526471938,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791526530350,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791526590781,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791526651237,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791526711684,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791526772123,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791526772138,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791526776186,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791527765455,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791527766480,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791527886390,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791527887411,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791532046411,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791532047417,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunCharging, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791532110640,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791532114687,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538017074,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538077560,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538128956,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538138031,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538198511,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538258972,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538319432,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538346626,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791538350667,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538533081,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538593587,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538647999,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538654058,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538714533,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538775027,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538835516,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791538873831,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791538877870,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541028378,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541088865,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541149367,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541165491,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541209823,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541270306,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541330778,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541351953,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791541355995,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541627055,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541687561,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541748053,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541800472,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541808542,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541869005,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541929475,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541989928,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791541996991,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791542001041,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791571390038,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791571450532,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791571453560,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791571511011,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791571571474,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791571631965,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791571671294,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791571675343,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791585560832,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791585561858,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791586153549,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791586154565,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791590148360,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791590208853,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791590269363,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791590273392,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791590329845,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791590390346,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791590450830,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791590488128,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791590492174,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791599948290,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600005738,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600008776,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600069281,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600129781,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600190269,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600250804,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600305238,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791600309283,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600666117,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600726665,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600733722,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600787156,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600847662,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600908141,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791600968621,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791601029128,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791601032149,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791601036202,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791605007598,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791605008621,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791605240514,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791605300994,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791605361487,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791605368543,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791605421968,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791605482505,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791605542024,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791605543050,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791605546095,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791606253895,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791606314376,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791606328497,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791606374907,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791606425294,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791606429353,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791608823332,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791608824357,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791763209066,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791763220211,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791763254576,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791763265709,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791763315232,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791763316241,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791763375801,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791763401034,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791763405099,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791764227246,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791764287856,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791764348439,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791764368633,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791764409041,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791764469633,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791764530251,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791764590849,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791764651441,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791764691811,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791764695873,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791766601170,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791766661769,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791766700142,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791766722367,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791766780931,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791766782973,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791766785006,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791767254543,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791767315146,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791767375746,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791767436337,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791767451486,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791767496987,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791767516169,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791767520231,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791776300430,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791776301456,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791776907253,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791776908282,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791791258449,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791791270614,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791795981314,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791795982327,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunCharging, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791796041938,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791796102544,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791796154053,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791796158115,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791799500199,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791799524448,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791803790377,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791803850963,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791803911564,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791803972166,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791804019655,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791804032780,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791804093410,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791804154030,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791804214656,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791804275275,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791804282351,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791804286420,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791812475797,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791812486895,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791813057608,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791813069756,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824055022,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824115654,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824143945,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824176268,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824236852,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824297529,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824358149,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824418762,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824421789,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791824425847,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824795573,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824852112,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824856177,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824916785,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791824977423,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791825038061,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791825098685,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791825133016,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791825137076,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791825334080,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791825335091,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791825394716,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791825455360,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791825516007,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791825576643,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791825613026,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791825617092,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791839753889,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791839754919,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791840382332,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791840383366,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791840708691,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791840709725,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791850531639,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791850532684,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791851773398,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791851774434,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791854125378,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791854126412,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791871298010,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791871299026,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunCharging, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791871358644,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791871419307,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791871479974,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791871540642,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791871564894,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791871568968,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791880791255,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791880843820,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791880851920,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791880912587,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791880973263,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791881033935,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791881094576,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791881104694,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791881108767,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791881351362,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791881407932,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791881411988,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791881472620,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791881533322,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791881594005,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791881654648,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791881670873,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791881674939,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791884066220,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791884126905,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791884143076,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunMoving, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791884187539,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791884248173,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791884308812,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791884369464,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791884393731,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791884397794,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791887188426,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791887242015,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791887249112,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791887309825,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791887370498,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791887431161,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791887491809,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791887515078,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791887519134,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791888085087,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791888087147,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791945009173,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791945010198,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791947362115,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791947363151,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791948074707,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791948075746,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791950929404,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791950930449,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791951896200,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791951897239,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791952261289,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791952262332,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791958792126,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791958794159,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunCharging, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791958852844,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791958913563,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791958974280,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791959035002,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791959041077,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791959045146,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791959132130,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791959133166,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1791960508434,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791960509443,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791960554921,"detail":"개방 중 확인이 깨짐 — 즉시 재차단(사유는 guards.unblock.reason 참조)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791960569104,"detail":"개방 중 확인이 깨짐 — 즉시 재차단(사유는 guards.unblock.reason 참조)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791960614619,"detail":"TrafficLocked=true, CurrentNode=A00, Status=RunIdle, 연속 1/1","forced":false,"guard_code":"","ok":true,"op":"auto:unblock"}
+{"actor":"auto","area":"cross_a","at_ms":1791960629818,"detail":"타사 정지 확인됨 — 구역 개방, 우리 로봇 작업 중","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1791960681409,"detail":"작업 완료 — 재차단 후 정착 대기(반납 전 필수)","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1791960685486,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1792108321814,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1792108322854,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1792108946822,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1792108947863,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1792111005942,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1792111006985,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1792112130026,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1792112131079,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1792136882637,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1792136886725,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1792139065518,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1792139126317,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1792139187181,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1792139247998,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1792139308878,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1792139369710,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1792139430579,"detail":"대기노드에 우리 로봇 도착 — 타사 락 요청/확인 대기(장애물 유지)","forced":false,"guard_code":"","ok":true,"op":"auto:lock"}
+{"actor":"auto","area":"cross_a","at_ms":1792139487355,"detail":"타사 락 반납 중 — 브릿지가 해제를 보고할 때까지 재전송","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}
+{"actor":"auto","area":"cross_a","at_ms":1792371561305,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:block"}
+{"actor":"auto","area":"cross_a","at_ms":1792371565659,"detail":"평상시 — 타사 우선, 우리 구역 차단","forced":false,"guard_code":"","ok":true,"op":"auto:unlock"}

@@ -1,0 +1,19 @@
+{
+  "assignments": [
+    {
+      "charging_node": "CHP2",
+      "robot_id": "SEC_Process_1",
+      "standby_node": "A20"
+    },
+    {
+      "charging_node": "CHP3",
+      "robot_id": "SEC_Process_2",
+      "standby_node": "A22"
+    },
+    {
+      "charging_node": "CHP4",
+      "robot_id": "SEC_Process_3",
+      "standby_node": "A28"
+    }
+  ]
+}

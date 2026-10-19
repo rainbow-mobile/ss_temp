@@ -1,0 +1,417 @@
+# FMS2 Production Deployment
+# docker load로 이미지 로드 후 실행합니다.
+#
+# 사용법:
+#   1. docker load -i fms2-images.tar.gz
+#   2. maps/ 폴더에 맵 파일 배치
+#   3. docker compose up -d
+#
+# 네트워크:
+#   - fms-network   : 스택 내부 서비스 간 통신 (격리 유지)
+#   - rb_shared_net : 다른 프로젝트와 공유, 서비스명으로 상호 접속용 (external)
+#     사전에 `docker network create rb_shared_net` 필요 (이미 존재하면 생략)
+
+services:
+  # Zenoh Router - 서비스 간 내부 통신용
+  zenoh-router:
+    image: eclipse/zenoh:1.6.1
+    container_name: zenoh-router
+    restart: unless-stopped
+    ports:
+      - "8000:8000"   # Zenoh REST API (Admin Dashboard)
+    volumes:
+      - ./config/zenoh/zenoh-router.json5:/zenoh-config.json5:ro
+    networks:
+      - fms-network
+      - rb_shared_net
+    command: ["-l", "tcp/0.0.0.0:7447", "--no-multicast-scouting",
+              "--cfg", "routing/interests/timeout:0",
+              "-c", "/zenoh-config.json5",
+              "--adminspace-permissions=rw"]
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD-SHELL", "nc -w1 127.0.0.1 7447 </dev/null || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+  # Zenoh Router Robot - 로봇 데이터 수신용
+  zenoh-router-robot:
+    image: eclipse/zenoh:1.6.1
+    container_name: zenoh-router-robot
+    restart: unless-stopped
+    ports:
+      - "7447:7447"   # Zenoh TCP (로봇 연결)
+      - "8001:8000"   # Zenoh REST API (Admin Dashboard)
+    volumes:
+      - ./config/zenoh/zenoh-router-robot.json5:/zenoh-config.json5:ro
+    networks:
+      - fms-network
+      - rb_shared_net
+    command: ["-l", "tcp/0.0.0.0:7447", "--no-multicast-scouting",
+              "--cfg", "routing/interests/timeout:0",
+              "-c", "/zenoh-config.json5",
+              "--adminspace-permissions=rw"]
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD-SHELL", "nc -w1 127.0.0.1 7447 </dev/null || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+  # Goal Input Server - HTTP API for goal distribution
+  goal-input-server:
+    image: goal-input-server:${FMS2_VERSION}
+    container_name: goal-input-server
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    volumes:
+      - ./config/goal-input-server:/etc/goal-input-server
+    environment:
+      - ZENOH_CONNECT=tcp/zenoh-router:7447
+    networks:
+      - fms-network
+      - rb_shared_net
+    depends_on:
+      zenoh-router:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    command: ["goal-input-server", "--config", "/etc/goal-input-server/config.json"]
+
+  # Zone Service - Traffic zone splitter, publishes zone snapshots over Zenoh
+  zone-service:
+    image: zone-service:${FMS2_VERSION}
+    container_name: zone-service
+    restart: unless-stopped
+    ports:
+      - "8085:8080"
+    volumes:
+      - ./config/zone-service:/etc/zone-service
+      # map_source.mode=local 일 때 읽고, 맵 편집기 저장 시 쓰는 디렉토리
+      # (topology.json, traffic_zones.json, 저장 전 자동 백업 .backups/)
+      - ./maps:/data/maps
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    environment:
+      - ZENOH_CONNECT=tcp/zenoh-router:7447
+      - MAP_API_BASE_URL=${MAP_API_BASE_URL:-}
+      # 값을 주면 로컬 파일 모드로 전환 (예: /data/maps/${SCALE_SCENARIO})
+      - MAP_LOCAL_DIR=${MAP_LOCAL_DIR:-}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - fms-network
+      - rb_shared_net
+    depends_on:
+      zenoh-router:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    command: ["zone-service", "--config", "/etc/zone-service/config.json"]
+
+  # Obstacle Service - polygon obstacle injection; resolves polygons to blocked
+  # node-lists (subscribes zone topology) and publishes fms/obstacles/snapshot.
+  obstacle-service:
+    image: obstacle-service:${FMS2_VERSION}
+    container_name: obstacle-service
+    restart: unless-stopped
+    ports:
+      - "8087:8080"
+    volumes:
+      - ./config/obstacle-service:/etc/obstacle-service
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    environment:
+      - ZENOH_CONNECT=tcp/zenoh-router:7447
+    networks:
+      - fms-network
+    depends_on:
+      zenoh-router:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    command: ["obstacle-service", "--config", "/etc/obstacle-service/config.json"]
+
+  # AMR Status Service - Robot state management via Zenoh
+  amr-status-service:
+    image: amr-status-service:${FMS2_VERSION}
+    container_name: amr-status-service
+    restart: unless-stopped
+    ports:
+      - "8084:8084"
+    volumes:
+      - ./config/amr-status-service:/etc/amr-status-service
+      # 로봇 상태/배터리 영속 기록(JSONL). 보존기간은 config 의 journal.retention_days.
+      # ⚠ 호스트 디렉토리 소유 uid 가 컨테이너 appuser(기본 1000)와 맞아야 한다
+      #   (install.sh/upgrade.sh 가 맞춰준다). 안 맞으면 기록만 비활성되고 서비스는 정상.
+      - ./logs/amr-journal:/data/journal
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    environment:
+      - ZENOH_CONNECT=tcp/zenoh-router:7447
+      - ZENOH_CONNECT_ROBOT=tcp/zenoh-router-robot:7447
+    networks:
+      - fms-network
+      - rb_shared_net
+    depends_on:
+      zenoh-router:
+        condition: service_healthy
+      zenoh-router-robot:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8084/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # FMS - Fleet Management System (headless)
+  fms:
+    image: fms2:${FMS2_VERSION}
+    container_name: fms
+    restart: unless-stopped
+    ports:
+      - "8081:8081"   # FMS HTTP API
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    volumes:
+      - ./config/fms:/usr/local/bin/config
+      - fms-data:/data
+      - ./maps:/data/maps
+      - ./logs/fms-result:/home/appuser/_result
+    environment:
+      - ZENOH_CONNECT=tcp/zenoh-router:7447
+      - ZENOH_CONNECT_ROBOT=tcp/zenoh-router-robot:7447
+    networks:
+      - fms-network
+      - rb_shared_net
+    depends_on:
+      zenoh-router:
+        condition: service_healthy
+      zenoh-router-robot:
+        condition: service_healthy
+      amr-status-service:
+        condition: service_healthy
+      zone-service:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    command: ["fms"]
+
+  # Notification Service - 영업일 오전 9시(KST) 에이징 테스트 Slack 쓰레드 자동 게시.
+  # FMS HTTP API(/api/status, /api/assignments)만 소비. Slack Bot 토큰은
+  # SLACK_BOT_TOKEN env(.env)로 주입 — 미설정/채널 미설정 시 스케줄러 자동 비활성.
+  # Slack(HTTPS) 아웃바운드가 필요하므로 인터넷 접근이 되는 네트워크에 있어야 함.
+  notification-service:
+    image: notification-service:${FMS2_VERSION}
+    container_name: notification-service
+    restart: unless-stopped
+    ports:
+      - "8088:8080"
+    volumes:
+      - ./config/notification-service:/etc/notification-service
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    environment:
+      - TZ=Asia/Seoul
+      - SLACK_BOT_TOKEN=${SLACK_BOT_TOKEN:-}
+    networks:
+      - fms-network
+      - rb_shared_net
+    depends_on:
+      fms:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    command: ["notification-service", "--config", "/etc/notification-service/config.json"]
+
+  # Interlock Service - 타사(CC/ACS) 트래픽락 ↔ 우리 구역 장애물 인터록.
+  # 공용 구역을 타사 로봇과 나눠 쓰는 현장 전용. SI팀 브릿지(FMS ACS Bridge API)에
+  # HTTP 로 붙는다 — config 의 acs_bridge.base_url 을 현장 주소로 바꿀 것.
+  # 구역(areas)이 비어 있거나 enabled=false 면 아무것도 하지 않는다(기본 안전).
+  # ⚠ 1차는 수동 조작만 지원한다. 락을 건 채 이 컨테이너를 내리면 타사 로봇이
+  #    무한 대기하므로, 내리기 전에 웹(인터록 페이지)에서 반드시 해제할 것.
+  interlock-service:
+    image: interlock-service:${FMS2_VERSION}
+    container_name: interlock-service
+    restart: unless-stopped
+    ports:
+      - "8089:8080"
+    volumes:
+      - ./config/interlock-service:/etc/interlock-service
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    # 브릿지가 호스트에 떠 있는 경우의 경로. 사내망 IP 면 그냥 base_url 에 IP 를 쓴다.
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - fms-network
+    depends_on:
+      obstacle-service:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    command: ["interlock-service", "--config", "/etc/interlock-service/config.json"]
+
+  # Log Service — 웹(로그 페이지)에서 서비스별 docker 로그를 시간대/키워드로 조회(읽기 전용).
+  # ⚠ docker 소켓을 마운트한다 = 원리상 docker 전체 권한. 서비스는 목록/로그 **읽기** 호출만
+  #   하고 같은 compose 프로젝트의 서비스 이름으로만 대상을 받는다. 쓰기 싫으면 이 블록을
+  #   지우거나 `docker compose stop log-service` — 다른 서비스는 영향 없다(로그 페이지만 비활성).
+  log-service:
+    image: log-service:${FMS2_VERSION}
+    container_name: log-service
+    restart: unless-stopped
+    ports:
+      - "8091:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - fms-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+      
+  # Mock AMR Service (개발/테스트용 가짜 로봇)
+  # 기본 비활성. 활성화: `docker compose --profile mock up -d`
+  # 활성화 후 robot 생성: POST http://localhost:8086/api/robots
+  # 운영 배포에서는 사용하지 마세요.
+  # (테스트용이므로 내부망에만 연결)
+  mock-amr-service:
+    profiles: ["mock"]
+    image: mock-amr-service:${FMS2_VERSION}
+    container_name: mock-amr-service
+    restart: unless-stopped
+    ports:
+      - "18086:8086"
+    volumes:
+      - ./config/mock-amr-service:/etc/mock-amr-service
+    environment:
+      - ZENOH_CONNECT=tcp/zenoh-router-robot:7447
+      - ZONE_SERVICE_URL=http://zone-service:8080
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - fms-network
+    depends_on:
+      zenoh-router-robot:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8086/healthz"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    command: ["mock-amr-service", "/etc/mock-amr-service/config.json"]
+
+  # FMS Web - Unified web UI serving static files with API proxy
+  fms-web:
+    image: fms-web:${FMS2_VERSION}
+    container_name: fms-web
+    restart: unless-stopped
+    ports:
+      - "3003:80"
+    volumes:
+      - ./logs/fms-result:/data/logs:ro
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - fms-network
+      - rb_shared_net
+    depends_on:
+      fms:
+        condition: service_healthy
+      goal-input-server:
+        condition: service_healthy
+      amr-status-service:
+        condition: service_healthy
+    healthcheck:
+      # ⚠ localhost 가 아니라 127.0.0.1 — busybox wget 이 localhost 를 IPv6 [::1] 로
+      #    먼저 풀어 붙는데 nginx 는 IPv4(listen 80)만 열어둬 영구 unhealthy 였다.
+      #    (서비스 자체는 정상이라 밖에서는 멀쩡해 보여 눈치채기 어렵다)
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+volumes:
+  fms-data:
+
+networks:
+  fms-network:
+    driver: bridge
+  rb_shared_net:
+    external: true

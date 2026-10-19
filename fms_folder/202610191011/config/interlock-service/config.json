@@ -1,0 +1,109 @@
+{
+    "http_server": {
+        "host": "0.0.0.0",
+        "port": 8080,
+        "worker_threads": 4
+    },
+    "logging": {
+        "level": "info",
+        "file_path": "",
+        "console_output": true
+    },
+    "acs_bridge": {
+        "_comment": "SI팀 FMS ACS Bridge API. REQUIRE_* 는 도입 첫날 기본 false — 브릿지 응답 본문 형태를 GET /api/interlock/probe 로 확인한 뒤 켤 것 (docs/acs-interlock.md 2.3, 10).",
+        "base_url": "http://10.244.201.165:9080",
+        "sender_id": "FMS",
+        "TIMEOUT_MS": 4000,
+        "STATUS_POLL_MS": 1000,
+        "CONNECTION_POLL_MS": 5000,
+        "STATUS_STALE_SEC": 20,
+        "REQUIRE_FRESH_STATUS": false,
+        "REQUIRE_ACS_CONNECTED": false,
+        "SEND_TRAFFIC_CONTROL_NODES": true,
+        "RAW_MAX_BYTES": 4096
+    },
+    "obstacle_service": {
+        "base_url": "http://obstacle-service:8080",
+        "TIMEOUT_MS": 2000
+    },
+    "amr_status": {
+        "_comment": "우리 로봇의 현재 노드를 읽는 곳. 좌표가 아니라 노드로만 판정한다. ENABLED=false 면 로봇을 아예 안 보고 수동 조작만 남는다.",
+        "ENABLED": true,
+        "base_url": "http://amr-status-service:8084",
+        "TIMEOUT_MS": 2000
+    },
+    "areas": [
+        {
+            "_comment": "현장 구역: 입구가 Z_ENT 하나뿐인 막다른 포켓(L01/L03/L16/L18 이 네 꼭짓점). polygon 은 obstacle-service 에 넘길 영역, expected_nodes 는 실제로 막혀야 할 노드다. entry_wait_nodes/exit_nodes 는 포켓 밖 목 바로 앞 노드라 같은 값이며, 그래서 auto 가 '들어간 적 있음(entered)' 과 '재무장(armed)' 을 따로 본다. ★ 켜려면 enabled 와 auto.ENABLED 를 true 로 바꾸고 confirm.SAFE_NODES 에 타사가 대기하는 CC 노드 이름(예: A00)을 넣을 것.",
+            "id": "cross_a",
+            "name": "타사 공용 포켓 (L01~L18)",
+            "enabled": true,
+            "target_amr_id": "AMMR01",
+            "polygon": [
+                {
+                    "x": 2.247,
+                    "y": 16.683
+                },
+                {
+                    "x": 7.926,
+                    "y": 16.683
+                },
+                {
+                    "x": 7.926,
+                    "y": 18.408
+                },
+                {
+                    "x": 2.247,
+                    "y": 18.408
+                }
+            ],
+            "expected_nodes": [
+                "L01",
+                "L02",
+                "L03",
+                "L16",
+                "L17",
+                "L18",
+                "LOC_173",
+                "Z1_008",
+                "Z1_011",
+                "Z1_012",
+                "Z1_013",
+                "Z_ENT"
+            ],
+            "entry_wait_nodes": [
+                "LOC_187",
+                "LOC_218"
+            ],
+            "exit_nodes": [
+                "LOC_187",
+                "LOC_218"
+            ],
+            "confirm": {
+                "REQUIRE_TRAFFIC_LOCKED": true,
+                "SAFE_NODES": [
+                    "A00"
+                ],
+                "SAFE_STATUSES": [],
+                "CONFIRM_POLLS": 1,
+                "_comment": "SAFE_NODES 에 타사가 대기하는 노드(예: A00)를 넣으면 \"그 노드에 있고 + 락 걸림\" 이라야 장애물을 푼다. 빈 배열 = 미검사."
+            },
+            "timing": {
+                "BLOCK_SETTLE_SEC": 3
+            },
+            "auto": {
+                "_comment": "자동 사이클. ENABLED 기본 false — 수동으로 한 바퀴 돌려 본 뒤 켤 것. 켜도 안전 가드는 동일하게 적용된다.",
+                "ENABLED": true,
+                "CLEAR_DWELL_SEC": 3,
+                "EMPTY_FALLBACK_SEC": 5,
+                "LOCK_CONFIRM_WARN_SEC": 120,
+                "LOCK_CONFIRM_ABORT_SEC": 600,
+                "MAX_LOCK_SEC": 900,
+                "COOLDOWN_AFTER_RELEASE_SEC": 30,
+                "REASSERT_SEC": 60,
+                "RELEASE_CONFIRM_TIMEOUT_SEC": 60,
+                "RELEASE_RETRY_SEC": 5
+            }
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "http_server": {
+        "host": "0.0.0.0",
+        "port": 8080
+    },
+    "logging": {
+        "level": "info",
+        "file_path": "",
+        "console_output": true
+    },
+    "fms": {
+        "url": "http://fms:8081"
+    },
+    "amr_status": {
+        "url": "http://amr-status-service:8084"
+    },
+    "aging_test": {
+        "ENABLED": true,
+        "SLACK_CHANNEL": "",
+        "TRIGGER_HOUR": 9,
+        "TRIGGER_MINUTE": 0,
+        "CHECKPOINT_TIMES": ["09:00", "13:00", "18:00"],
+        "CHECK_INTERVAL_SEC": 30,
+        "REPLY_INTERVAL_MIN": 60,
+        "REPLY_UNTIL_HOUR": 18
+    },
+    "anomaly_alert": {
+        "ENABLED": true,
+        "SLACK_CHANNEL": "",
+        "POLL_INTERVAL_SEC": 30,
+        "DETECT_FMS_DOWN": true,
+        "DETECT_STUCK_ROBOT": true,
+        "DETECT_GRIDLOCK": true,
+        "DETECT_ROBOT_ERROR": true,
+        "DETECT_UNLOCALIZED": true,
+        "DETECT_DISCONNECTED": true,
+        "STUCK_MINUTES": 10,
+        "GRIDLOCK_RATIO": 0.5,
+        "GRIDLOCK_MIN_FLEET": 4,
+        "ONSET_POLLS": 3,
+        "REALERT_MINUTES": 0,
+        "REALERT_BACKOFF": true,
+        "REALERT_MAX_MINUTES": 240,
+        "NOTIFY_RECOVERY": true,
+        "REPLY_TO_THREAD": true,
+        "EXCLUDE_HOLD_USERINPUT": true,
+        "EXCLUDE_NO_ASSIGNMENT": true,
+        "EXCLUDE_AREA_FULL": true,
+        "EXCLUDE_NODE_CONFLICT": true,
+        "EXCLUDE_STANDBY": true
+    },
+    "scenario_report": {
+        "_comment": "시나리오(에이징 사이클) 진행 상태 Slack 공유. 진행 상태는 fms-web scenario 페이지(브라우저)가 소유하므로 브라우저가 POST /api/notify/scenario-status 로 보내오고 이 서비스는 렌더/게시만 한다. 채널은 aging_test.SLACK_CHANNEL 을 따른다(오늘 에이징 쓰레드에 붙는 게 설계라 전용 채널을 둘 수 없음)",
+        "ENABLED": true,
+        "MIN_INTERVAL_SEC": 60,
+        "MAX_ROBOTS": 50,
+        "REPLY_TO_THREAD": true,
+        "REQUIRE_API_KEY": false
+    },
+    "sn_events": {
+        "ENABLED": true,
+        "POST_TO_SLACK": true,
+        "REPLY_TO_THREAD": true,
+        "MAX_LOG": 500,
+        "DETECT_ESTOP": true,
+        "DETECT_BUMPER": true,
+        "DETECT_INTERLOCK": true,
+        "DETECT_OPERATIONAL_STOP": true,
+        "DETECT_JOG": true,
+        "DETECT_MANUAL_MODE": true,
+        "DETECT_EXTERNAL_MOTION": true,
+        "DETECT_POWER": true
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "http_server": {
+        "host": "0.0.0.0",
+        "port": 8084,
+        "worker_threads": 2
+    },
+    "logging": {
+        "level": "info",
+        "console_output": true
+    },
+    "robot_topics": {
+        "subscribe": {
+            "moveStatus": "amr/**/moveStatus",
+            "status": "amr/**/status"
+        },
+        "publish": {
+            "moveStatus": "fms/amr/moveStatus",
+            "status": "fms/amr/status"
+        }
+    },
+    "status_publish": {
+        "interval_ms": 0
+    },
+    "robot_filter": {
+        "_comment": "mode: allow(화이트리스트=ids만 통과) | deny(블랙리스트=ids 차단) | off(필터없음). 제외된 로봇은 FMS로 전혀 재발행되지 않아 연결끊김 stop도 발생하지 않음",
+        "mode": "off",
+        "ids": []
+    },
+    "connection": {
+        "_comment_reap": "reap_after_ms: 활동이 끊긴 지 이만큼 지난 로봇 엔트리(+zenoh publisher)를 회수. 0=회수 안 함. 회수된 로봇은 /api/v1/robots 에서도 사라져 notification-service 통신끊김 경보가 해소로 보이므로, 경보 인지 시간보다 훨씬 길게 둘 것(기본 24h)",
+        "timeout_ms": 127800000,
+        "router_robot_admin_url": "http://zenoh-router-robot:8000",
+        "reconnect_cooldown_sec": 300,
+        "reap_after_ms": 259200000
+    },
+    "history": {
+        "_comment": "위치+상태 시계열 레코더(지도 리플레이/변경 히스토리). 저빈도 샘플러라 부하 미미. retention_min 만큼만 인메모리 보관(재시작 시 소실)",
+        "enabled": true,
+        "sample_hz": 2.0,
+        "retention_min": 20
+    },
+    "journal": {
+        "_comment": "로봇 상태/배터리 변화의 디스크 영속 기록(JSONL). history 는 인메모리라 재시작 시 사라지는데 이건 남는다. 2Hz 전량이 아니라 상태전이·배터리 임계변화·safety 이벤트·연결변화 + heartbeat 만 기록해 10대 기준 하루 ~6MB. dir 이 쓰기 불가면 기록만 자동 비활성(서비스는 정상 기동)",
+        "enabled": true,
+        "dir": "/data/journal",
+        "heartbeat_sec": 60,
+        "battery_delta_pct": 1.0,
+        "retention_days": 30,
+        "max_file_mb": 64,
+        "max_queue": 10000
+    }
+}

@@ -1,0 +1,204 @@
+{
+    "debug": {
+        "VERBOSE_LEVEL": 2,
+        "ABORT_ON_ENQUEUE_REJECT": false,
+        "ABORT_ON_OVERLAP": false
+    },
+    "default": {
+        "ROBOT_SIZE_MAX_X": "0.4",
+        "ROBOT_SIZE_MAX_Y": "0.35",
+        "ROBOT_SIZE_MAX_Z": "0.22",
+        "ROBOT_SIZE_MIN_X": "-0.35",
+        "ROBOT_SIZE_MIN_Y": "-0.35",
+        "ROBOT_SIZE_MIN_Z": "0",
+        "THREAD_POOL_SIZE": 32
+    },
+    "robot_types": {
+        "default": {
+            "radius": 0.7,
+            "kinematics": "DD",
+            "footprint": {
+                "X_MIN": -0.77,
+                "X_MAX": 0.77,
+                "Y_MIN": -0.4,
+                "Y_MAX": 0.4,
+                "MARGIN": 0.05
+            }
+        },
+        "pro": {
+            "radius": 0.65,
+            "kinematics": "QD",
+            "footprint": {
+                "X_MIN": -0.75,
+                "X_MAX": 0.75,
+                "Y_MIN": -0.55,
+                "Y_MAX": 0.55,
+                "MARGIN": 0.05
+            }
+        }
+    },
+    "robot_type_mapping": {
+        "SEC_Process_1": "pro",
+        "SEC_Process_2": "pro",
+        "SEC_Process_3": "pro"
+    },
+    "planner": {
+        "PERIODIC_REPLAN_INTERVAL_MS": 30000,
+        "COMMITTED_SWEEP_BLOCK": true,
+        "WAIT_ROUNDTRIP_TRIM": true,
+        "WAIT_ROUNDTRIP_MAX_HOLD_SEC": 30,
+        "MAX_SEND_ACTIONS": 9,
+        "SOLVER_DEADLINE_INIT_MS": 5000,
+        "SOLVER_DEADLINE_MAX_MS": 10000,
+        "SOLVER_DEADLINE_STEP_MS": 1000,
+        "SOLVER_DEADLINE_SUCCESS_RESET_MS": 5000,
+        "SOLVER_PIBT_NUM": 8,
+        "SOLVER_SCATTER_MARGIN": 30,
+        "SOLVER_STAR_MODE": true,
+        "SOLVER_REFINER": true,
+        "SOLVER_RECURSIVE_TIME_LIMIT": 1000,
+        "PIBT_COLLISION_PENALTY": 3000,
+        "PIBT_NEAR_PENALTY_MULT": 30,
+        "PIBT_CHAIN_PENALTY": 2,
+        "SCATTER_COLLISION_PENALTY": 500,
+        "SCATTER_NEAR_PENALTY": 30,
+        "ERROR_ROBOT_AS_OBSTACLE": true,
+        "MIN_STUCK_TIME_SEC": 15,
+        "UNDELIVERED_AFTER_SEC": 10,
+        "STALE_CONNECTION_SEC": 1,
+        "POSITION_RANGE_THRESHOLD_M": 0.1,
+        "YAW_CUMULATIVE_THRESHOLD_RAD": 0.1,
+        "MIN_SAMPLES_FOR_STUCK": 5,
+        "STATIONARY_FOOTPRINT_BLOCK": true,
+        "MOVING_FOOTPRINT_BLOCK": true,
+        "PENDING_ROUTE_FOOTPRINT_BLOCK": true,
+        "MOVING_POSE_FOOTPRINT_BLOCK": true,
+        "WAIT_ROUNDTRIP_STAY_FILL": true,
+        "NEAR_PENALTY_GOAL_EXEMPT": true,
+        "PARKED_BLOCK_DIST_TABLE": true,
+        "JOINT_REPAIR": true,
+        "JOINT_REPAIR_MAX_MOVERS": 2,
+        "VALIDATOR_ESCAPE_PREV_STEP": true,
+        "SOLVER_STAR_REFINE_MS": 1000,
+        "REWRITE_TURN_GUARD": true,
+        "WAIT_ROUNDTRIP_FOOTPRINT": true,
+        "SERIALIZABLE_MOVES": true,
+        "SKIP_STOP_WHEN_IDLE": true,
+        "UNKNOWN_FUTURE_BAND": 1.5,
+        "WAIT_ROUNDTRIP_EDGE_CHECK": true,
+        "WAIT_ROUNDTRIP_KEEP_COMMITTED": true,
+        "PHANTOM_GUARD_TRAVERSED_EXEMPT": true,
+        "VOLUME_DEP_MARGIN": 1
+    },
+    "zenoh": {
+        "MULTICAST_ENABLED": false,
+        "CONNECT_ENDPOINT": "tcp/zenoh-router:7447",
+        "LISTEN_ENDPOINT": ""
+    },
+    "avoidance": {
+        "ENABLED": false,
+        "LOOP_INTERVAL_MS": 300,
+        "NEARBY_RADIUS_M": 1.5,
+        "PATH_LOOKAHEAD_STEPS": 20,
+        "PATH_BUFFER_M": 0.5,
+        "FOLLOW_DOT": 2,
+        "HEAD_ON_ANGLE_DEG": 90,
+        "HEAD_ON_DOT": -0.5
+    },
+    "crossing": {
+        "ENABLED": false,
+        "RESEND_INTERVAL_MS": 1000,
+        "INFLIGHT_TIMEOUT_MS": 3000,
+        "RELEASE_HOLD_TICKS": 3
+    },
+    "arrival": {
+        "POSITION_TOLERANCE_M": 0.05,
+        "YAW_TOLERANCE_DEG": 5,
+        "REENTRY_ENABLED": true,
+        "REENTRY_CONFIRM_TICKS": 3,
+        "REENTRY_MAX_ATTEMPTS": 2,
+        "REENTRY_PHASE_TIMEOUT_SEC": 60,
+        "STICKY_POSE_GATE": true,
+        "REJECT_ON_ABORTED": true,
+        "REQUIRE_HISTORY_DONE": true,
+        "POSE_RESCUE_CANCELED": false,
+        "PROTECT_FINAL_EDGE": true
+    },
+    "localization": {
+        "UNKNOWN_EXCLUDE_AFTER_MS": 0,
+        "SEMI_AUTO_INIT_ENABLED": false,
+        "SEMI_AUTO_INIT_INFLIGHT_TIMEOUT_MS": 30000
+    },
+    "destination_assignment": {
+        "SPACING_MARGIN_M": 0.1
+    },
+    "yield": {
+        "ENABLED": true,
+        "DISPATCH_TRUNCATE_RETURN": true,
+        "HOLD_ENABLED": false,
+        "HOLD_TICKS": 3,
+        "MAX_HOLD_SEC": 30
+    },
+    "direction": {
+        "TURN_WEIGHT": 0.35,
+        "BACKTRACK_PENALTY": 1,
+        "GEAR_SWITCH_PENALTY": 0.5,
+        "MAX_PENALTY": 0.9
+    },
+    "work_area": {
+        "ENABLED": true,
+        "GRANT_TIMEOUT_SEC": 1800,
+        "BLOCK_TRANSIT": false
+    },
+    "node_conflict": {
+        "ENABLED": true,
+        "HOLD_TIMEOUT_SEC": 180,
+        "MAX_GROUP_NODES": 600,
+        "OVERLAP_STALL_ONSET_CYCLES": 3,
+        "TRAP_AWARE_CYCLE_BREAK": true,
+        "DEPARTURE_HOLD": true,
+        "CYCLE_BREAK_ORDER": [
+            "pro",
+            "default"
+        ],
+        "DESIRED_TIE_ASSIGNED": true
+    },
+    "safety_recovery": {
+        "ENABLED": true,
+        "ONSET_TICKS": 2,
+        "RELEASE_TICKS": 3,
+        "STALE_SEC": 10,
+        "RELEASE_ON_DISCONNECT": true,
+        "RESET_SENDSTOP": true,
+        "OBSERVE_FIELDS": [
+            "sf_operational_stop"
+        ],
+        "TRIGGERS": [
+            {
+                "field": "sf_operational_stop",
+                "equals": "true"
+            }
+        ]
+    },
+    "charging": {
+        "ENABLED": true,
+        "ONSET_TICKS": 1,
+        "RELEASE_HOLD_MS": 10000,
+        "PUBLISH_ENABLED": true,
+        "HEARTBEAT_SEC": 10
+    },
+    "footprint": {
+        "ENABLED": true,
+        "PLANNER_ENABLED": true,
+        "DD_TURN_TOL_DEG": 12,
+        "PARK_AT_GOAL_CONSERVATIVE": true,
+        "IMMOBILE_BODY_YAW": true,
+        "START_BODY_YAW": true,
+        "PARK_AT_GOAL_USE_NODE_YAW": true,
+        "DISPATCH_BLOCKER_BOX": true,
+        "WAIT_KEEPS_HEADING": true,
+        "GUARD_SOLVER_RULES": true,
+        "HOLDER_QD_BOX": true,
+        "HOLDER_EDGE_SWEEP": true
+    }
+}

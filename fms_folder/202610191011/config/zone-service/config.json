@@ -1,0 +1,41 @@
+{
+    "http_server": {
+        "host": "0.0.0.0",
+        "port": 8080,
+        "worker_threads": 4
+    },
+    "logging": {
+        "level": "info",
+        "file_path": "",
+        "console_output": true
+    },
+    "zenoh": {
+        "multicast_enabled": false,
+        "connect_endpoint": "tcp/zenoh-router:7447"
+    },
+    "map_sourcetest": {
+        "base_url": "http://host.docker.internal:3011",
+        "timeout_sec": 5,
+        "map_endpoint": "/map",
+        "topology_endpoint": "/topology",
+        "zone_endpoint": "/zones"
+    },
+    "map_source": {
+        "mode": "remote",
+        "local_dir": "/data/maps/default",
+        "topology_file": "topology.json",
+        "zone_file": "traffic_zones.json",
+        "base_url": "http://10.244.201.165:3000",
+        "timeout_sec": 5,
+        "map_endpoint": "/api/v1/maps/cb4bdfe2-e67f-4ebd-9f0b-50214385c3dd",
+        "topology_endpoint": "/api/v1/topologies/61af53e1-a25d-4cae-8302-7a69ba3f4ebb",
+        "zone_endpoint": "/api/v1/zones/db7e901d-d233-4e33-8fdd-49e9f5edf403",
+        "file_endpoint": "/api/v1/files",
+        "keymap_file": "cloud.csv",
+        "keymap_ttl_sec": 60,
+        "retry_enabled": true,
+        "retry_initial_ms": 2000,
+        "retry_max_ms": 30000,
+        "retry_max_attempts": 0
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "http_server": {
+    "host": "0.0.0.0",
+    "port": 8086,
+    "worker_threads": 2
+  },
+  "zenoh": {
+    "endpoint": ""
+  },
+  "zone_service": {
+    "url": "http://zone-service:8080",
+    "fetch_interval_sec": 30
+  },
+  "simulation": {
+    "tick_hz": 10,
+    "default_speed_mps": 2.0,
+    "init_robots": []
+  },
+  "logging": {
+    "level": "info",
+    "console_output": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  plugins: {
+    rest: {
+      http_port: 8000
+    }
+  }
+}
